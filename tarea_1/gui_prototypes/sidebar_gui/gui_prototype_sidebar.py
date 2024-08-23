@@ -8,7 +8,6 @@ def display_sidebar():
     st.sidebar.markdown("# Sidebar Panel")
 
     # Uploader
-
     datafile = st.sidebar.file_uploader(label="Upload XML data file",
                              type=["xml"],
                              key="upload_xml")
@@ -24,29 +23,30 @@ def display_sidebar():
             # recharge the page to the main page
             st.rerun()
 
-    # Buttons to functionalities
+    # Buttons to functionalities, they are going to be in the sidebar
+    # buttons activates when the datafile is already uploaded
     st.sidebar.markdown("## Functions")
     with st.sidebar.container():
-        if st.sidebar.button("Show data statistics", key="option1",use_container_width=True):
+        if st.sidebar.button("Show data statistics", key="option1",use_container_width=True, disabled=datafile is None):
             st.session_state['data_stadistics'] = True
             st.session_state['specific_data'] = False
             st.session_state['feature'] = False
             st.session_state['mainpage'] = False
 
-        if st.sidebar.button("Search specific data", key="option2", use_container_width=True):
+        if st.sidebar.button("Search specific data", key="option2", use_container_width=True, disabled=datafile is None):
             st.session_state['data_stadistics'] = False
             st.session_state['specific_data'] = True
             st.session_state['feature'] = False
             st.session_state['mainpage'] = False
 
-        if st.sidebar.button("Feature", key="option3",use_container_width=True):
+        if st.sidebar.button("Feature", key="option3",use_container_width=True, disabled=datafile is None):
             st.session_state['data_stadistics'] = False
             st.session_state['specific_data'] = False
             st.session_state['feature'] = True
             st.session_state['mainpage'] = False
 
-
-
+    # return the XML data file
+    return datafile
 
 
 def display_mainpage():
@@ -92,35 +92,45 @@ def display_general_data_mainpage():
 
 def display_pages():
     # Check the page to display
-    if st.session_state['mainpage']:
-        with st.container():
-            display_mainpage()
+    for page in pages:
+        if st.session_state[page]:
+            with st.container():
+                pages[page]()
 
-    if st.session_state['data_stadistics']:
-        with st.container():
-            st.title("Data Statistics")
-            st.markdown(
-                """
-                ## Data Statistics
-                This page shows the general data of the XML file with tables and graphs.
-                """
-            )
+# define pages
+def display_data_stadistics_page():
+    st.title("Data statistics")
+    st.markdown(
+        """
+        ## Data statistics
+        This page is going to show the general data of the XML file with tables and graphs.
+        """
+    )
 
-    if st.session_state['specific_data']:
-        with st.container():
-            st.title("Search specific data")
-            st.markdown(
-                """
-                ## Search specific data
-                This page shows the general data of the XML file with tables and graphs.
-                """
-            )
+def display_specific_data_page():
+    st.title("Search specific data")
+    st.markdown(
+        """
+        ## Search specific data
+        This page is going to show the search for specific data in the XML file. Do a query to the XML data.
+        """
+    )
 
-    if st.session_state['feature']:
-        with st.container():
-            st.title("Feature")
+def display_other_page():
+    st.title("Other page")
+    st.markdown(
+        """
+        ## Other page
+        This page is going to show the download of the fixed image.
+        """
+    )
 
-
+pages = {
+    'mainpage': display_mainpage,
+    'data_stadistics': display_data_stadistics_page,
+    'specific_data': display_specific_data_page,
+    'feature': display_other_page
+}
 
 # Set the session state
 if 'option1_pressed' not in st.session_state:
