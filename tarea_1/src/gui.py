@@ -1,7 +1,6 @@
-
 import streamlit as st
 
-st.set_page_config(layout="wide", page_title="XML Data Fixer")
+st.set_page_config(layout="wide", page_title="Índice de Temas de Salud")
 
 def display_sidebar():
     # navigation menu
@@ -16,10 +15,10 @@ def display_sidebar():
     # put the button at the end of the sidebar
     with st.sidebar.container():
         if st.sidebar.button("Home", key="home", type="primary", use_container_width=True):
-            st.session_state['data_stadistics'] = False
+            st.session_state['data_statistics'] = False
             st.session_state['specific_data'] = False
             st.session_state['feature'] = False
-            st.session_state['mainpage'] = True
+            st.session_state['main_page'] = True
             # recharge the page to the main page
             st.rerun()
 
@@ -28,28 +27,28 @@ def display_sidebar():
     st.sidebar.markdown("## Functions")
     with st.sidebar.container():
         if st.sidebar.button("Show data statistics", key="option1",use_container_width=True, disabled=datafile is None):
-            st.session_state['data_stadistics'] = True
+            st.session_state['data_statistics'] = True
             st.session_state['specific_data'] = False
             st.session_state['feature'] = False
-            st.session_state['mainpage'] = False
+            st.session_state['main_page'] = False
 
         if st.sidebar.button("Search specific data", key="option2", use_container_width=True, disabled=datafile is None):
-            st.session_state['data_stadistics'] = False
+            st.session_state['data_statistics'] = False
             st.session_state['specific_data'] = True
             st.session_state['feature'] = False
-            st.session_state['mainpage'] = False
+            st.session_state['main_page'] = False
 
         if st.sidebar.button("Feature", key="option3",use_container_width=True, disabled=datafile is None):
-            st.session_state['data_stadistics'] = False
+            st.session_state['data_statistics'] = False
             st.session_state['specific_data'] = False
             st.session_state['feature'] = True
-            st.session_state['mainpage'] = False
+            st.session_state['main_page'] = False
 
     # return the XML data file
     return datafile
 
 
-def display_mainpage():
+def display_main_page():
 
     # Home Page data: here show the app name, description, and the options of funct
     st.markdown("""
@@ -73,12 +72,12 @@ def display_mainpage():
             st.error("The uploaded file is too large. Please upload an image smaller than 5MB.")
         else:
             # avail three option buttons when my_upload is not None
-            display_general_data_mainpage()
+            display_general_data_main_page()
     else:
         pass
 
 
-def display_general_data_mainpage():
+def display_general_data_main_page():
     st.markdown(
         f"""
         ___
@@ -98,7 +97,7 @@ def display_pages():
                 pages[page]()
 
 # define pages
-def display_data_stadistics_page():
+def display_data_statistics_page():
     st.title("Data statistics")
     st.markdown(
         """
@@ -126,8 +125,8 @@ def display_other_page():
     )
 
 pages = {
-    'mainpage': display_mainpage,
-    'data_stadistics': display_data_stadistics_page,
+    'main_page': display_main_page,
+    'data_statistics': display_data_statistics_page,
     'specific_data': display_specific_data_page,
     'feature': display_other_page
 }
@@ -135,10 +134,10 @@ pages = {
 # Set the session state
 if 'option1_pressed' not in st.session_state:
     # Initialize the button pressed
-    st.session_state['data_stadistics'] = False # Show data statistics
+    st.session_state['data_statistics'] = False # Show data statistics
     st.session_state['specific_data'] = False # Search specific data
     st.session_state['feature'] = False # Feature
-    st.session_state['mainpage'] = True
+    st.session_state['main_page'] = True
 
  # set the sidebar
 display_sidebar()

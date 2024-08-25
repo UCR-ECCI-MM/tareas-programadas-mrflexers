@@ -1,3 +1,5 @@
+from typing import Dict
+
 import pandas as pd
 
 from pandas import DataFrame
@@ -51,13 +53,13 @@ class DictToDataFrameConverter:
         return pruned_dicts, attr_meta_df
 
     @classmethod
-    def convert(cls, dicts: list[dict], root_name: str, attr_pks: list[(str, str)], root_pk: str = 'id') -> dict:
+    def convert(cls, dicts: list[dict], root_name: str, attr_pks: Dict[str, str], root_pk: str = 'id') -> dict:
         """
-        Returns a dict with the name of each attribute keying a corresponding un-normalized DataFrame
+        Returns a dict with the name of each attribute keying a corresponding non-normalized DataFrame
         """
         meta_prefix = root_name + '_'
         dataframes = {}
-        for attr, attr_pk in attr_pks:
+        for attr, attr_pk in attr_pks.items():
             (dicts, attr_meta_df) = cls._extract_attr_as_df(dicts, attr, root_pk, meta_prefix, attr_pk)
             dataframes[attr] = attr_meta_df
 
