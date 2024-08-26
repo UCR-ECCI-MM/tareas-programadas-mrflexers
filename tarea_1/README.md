@@ -1,37 +1,43 @@
-# Visualizador de Temas de Salud
+# Índice de Temas de Salud
+
+Esta aplicación permite procesar un archivo XML con temas de salud (“health topics”) obtenidos de Medline Plus y lleva a
+cabo análisis léxico y sintáctico del mismo, mostrando los datos resultantes al usuario de manera legible y agradable.
+
+## Contenidos
+
+- [Dependencias](#Dependencias)
+- [Instalación](#Instalación)
+- [Ejecución](#Ejecución)
+
+## Dependencias
+
+- Python 3.12+
+- streamlit
+- watchdog
+- pandas
+- matplotlib
 
 ## Instalación
 
-### Dependencias
-
-* streamlit>=1.37.1: para la GUI
-* watchdog>=4.0.2: para monitorear cambios en archivos
-* pandas>=2.2.2: para manejar datos
-* matplotlib>=3.9.2: para graficar
-
-## Ejecución
-
-Desde el directorio raíz del proyecto(tarea_1), siga los siguientes pasos:
-
-0. (Opcional) Se recomienda crear un entorno virtual para instalar las dependencias del proyecto. Para ello, ejecute el siguiente comando:
+- Crear un entorno virtual
 
 ```bash
 python -m venv venv
 ```
 
-1. Para instalar las dependencias, ejecute el siguiente comando:
+- Instalar las dependencias
 
 ```bash
 pip install -r requirements.txt
 ```
 
-2. Para configurar el proyecto, ejecute el siguiente comando:
+- Instalar los paquetes del proyecto
 
 ```bash
-pip install -e .
+pip install .
 ```
 
-3. Para ejecutar el proyecto, ejecute el siguiente comando:
+## Ejecución
 
 ```bash
 streamlit run src/app.py
