@@ -4,9 +4,11 @@ from io import BytesIO
 from typing import Dict
 from pandas import DataFrame
 
+import pandas as pd
+
 from .parsing import XmlParser
 from .conversion import DictToDataFrameConverter
-from .util import replace_in_keys
+from .util import replace_in_keys, list_elems_to_string
 
 HEALTH_TOPIC_PK = 'id'
 
@@ -71,20 +73,20 @@ class HealthTopicDataset:
         dfs['group_health_topic'] = dfs['group']
 
         dfs['information_category'] = (dfs['info_cat_site'].drop(columns=['site_url'])
-                       .drop_duplicates([0])
-                       .reset_index(drop=True))
+                                       .drop_duplicates([0])
+                                       .reset_index(drop=True))
 
         dfs['site'] = (dfs['site_health_topic'].drop(columns=['health_topic_id', 'information_category'])
-                   .drop_duplicates(['url'])
-                   .reset_index(drop=True))
+                       .drop_duplicates(['url'])
+                       .reset_index(drop=True))
 
         dfs['primary_institute'] = (dfs['prim_inst_health_topic'].drop(columns=['health_topic_id'])
-                        .drop_duplicates(['url'])
-                        .reset_index(drop=True))
+                                    .drop_duplicates(['url'])
+                                    .reset_index(drop=True))
 
         dfs['group'] = (dfs['group_health_topic'].drop(columns=['health_topic_id'])
-                    .drop_duplicates(['id'])
-                    .reset_index(drop=True))
+                        .drop_duplicates(['id'])
+                        .reset_index(drop=True))
 
         dfs['health_topic'] = dfs['health_topic'].drop_duplicates(['id']).reset_index(drop=True)
 
@@ -106,6 +108,56 @@ class HealthTopicDataset:
 
     def __init__(self, dfs: Dict[str, DataFrame], timestamp: str):
         """Expects normalized set of DataFrames"""
-        self.dfs = dfs
+        self._dfs = dfs
         self.size = dfs['health_topic'].count()
         self.timestamp = timestamp
+
+    def get_health_topics(self):
+        health_topic_df = self._dfs['health_topic']
+
+        title_col = health_topic_df.pop('title')
+        health_topic_df.insert(0, 'title', title_col)
+
+        return (health_topic_df.drop(columns=['id'])
+        .rename(
+            columns={
+                'title': 'Título', 'description': 'Descripción', 'url': 'URL',
+                'language': 'Idioma', 'date_created': 'Fecha de Creación'
+            }
+        ))
+
+    def get_sites(self):
+        sites_df = self._dfs['site']
+
+        title_col = sites_df.pop('title')
+        sites_df.insert(0, 'title', title_col)
+
+        sites_df['description'] = list_elems_to_string(sites_df['description'])
+
+        return sites_df.rename(
+            columns={
+                'title': 'Título', 'url': 'URL', 'organization': 'Organización',
+                'description': 'Descripción', 'language_mapped_url': 'URL Otro Idioma'
+            }
+        )
+
+    def get_top_info_cat(self, top: int = 10):
+        # Merge site_health_topic with info_cat_site to associate health topics with information categories
+        merged_df = pd.merge(
+            self._dfs['site_health_topic'],
+            self._dfs['info_cat_site'],
+            left_on='url',
+            right_on='site_url'
+        ).rename(
+            columns={'name': 'info_cat_name'}
+        )[['info_cat_name', 'health_topic_id']]
+
+        # Group by information_category and count the occurrences of health_topic
+        category_counts = merged_df.groupby('info_cat_name').size().reset_index(name='count')
+
+        # Get the top 10 information categories by count
+        top_ten_categories = (category_counts.nlargest(top, 'count')
+        .reset_index(drop=True)
+        .set_index('info_cat_name'))
+
+        return top_ten_categories

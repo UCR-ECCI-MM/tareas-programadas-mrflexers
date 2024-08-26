@@ -1,24 +1,27 @@
-from io import BytesIO
-
 import streamlit as st
+import matplotlib.pyplot as plt
+from matplotlib.figure import Figure
+
+from pandas import DataFrame
+from streamlit import columns
 
 from health_topic.dataset import HealthTopicDataset
 
-st.set_page_config(layout="wide", page_title="Visualizador de Temas de Salud")
+# TODO: Agregar página de error y tirarla en caso que falte data_file
+
+st.set_page_config(layout="wide", page_title="Índice de Temas de Salud")
+
 
 def display_sidebar():
-    # navigation menu
-    st.sidebar.markdown("# Sidebar Panel")
-
     # Uploader
-    datafile = st.sidebar.file_uploader(label="Upload XML data file",
-                             type=["xml"],
-                             key="upload_xml")
+    data_file = st.sidebar.file_uploader(label="Archivo por procesar:",
+                                         type=["xml"],
+                                         key="upload_xml")
 
     # reset the page
     # put the button at the end of the sidebar
     with st.sidebar.container():
-        if st.sidebar.button("Home", key="home", type="primary", use_container_width=True):
+        if st.sidebar.button("Inicio", key="home", type="primary", use_container_width=True):
             st.session_state['data_statistics'] = False
             st.session_state['specific_data'] = False
             st.session_state['feature'] = False
@@ -27,49 +30,42 @@ def display_sidebar():
             st.rerun()
 
     # Buttons to functionalities, they are going to be in the sidebar
-    # buttons activates when the datafile is already uploaded
-    st.sidebar.markdown("## Functions")
+    # buttons activates when the data_file is already uploaded
     with st.sidebar.container():
-        if st.sidebar.button("Show data statistics", key="option1",use_container_width=True, disabled=datafile is None):
-            st.session_state['data_statistics'] = True
-            st.session_state['specific_data'] = False
-            st.session_state['feature'] = False
-            st.session_state['main_page'] = False
-
-        if st.sidebar.button("Search specific data", key="option2", use_container_width=True, disabled=datafile is None):
+        if st.sidebar.button("Temas de Salud", key="option2", use_container_width=True,
+                             disabled=data_file is None):
             st.session_state['data_statistics'] = False
             st.session_state['specific_data'] = True
             st.session_state['feature'] = False
             st.session_state['main_page'] = False
 
-        if st.sidebar.button("Feature", key="option3",use_container_width=True, disabled=datafile is None):
+        if st.sidebar.button("Sitios", key="option3", use_container_width=True, disabled=data_file is None):
             st.session_state['data_statistics'] = False
             st.session_state['specific_data'] = False
             st.session_state['feature'] = True
             st.session_state['main_page'] = False
 
-    # return the XML data file
-    st.session_state['datafile'] = HealthTopicDataset.from_xml_file(datafile)
+        if st.sidebar.button("Estadísticas", key="option1", use_container_width=True,
+                             disabled=data_file is None):
+            st.session_state['data_statistics'] = True
+            st.session_state['specific_data'] = False
+            st.session_state['feature'] = False
+            st.session_state['main_page'] = False
 
+    # return the XML data file
+    st.session_state['data_file'] = HealthTopicDataset.from_xml_file(data_file)
 
 
 def display_main_page():
-
     # Home Page data: here show the app name, description, and the options of funct
     st.markdown("""
-        ## XML Data Fixer :wrench:
-        Computabilidad y Complejidad, **Parser** y **Lexer** de XML, Proyecto 1.
-
-        First drag and drop the XML file to the sidebar panel, then select the options to fix the XML data.
-
-        ### Functions over the XML data:
-        1. **Show data statdistics**: Show the general data of the XML file with tables and graphs.
-        2. **Search specific data**: Search for specific data in the XML file. Do a query to the XML data.
-        3. **Feature**: Download the fixed image.
+        ## Índice de Temas de Salud :hospital:
+        
+        Arrastrar un archivo XML al panel de navegación, y luego seleccionar la opción deseada para explorar los datos.
         """
-    )
+                )
 
-    #col1, col2 = st.columns(2)
+    # col1, col2 = st.columns(2)
     MAX_FILE_SIZE = 150 * 1024 * 1024  # 150MB
 
     if st.session_state.upload_xml is not None:
@@ -78,7 +74,7 @@ def display_main_page():
         else:
             # Get path, and pass to load
             # avail three option buttons when my_upload is not None
-            display_general_data_main_page(st.session_state['datafile'])
+            display_general_data_main_page(st.session_state['data_file'])
     else:
         pass
 
@@ -89,12 +85,16 @@ def display_general_data_main_page(file: HealthTopicDataset):
     st.markdown(
         f"""
         ___
-        ## Información general del archivo XML
-        __Nombre del archivo__: {st.session_state.upload_xml.name} \n
-        __Tamaño del dataset__: {file.size[0]} \n
-        __Tiempo__: {file.timestamp} \n
+        ## Información General
+                
+        |                              |                                    |
+        |------------------------------|------------------------------------|
+        |    __Nombre del archivo__    | {st.session_state.upload_xml.name} |
+        | __Fecha y hora de creación__ |                   {file.timestamp} |
+        |    __Número de registros__   |                     {file.size[0]} |
         """
     )
+
 
 def display_pages():
     # Check the page to display
@@ -103,36 +103,37 @@ def display_pages():
             with st.container():
                 pages[page]()
 
+
 # define pages
 def display_data_statistics_page():
-    st.title("Data statistics")
-    st.markdown(
-        """
-        ## Data statistics
-        This page is going to show the general data of the XML file with tables and graphs.
-        """
-    )
+    st.title("Estadísticas")
+
+    if 'data_file' in st.session_state:
+        df = st.session_state['data_file'].get_top_info_cat()
+        st.write('## Categorías de Información más populares')
+        st.bar_chart(df, x_label='Categoría de Información', y_label='Conteo de Temas')
 
 def display_specific_data_page():
-    st.title("Search specific data")
-    st.markdown(
-        """
-        ## Search specific data
-        This page is going to show the search for specific data in the XML file. Do a query to the XML data.
-        """
-    )
+    st.title("Temas de Salud")
 
-    if 'datafile' in st.session_state:
-        st.dataframe(st.session_state['datafile'].dfs['health_topic'])
+    if 'data_file' in st.session_state:
+        st.dataframe(st.session_state['data_file'].get_health_topics(),
+                     height=600,
+                     use_container_width=True,
+                     column_config={'URL': st.column_config.LinkColumn()},
+                     hide_index=True)
+
 
 def display_other_page():
-    st.title("Other page")
-    st.markdown(
-        """
-        ## Other page
-        This page is going to show the download of the fixed image.
-        """
-    )
+    st.title("Sitios")
+
+    if 'data_file' in st.session_state:
+        st.dataframe(st.session_state['data_file'].get_sites(),
+                     height=600,
+                     use_container_width=True,
+                     column_config={'URL': st.column_config.LinkColumn(),
+                                    'URL Otro Idioma': st.column_config.LinkColumn()},
+                     hide_index=True)
 
 pages = {
     'main_page': display_main_page,
@@ -141,13 +142,14 @@ pages = {
     'feature': display_other_page
 }
 
+
 def display_gui():
     # Set the session state
     if 'option1_pressed' not in st.session_state:
         # Initialize the button pressed
-        st.session_state['data_statistics'] = False # Show data statistics
-        st.session_state['specific_data'] = False # Search specific data
-        st.session_state['feature'] = False # Feature
+        st.session_state['data_statistics'] = False  # Show data statistics
+        st.session_state['specific_data'] = False  # Search specific data
+        st.session_state['feature'] = False  # Feature
         st.session_state['main_page'] = True
 
     # set the sidebar

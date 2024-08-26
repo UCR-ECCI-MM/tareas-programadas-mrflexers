@@ -1,6 +1,7 @@
 streamlit>=1.37.1
 watchdog>=4.0.2
 pandas>=2.2.2
+matplotlib>=3.9.2
 
 # DEV
 pytest>=8.3.2
