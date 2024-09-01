@@ -1,0 +1,2304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE health-topics PUBLIC "-//NLM//DTD health-topics //EN" "https://medlineplus.gov/xml/mplus_topics.dtd">
+<health-topics total="2044" date-generated="08/30/2024 02:30:25">
+	<health-topic meta-desc="If you are being tested for Type 2 diabetes, your doctor gives you an A1C test. The test is also used to monitor your A1C levels." title="A1C" url="https://medlineplus.gov/a1c.html" id="6308" language="English" date-created="12/22/2015">
+		<also-called>Glycohemoglobin</also-called>
+		<also-called>HbA1C</also-called>
+		<also-called>Hemoglobin A1C test</also-called>
+		<full-summary>&lt;p&gt;A1C is a blood test for &lt;a href="https://medlineplus.gov/diabetestype2.html"&gt;type 2 diabetes&lt;/a&gt; and &lt;a href="https://medlineplus.gov/prediabetes.html"&gt;prediabetes&lt;/a&gt;. It measures your average blood glucose, or &lt;a href="https://medlineplus.gov/bloodglucose.html"&gt;blood sugar&lt;/a&gt;, level over the past 3 months. Doctors may use the A1C alone or in combination with other diabetes tests to make a diagnosis. They also use the A1C to see how well you are managing your diabetes. This test is different from the blood sugar checks that people with diabetes do every day.&lt;/p&gt;
+
+&lt;p&gt;Your A1C test result is given in percentages. The higher the percentage, the higher your blood sugar levels have been:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A normal A1C level is below 5.7%&lt;/li&gt;
+&lt;li&gt;Prediabetes is between 5.7 to 6.4%. Having prediabetes is a risk factor for getting type 2 diabetes. People with prediabetes may need retests every year.&lt;/li&gt;
+&lt;li&gt;Type 2 diabetes is above 6.5%&lt;/li&gt;
+&lt;li&gt;If you have diabetes, you should have the A1C test at least twice a year. The A1C goal for many people with diabetes is below 7. It may be different for you. Ask what your goal should be. If your A1C result is too high, you may need to change your diabetes care plan.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p class=""&gt;NIH: National Institute of Diabetes and Digestive and Kidney Diseases&lt;/p&gt;</full-summary>
+		<group url="https://medlineplus.gov/diagnostictests.html" id="25">Diagnostic Tests</group>
+		<group url="https://medlineplus.gov/diabetesmellitus.html" id="45">Diabetes Mellitus</group>
+		<language-mapped-topic url="https://medlineplus.gov/spanish/a1c.html" id="6309" language="Spanish">Prueba de hemoglobina glicosilada (HbA1c)</language-mapped-topic>
+		<mesh-heading>
+			<descriptor id="D006442">Glycated Hemoglobin</descriptor>
+		</mesh-heading>
+		<other-language vernacular-name="español" url="https://medlineplus.gov/spanish/a1c.html">Spanish</other-language>
+		<primary-institute url="https://www.niddk.nih.gov">National Institute of Diabetes and Digestive and Kidney Diseases</primary-institute>
+		<see-reference>Hemoglobin A1c</see-reference>
+		<site title="A1C and eAG" url="https://diabetes.org/a1c-eag-conversion-calculator" language-mapped-url="http://www.diabetes.org/es/vivir-con-diabetes/tratamiento-y-cuidado/el-control-de-la-glucosa-en-la-sangre/a1c-y-eag.html?loc=lwd-es-slabnav">
+			<information-category>Learn More</information-category>
+			<organization>American Diabetes Association</organization>
+		</site>
+		<site title="A1C test" url="https://medlineplus.gov/ency/article/003640.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/article/003640.htm">
+			<information-category>Patient Handouts</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="A1C Test and Diabetes" url="https://www.niddk.nih.gov/health-information/diagnostic-tests/a1c-test" language-mapped-url="https://www.niddk.nih.gov/health-information/informacion-de-la-salud/pruebas-diagnosticas/prueba-a1c-diabetes">
+			<information-category>Learn More</information-category>
+			<organization>National Institute of Diabetes and Digestive and Kidney Diseases</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="A1C Test and Race/Ethnicity" url="https://www.niddk.nih.gov/health-information/diagnostic-tests/a1c-test-race-ethnicity">
+			<information-category>Learn More</information-category>
+			<organization>National Institute of Diabetes and Digestive and Kidney Diseases</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="ClinicalTrials.gov: Hemoglobin A1C" url="https://clinicaltrials.gov/search?intr=%22Hemoglobin+A1C%22&amp;aggFilters=status:not%20rec">
+			<information-category>Clinical Trials</information-category>
+			<organization>National Institutes of Health</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="Hemoglobin A1C (HbA1c) Test" url="https://medlineplus.gov/lab-tests/hemoglobin-a1c-hba1c-test/" language-mapped-url="https://medlineplus.gov/spanish/pruebas-de-laboratorio/prueba-de-hemoglobina-a1c/">
+			<information-category>Learn More</information-category>
+			<organization>National Library of Medicine</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="A1C" url="https://pubmed.ncbi.nlm.nih.gov/?term=%22Glycated+Hemoglobin%22%5Bmajr%3Anoexp%5D+AND+humans%5Bmh%5D+AND+english%5Bla%5D+AND+%22last+1+Year%22+%5Bedat%5D+NOT+%28letter%5Bpt%5D+OR+case+reports%5Bpt%5D+OR+editorial%5Bpt%5D+OR+comment%5Bpt%5D%29+AND+free+full+text%5Bsb%5D+">
+			<information-category>Journal Articles</information-category>
+		</site>
+		<site title="Understanding A1C" url="https://diabetes.org/about-diabetes/a1c">
+			<information-category>Learn More</information-category>
+			<organization>American Diabetes Association</organization>
+		</site>
+	</health-topic>
+	<health-topic meta-desc="Stomach aches can be painful. Find out what might be the cause of your abdominal pain. " title="Abdominal Pain" url="https://medlineplus.gov/abdominalpain.html" id="3061" language="English" date-created="01/07/2003">
+		<also-called>Bellyache</also-called>
+		<full-summary>&lt;p&gt;Your abdomen extends from below your chest to your groin. Some people call it the stomach, but your abdomen contains many other important organs. Pain in the abdomen can come from any one of them. The pain may start somewhere else, such as your chest. Severe pain doesn't always mean a serious problem. Nor does mild pain mean a problem is not serious. &lt;/p&gt;
+
+&lt;p&gt;Call your health care provider if mild pain lasts a week or more or if you have pain with other symptoms. Get medical help immediately if:&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;	You have abdominal pain that is sudden and sharp&lt;/li&gt;
+&lt;li&gt;You also have pain in your chest, neck or shoulder &lt;/li&gt;
+&lt;li&gt;	You're vomiting blood or have blood in your stool &lt;/li&gt;
+&lt;li&gt;	Your abdomen is stiff, hard and tender to touch &lt;/li&gt;
+&lt;li&gt;You can't move your bowels, especially if you're also vomiting &lt;/li&gt;
+&lt;/ul&gt;</full-summary>
+		<group url="https://medlineplus.gov/digestivesystem.html" id="2">Digestive System</group>
+		<group url="https://medlineplus.gov/symptoms.html" id="31">Symptoms</group>
+		<language-mapped-topic url="https://medlineplus.gov/spanish/abdominalpain.html" id="3062" language="Spanish">Dolor abdominal</language-mapped-topic>
+		<mesh-heading>
+			<descriptor id="D015746">Abdominal Pain</descriptor>
+		</mesh-heading>
+		<other-language vernacular-name="español" url="https://medlineplus.gov/spanish/abdominalpain.html">Spanish</other-language>
+		<related-topic url="https://medlineplus.gov/indigestion.html" id="4293">Indigestion</related-topic>
+		<related-topic url="https://medlineplus.gov/pain.html" id="351">Pain</related-topic>
+		<related-topic url="https://medlineplus.gov/pelvicpain.html" id="4486">Pelvic Pain</related-topic>
+		<see-reference>Bellyache</see-reference>
+		<see-reference>Pain, Abdominal</see-reference>
+		<see-reference>Stomach Ache</see-reference>
+		<site title="Abdominal and Pelvic CT (Computed Tomography)" url="https://www.radiologyinfo.org/en/info/abdominct" language-mapped-url="https://www.radiologyinfo.org/es/info/abdominct">
+			<information-category>Diagnosis and Tests</information-category>
+			<organization>Radiological Society of North America</organization>
+			<organization>American College of Radiology</organization>
+			<standard-description>Video</standard-description>
+		</site>
+		<site title="Abdominal CT scan" url="https://medlineplus.gov/ency/article/003789.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/article/003789.htm">
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="Abdominal mass" url="https://medlineplus.gov/ency/article/003274.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/article/003274.htm">
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="Abdominal MRI scan" url="https://medlineplus.gov/ency/article/003796.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/article/003796.htm">
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="Abdominal Pain" url="https://www.mayoclinic.org/symptoms/abdominal-pain/basics/definition/SYM-20050728?DSECTION=all&amp;p=1">
+			<information-category>Start Here</information-category>
+			<organization>Mayo Foundation for Medical Education and Research</organization>
+		</site>
+		<site title="Abdominal pain" url="https://medlineplus.gov/ency/article/003120.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/article/003120.htm">
+			<information-category>Patient Handouts</information-category>
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="Abdominal Pain (Stomach Pain), Long-Term" url="https://familydoctor.org/symptom/abdominal-pain-stomach-pain-long-term/?adfree=true" language-mapped-url="https://es.familydoctor.org/sintoma/dolor-en-el-abdomen-largo-plazo/?adfree=true">
+			<information-category>Diagnosis and Tests</information-category>
+			<organization>American Academy of Family Physicians</organization>
+		</site>
+		<site title="Abdominal Pain (Stomach Pain), Short-Term" url="https://familydoctor.org/symptom/abdominal-pain-stomach-pain-short-term/?adfree=true" language-mapped-url="https://es.familydoctor.org/sintoma/dolor-en-el-abdomen-de-corta-duracion/?adfree=true">
+			<information-category>Diagnosis and Tests</information-category>
+			<organization>American Academy of Family Physicians</organization>
+		</site>
+		<site title="Abdominal Pain Syndrome" url="https://gi.org/topics/abdominal-pain/" language-mapped-url="https://gi.org/patients/recursos-en-espanol/dolor-abdominal/">
+			<information-category>Start Here</information-category>
+			<organization>American College of Gastroenterology</organization>
+		</site>
+		<site title="Abdominal rigidity" url="https://medlineplus.gov/ency/article/003136.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/article/003136.htm">
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="Abdominal ultrasound" url="https://medlineplus.gov/ency/article/003777.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/article/003777.htm">
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="Abdominal Ultrasound" url="https://www.radiologyinfo.org/en/info/abdominus" language-mapped-url="https://www.radiologyinfo.org/es/info/abdominus">
+			<information-category>Diagnosis and Tests</information-category>
+			<organization>Radiological Society of North America</organization>
+			<organization>American College of Radiology</organization>
+		</site>
+		<site title="American College of Gastroenterology" url="https://gi.org">
+			<information-category>Find an Expert</information-category>
+			<organization>American College of Gastroenterology</organization>
+		</site>
+		<site title="ClinicalTrials.gov: Abdominal Pain" url="https://clinicaltrials.gov/search?cond=%22Abdominal+Pain%22&amp;aggFilters=status:not%20rec">
+			<information-category>Clinical Trials</information-category>
+			<organization>National Institutes of Health</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="Colic" url="https://kidshealth.org/en/parents/colic.html" language-mapped-url="https://kidshealth.org/es/parents/colic.html">
+			<information-category>Children</information-category>
+			<organization>Nemours Foundation</organization>
+		</site>
+		<site title="Colic in Babies" url="https://familydoctor.org/condition/colic/?adfree=true" language-mapped-url="https://es.familydoctor.org/condicion/colicos-es/?adfree=true">
+			<information-category>Children</information-category>
+			<organization>American Academy of Family Physicians</organization>
+		</site>
+		<site title="Diagnostic laparoscopy" url="https://medlineplus.gov/ency/article/003918.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/article/003918.htm">
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="Endoscopy: MedlinePlus Health Topic" url="https://medlineplus.gov/endoscopy.html" language-mapped-url="https://medlineplus.gov/spanish/endoscopy.html">
+			<information-category>Diagnosis and Tests</information-category>
+			<organization>National Library of Medicine</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="First Aid: Stomachaches (For Parents)" url="https://kidshealth.org/en/parents/stomachaches-sheet.html">
+			<information-category>Children</information-category>
+			<organization>Nemours Foundation</organization>
+		</site>
+		<site title="Flank pain" url="https://medlineplus.gov/ency/article/003113.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/article/003113.htm">
+			<information-category>Patient Handouts</information-category>
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="Functional Abdominal Pain (For Parents)" url="https://kidshealth.org/en/parents/functional-abdominal-pain.html">
+			<information-category>Children</information-category>
+			<organization>Nemours Foundation</organization>
+		</site>
+		<site title="Functional Dyspepsia" url="https://www.mayoclinic.org/diseases-conditions/functional-dyspepsia/symptoms-causes/syc-20375709?p=1" language-mapped-url="https://www.mayoclinic.org/es/diseases-conditions/functional-dyspepsia/symptoms-causes/syc-20375709?p=1">
+			<information-category>Specifics</information-category>
+			<organization>Mayo Foundation for Medical Education and Research</organization>
+		</site>
+		<site title="Indigestion (Dyspepsia)" url="https://familydoctor.org/condition/indigestion-dyspepsia/?adfree=true" language-mapped-url="https://es.familydoctor.org/condicion/indigestion-dispepsia-es/?adfree=true">
+			<information-category>Specifics</information-category>
+			<organization>American Academy of Family Physicians</organization>
+		</site>
+		<site title="Intussusception" url="https://kidshealth.org/en/parents/intussusception.html" language-mapped-url="https://kidshealth.org/es/parents/intussusception.html">
+			<information-category>Children</information-category>
+			<organization>Nemours Foundation</organization>
+		</site>
+		<site title="Intussusception - children" url="https://medlineplus.gov/ency/article/000958.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/article/000958.htm">
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="Mittelschmerz" url="https://medlineplus.gov/ency/article/001503.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/article/001503.htm">
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="National Institute of Diabetes and Digestive and Kidney Diseases" url="https://www.niddk.nih.gov">
+			<information-category>Find an Expert</information-category>
+			<organization>National Institute of Diabetes and Digestive and Kidney Diseases</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="Pediatric Abdominal Ultrasound" url="https://www.radiologyinfo.org/en/info/abdomus-pdi" language-mapped-url="https://www.radiologyinfo.org/es/info/abdomus-pdi">
+			<information-category>Children</information-category>
+			<organization>Radiological Society of North America</organization>
+			<organization>American College of Radiology</organization>
+			<standard-description>Video</standard-description>
+		</site>
+		<site title="Peritonitis" url="https://medlineplus.gov/ency/article/001335.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/article/001335.htm">
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="Point tenderness - abdomen" url="https://medlineplus.gov/ency/article/003273.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/article/003273.htm">
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="Abdominal pain" url="https://pubmed.ncbi.nlm.nih.gov/?term=%22Abdominal+Pain%22%5Bmajr%3Anoexp%5D+AND+humans%5Bmh%5D+AND+english%5Bla%5D+AND+%22last+1+Year%22+%5Bedat%5D+NOT+%28letter%5Bpt%5D+OR+case+reports%5Bpt%5D+OR+editorial%5Bpt%5D+OR+comment%5Bpt%5D%29+AND+free+full+text%5Bsb%5D+">
+			<information-category>Journal Articles</information-category>
+		</site>
+		<site title="Small intestinal ischemia and infarction" url="https://medlineplus.gov/ency/article/001151.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/article/001151.htm">
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="Stomachaches (For Kids)" url="https://kidshealth.org/en/kids/abdominal-pain.html" language-mapped-url="https://kidshealth.org/es/kids/abdominal-pain.html">
+			<information-category>Children</information-category>
+			<organization>Nemours Foundation</organization>
+		</site>
+		<site title="Stomachaches (For Teens)" url="https://kidshealth.org/en/teens/stomachaches.html" language-mapped-url="https://kidshealth.org/es/teens/stomachaches.html">
+			<information-category>Teenagers</information-category>
+			<organization>Nemours Foundation</organization>
+		</site>
+		<site title="Talking about GI Disorders" url="https://aboutkidsgi.org/living-with-gi-disorders/talking-about-gi-disorders/">
+			<information-category>Children</information-category>
+			<organization>International Foundation for Gastrointestinal Disorders</organization>
+		</site>
+		<site title="Ultrasound: Abdomen (For Parents)" url="https://kidshealth.org/en/parents/ultrasound-abdomen.html" language-mapped-url="https://kidshealth.org/es/parents/ultrasound-abdomen.html">
+			<information-category>Children</information-category>
+			<organization>Nemours Foundation</organization>
+		</site>
+	</health-topic>
+	<health-topic meta-desc="An abortion is a medical procedure to end a pregnancy. It uses medicine or surgery to remove the embryo or fetus and placenta from the uterus. " title="Abortion" url="https://medlineplus.gov/abortion.html" id="122" language="English" date-created="03/19/2002">
+		<also-called>Induced Abortion</also-called>
+		<full-summary>&lt;p&gt;An induced abortion is a procedure to end a pregnancy. It can be done two different ways:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://medlineplus.gov/ency/article/007382.htm"&gt;Medication abortion&lt;/a&gt; (also called medical abortion)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://medlineplus.gov/ency/article/002912.htm"&gt;Procedural abortion&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;An induced abortion is different from a spontaneous abortion. That is the loss of a pregnancy before the 20th week of pregnancy. It is more commonly known as a &lt;a href="https://medlineplus.gov/miscarriage.html"&gt;miscarriage&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you are thinking of having an induced abortion, talk with your health care provider. Your provider can explain how the procedures are done, as well as the risks and benefits of each.&lt;/p&gt;</full-summary>
+		<group url="https://medlineplus.gov/pregnancyandreproduction.html" id="20">Pregnancy and Reproduction</group>
+		<group url="https://medlineplus.gov/femalereproductivesystem.html" id="42">Female Reproductive System</group>
+		<language-mapped-topic url="https://medlineplus.gov/spanish/abortion.html" id="2238" language="Spanish">Aborto</language-mapped-topic>
+		<mesh-heading>
+			<descriptor id="D000028">Abortion, Induced</descriptor>
+		</mesh-heading>
+		<other-language vernacular-name="简体中文" url="https://medlineplus.gov/languages/abortion.html#Chinese, Simplified (Mandarin dialect)">Chinese, Simplified (Mandarin dialect)</other-language>
+		<other-language vernacular-name="繁體中文" url="https://medlineplus.gov/languages/abortion.html#Chinese, Traditional (Cantonese dialect)">Chinese, Traditional (Cantonese dialect)</other-language>
+		<other-language vernacular-name="हिन्दी" url="https://medlineplus.gov/languages/abortion.html#Hindi">Hindi</other-language>
+		<other-language vernacular-name="español" url="https://medlineplus.gov/spanish/abortion.html">Spanish</other-language>
+		<other-language vernacular-name="español" url="https://medlineplus.gov/languages/abortion.html#Spanish">Spanish</other-language>
+		<other-language vernacular-name="Tiếng Việt" url="https://medlineplus.gov/languages/abortion.html#Vietnamese">Vietnamese</other-language>
+		<site title="Abortion - medication" url="https://medlineplus.gov/ency/article/007382.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/article/007382.htm">
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="Abortion - procedure" url="https://medlineplus.gov/ency/article/002912.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/article/002912.htm">
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="Abortion - procedure - aftercare" url="https://medlineplus.gov/ency/patientinstructions/000658.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/patientinstructions/000658.htm">
+			<information-category>Patient Handouts</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="Abortion Care" url="https://www.acog.org/womens-health/faqs/induced-abortion" language-mapped-url="https://www.acog.org/Patients/Search-Patient-Education-Pamphlets-Spanish/Files/El-aborto-provocado">
+			<information-category>Learn More</information-category>
+			<organization>American College of Obstetricians and Gynecologists</organization>
+		</site>
+		<site title="Could an Elective Abortion Raise the Risk of Problems in a Future Pregnancy?" url="https://www.mayoclinic.org/healthy-lifestyle/getting-pregnant/expert-answers/abortion/faq-20058551?p=1" language-mapped-url="https://www.mayoclinic.org/es/healthy-lifestyle/getting-pregnant/expert-answers/abortion/faq-20058551?p=1">
+			<information-category>Learn More</information-category>
+			<organization>Mayo Foundation for Medical Education and Research</organization>
+		</site>
+		<site title="D and C" url="https://medlineplus.gov/ency/article/002914.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/article/002914.htm">
+			<information-category>Learn More</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="Dilation and curettage (D&amp;C)" url="https://www.mayoclinic.org/tests-procedures/dilation-and-curettage/about/pac-20384910?p=1">
+			<information-category>Learn More</information-category>
+			<organization>Mayo Foundation for Medical Education and Research</organization>
+		</site>
+		<site title="Ending a Pregnancy" url="https://familydoctor.org/ending-a-pregnancy/?adfree=true" language-mapped-url="https://es.familydoctor.org/ponerle-fin-a-un-embarazo/?adfree=true">
+			<information-category>Learn More</information-category>
+			<organization>American Academy of Family Physicians</organization>
+		</site>
+		<site title="Ending pregnancy with medicines" url="https://medlineplus.gov/ency/patientinstructions/000835.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/patientinstructions/000835.htm">
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="Know Your Rights: Reproductive Health Care" url="https://reproductiverights.gov/" language-mapped-url="https://reproductiverights.gov/es/">
+			<information-category>Learn More</information-category>
+			<organization>Department of Health and Human Services</organization>
+		</site>
+		<site title="Medical Abortion" url="https://www.mayoclinic.org/tests-procedures/medical-abortion/about/pac-20394687?p=1" language-mapped-url="https://www.mayoclinic.org/es/tests-procedures/medical-abortion/about/pac-20394687?p=1">
+			<information-category>Learn More</information-category>
+			<organization>Mayo Foundation for Medical Education and Research</organization>
+		</site>
+		<site title="Pregnancy Choices: Raising the Baby, Adoption, and Abortion" url="https://www.acog.org/womens-health/faqs/pregnancy-choices-raising-the-baby-adoption-and-abortion">
+			<information-category>Learn More</information-category>
+			<organization>American College of Obstetricians and Gynecologists</organization>
+		</site>
+		<site title="Induced abortion" url="https://pubmed.ncbi.nlm.nih.gov/?term=%22Abortion%2C+Induced%22%5Bmajr%3Anoexp%5D+AND+humans%5Bmh%5D+AND+english%5Bla%5D+AND+%22last+2+Years%22+%5Bedat%5D+NOT+%28letter%5Bpt%5D+OR+case+reports%5Bpt%5D+OR+editorial%5Bpt%5D+OR+comment%5Bpt%5D%29+AND+free+full+text%5Bsb%5D+">
+			<information-category>Journal Articles</information-category>
+		</site>
+		<site title="Questions and Answers on Mifepristone for Medical Termination of Pregnancy Through Ten Weeks Gestation" url="https://www.fda.gov/drugs/postmarket-drug-safety-information-patients-and-providers/questions-and-answers-mifepristone-medical-termination-pregnancy-through-ten-weeks-gestation">
+			<information-category>Learn More</information-category>
+			<organization>Food and Drug Administration</organization>
+		</site>
+		<site title="What to Do When Your Pregnancy Is Unexpected" url="https://familydoctor.org/what-to-do-when-your-pregnancy-is-unexpected/?adfree=true" language-mapped-url="https://es.familydoctor.org/que-hacer-cuando-su-embarazo-es-inesperado/?adfree=true">
+			<information-category>Learn More</information-category>
+			<organization>American Academy of Family Physicians</organization>
+		</site>
+	</health-topic>
+	<health-topic meta-desc="Un aborto es un procedimiento médico para terminar un embarazo. Usa medicinas o cirugía para retirar el embrión o el feto y la placenta del útero." title="Aborto" url="https://medlineplus.gov/spanish/abortion.html" id="2238" language="Spanish" date-created="10/31/2006">
+		<also-called>Aborto terapéutico</also-called>
+		<also-called>Interrupción del embarazo</also-called>
+		<full-summary>&lt;p&gt;Un aborto inducido es un procedimiento para terminar un embarazo. Se puede hacer de dos maneras diferentes:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://medlineplus.gov/spanish/ency/article/007382.htm"&gt;Aborto con medicamentos&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://medlineplus.gov/spanish/ency/article/002912.htm"&gt;Aborto quirúrgico&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Un aborto inducido es diferente de un aborto espontáneo. Es la pérdida de un embarazo antes de la semana 20 de embarazo. Se le conoce más comúnmente como &lt;a href="https://medlineplus.gov/spanish/miscarriage.html"&gt;pérdida del embarazo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Si está pensando en hacerse un aborto inducido, hable con su profesional de la salud. Su proveedor puede explicarle cómo se realizan los procedimientos, así como los riesgos y beneficios de cada tipo.&lt;/p&gt;</full-summary>
+		<group url="https://medlineplus.gov/spanish/pregnancyandreproduction.html" id="20">Embarazo y reproducción</group>
+		<group url="https://medlineplus.gov/spanish/femalereproductivesystem.html" id="42">Sistema reproductor femenino</group>
+		<language-mapped-topic url="https://medlineplus.gov/abortion.html" id="122" language="English">Abortion</language-mapped-topic>
+		<site title="Aborto médico" url="https://www.mayoclinic.org/es/tests-procedures/medical-abortion/about/pac-20394687?p=1" language-mapped-url="https://www.mayoclinic.org/tests-procedures/medical-abortion/about/pac-20394687?p=1">
+			<information-category>Más información</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Fundación Mayo para la Educación y la Investigación Médica</organization>
+		</site>
+		<site title="Aborto: Medicamento" url="https://medlineplus.gov/spanish/ency/article/007382.htm" language-mapped-url="https://medlineplus.gov/ency/article/007382.htm">
+			<information-category>Más información</information-category>
+			<information-category>Spanish/Español</information-category>
+			<information-category>NON-DISPLAY (Patient Handout)</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Aborto: Procedimiento" url="https://medlineplus.gov/spanish/ency/article/002912.htm" language-mapped-url="https://medlineplus.gov/ency/article/002912.htm">
+			<information-category>Más información</information-category>
+			<information-category>Spanish/Español</information-category>
+			<information-category>NON-DISPLAY (Patient Handout)</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Aborto: Procedimiento y cuidados posteriores" url="https://medlineplus.gov/spanish/ency/patientinstructions/000658.htm" language-mapped-url="https://medlineplus.gov/ency/patientinstructions/000658.htm">
+			<information-category>Más información</information-category>
+			<information-category>Spanish/Español</information-category>
+			<information-category>NON-DISPLAY (Patient Handout)</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Conozca sus derechos: Atención de la salud reproductiva" url="https://reproductiverights.gov/es/" language-mapped-url="https://reproductiverights.gov/">
+			<information-category>Más información</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Departamento de Salud y Servicios Humanos</organization>
+		</site>
+		<site title="Dilatación y legrado" url="https://medlineplus.gov/spanish/ency/article/002914.htm" language-mapped-url="https://medlineplus.gov/ency/article/002914.htm">
+			<information-category>Más información</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Ponerle fin a un embarazo" url="https://es.familydoctor.org/ponerle-fin-a-un-embarazo/?adfree=true" language-mapped-url="https://familydoctor.org/ending-a-pregnancy/?adfree=true">
+			<information-category>Más información</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Academia Americana de Médicos de Familia</organization>
+		</site>
+		<site title="Qué hacer cuando su embarazo es no planificado" url="https://es.familydoctor.org/que-hacer-cuando-su-embarazo-es-inesperado/?adfree=true" language-mapped-url="https://familydoctor.org/what-to-do-when-your-pregnancy-is-unexpected/?adfree=true">
+			<information-category>Más información</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Academia Americana de Médicos de Familia</organization>
+		</site>
+		<site title="Serie del procedimiento de dilatación y legrado" url="https://medlineplus.gov/spanish/ency/esp_presentations/100013_1.htm" language-mapped-url="https://medlineplus.gov/ency/presentations/100013_1.htm">
+			<information-category>Más información</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Terminación del embarazo con medicamentos" url="https://medlineplus.gov/spanish/ency/patientinstructions/000835.htm" language-mapped-url="https://medlineplus.gov/ency/patientinstructions/000835.htm">
+			<information-category>Más información</information-category>
+			<information-category>Spanish/Español</information-category>
+			<information-category>NON-DISPLAY (Patient Handout)</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="¿Podría un aborto aumentar el riesgo de problemas en un embarazo posterior?" url="https://www.mayoclinic.org/es/healthy-lifestyle/getting-pregnant/expert-answers/abortion/faq-20058551?p=1" language-mapped-url="https://www.mayoclinic.org/healthy-lifestyle/getting-pregnant/expert-answers/abortion/faq-20058551?p=1">
+			<information-category>Más información</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Fundación Mayo para la Educación y la Investigación Médica</organization>
+		</site>
+	</health-topic>
+	<health-topic meta-desc="Los abscesos se llenan de pus y pueden aparecer en cualquier parte del cuerpo. Pueden ser dolorosos. Entérese sobre los tipos de abscesos y cómo se tratan." title="Abscesos" url="https://medlineplus.gov/spanish/abscess.html" id="3064" language="Spanish" date-created="09/15/2010">
+		<full-summary>&lt;p&gt;Un absceso es una cavidad donde se acumula pus. Se puede tener abscesos en casi cualquier parte del cuerpo. Cuando un área se infecta, el sistema inmunitario intenta combatir la infección. Los glóbulos blancos se dirigen hacia el área infectada, se acumulan dentro del tejido lesionado y causan inflamación. Durante este proceso se forma el pus. El pus es una mezcla de células sanguíneas blancas, gérmenes y tejido muerto.&lt;/p&gt;
+
+&lt;p&gt;Las bacterias, los virus, los parásitos y objetos ingeridos pueden causar la formación de abscesos. Los abscesos en la piel son fáciles de detectar porque son zonas enrojecidas, hinchadas y dolorosas. Los que se encuentran dentro del cuerpo pueden quizá no ser obvios y pueden lesionar órganos, incluso el cerebro, los pulmones y otros. Los tratamientos incluyen drenarlos y tomar antibióticos. &lt;/p&gt;</full-summary>
+		<group url="https://medlineplus.gov/spanish/infections.html" id="12">Infecciones</group>
+		<language-mapped-topic url="https://medlineplus.gov/abscess.html" id="3063" language="English">Abscess</language-mapped-topic>
+		<primary-institute url="https://medlineplus.gov/spanish/nihinstitutes.html#NIAID">Instituto Nacional de Alergias y Enfermedades Infecciosas</primary-institute>
+		<related-topic url="https://medlineplus.gov/spanish/infectiousdiseases.html" id="1977">Enfermedades infecciosas</related-topic>
+		<site title="Absceso" url="https://medlineplus.gov/spanish/ency/article/001353.htm" language-mapped-url="https://medlineplus.gov/ency/article/001353.htm">
+			<information-category>Comience aquí</information-category>
+			<information-category>Spanish/Español</information-category>
+			<information-category>NON-DISPLAY (Patient Handout)</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Absceso anal y la fístula" url="https://fascrs.org/patients/diseases-and-conditions/a-z/absceso-anal-y-la-fistula" language-mapped-url="https://fascrs.org/patients/diseases-and-conditions/a-z/abscess-and-fistula-expanded-information">
+			<information-category>Asuntos específicos</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Sociedad Estadounidense de Cirujanos de Colon y Recto</organization>
+		</site>
+		<site title="Absceso anorrectal" url="https://medlineplus.gov/spanish/ency/article/001519.htm" language-mapped-url="https://medlineplus.gov/ency/article/001519.htm">
+			<information-category>Asuntos específicos</information-category>
+			<information-category>Spanish/Español</information-category>
+			<information-category>NON-DISPLAY (Patient Handout)</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Absceso cerebral" url="https://medlineplus.gov/spanish/ency/article/000783.htm" language-mapped-url="https://medlineplus.gov/ency/article/000783.htm">
+			<information-category>Asuntos específicos</information-category>
+			<information-category>Spanish/Español</information-category>
+			<information-category>NON-DISPLAY (Patient Handout)</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Absceso de la médula espinal" url="https://medlineplus.gov/spanish/ency/article/001405.htm" language-mapped-url="https://medlineplus.gov/ency/article/001405.htm">
+			<information-category>Asuntos específicos</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Absceso de la piel" url="https://medlineplus.gov/spanish/ency/article/000863.htm" language-mapped-url="https://medlineplus.gov/ency/article/000863.htm">
+			<information-category>Asuntos específicos</information-category>
+			<information-category>Spanish/Español</information-category>
+			<information-category>NON-DISPLAY (Patient Handout)</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Absceso dental" url="https://medlineplus.gov/spanish/ency/article/001060.htm" language-mapped-url="https://medlineplus.gov/ency/article/001060.htm">
+			<information-category>Asuntos específicos</information-category>
+			<information-category>Spanish/Español</information-category>
+			<information-category>NON-DISPLAY (Patient Handout)</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Absceso en abdomen o pelvis" url="https://medlineplus.gov/spanish/ency/article/000212.htm" language-mapped-url="https://medlineplus.gov/ency/article/000212.htm">
+			<information-category>Asuntos específicos</information-category>
+			<information-category>Spanish/Español</information-category>
+			<information-category>NON-DISPLAY (Patient Handout)</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Absceso epidural" url="https://medlineplus.gov/spanish/ency/article/001416.htm" language-mapped-url="https://medlineplus.gov/ency/article/001416.htm">
+			<information-category>Asuntos específicos</information-category>
+			<information-category>Spanish/Español</information-category>
+			<information-category>NON-DISPLAY (Patient Handout)</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Absceso hepático amebiano" url="https://medlineplus.gov/spanish/ency/article/000211.htm" language-mapped-url="https://medlineplus.gov/ency/article/000211.htm">
+			<information-category>Asuntos específicos</information-category>
+			<information-category>Spanish/Español</information-category>
+			<information-category>NON-DISPLAY (Patient Handout)</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Absceso hepático piógeno" url="https://medlineplus.gov/spanish/ency/article/000261.htm" language-mapped-url="https://medlineplus.gov/ency/article/000261.htm">
+			<information-category>Asuntos específicos</information-category>
+			<information-category>Spanish/Español</information-category>
+			<information-category>NON-DISPLAY (Patient Handout)</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Absceso o quiste de Bartolino" url="https://medlineplus.gov/spanish/ency/article/001489.htm" language-mapped-url="https://medlineplus.gov/ency/article/001489.htm">
+			<information-category>Spanish/Español</information-category>
+			<information-category>Mujeres</information-category>
+			<information-category>NON-DISPLAY (Patient Handout)</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Absceso pancreático" url="https://medlineplus.gov/spanish/ency/article/000270.htm" language-mapped-url="https://medlineplus.gov/ency/article/000270.htm">
+			<information-category>Asuntos específicos</information-category>
+			<information-category>Spanish/Español</information-category>
+			<information-category>NON-DISPLAY (Patient Handout)</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Absceso periamigdalino" url="https://es.familydoctor.org/condicion/absceso-periamigdalino-es/?adfree=true" language-mapped-url="https://familydoctor.org/condition/peritonsillar-abscess/?adfree=true">
+			<information-category>Asuntos específicos</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Academia Americana de Médicos de Familia</organization>
+			<standard-description>PDF</standard-description>
+		</site>
+		<site title="Absceso periamigdalino" url="https://medlineplus.gov/spanish/ency/article/000986.htm" language-mapped-url="https://medlineplus.gov/ency/article/000986.htm">
+			<information-category>Spanish/Español</information-category>
+			<information-category>NON-DISPLAY (Patient Handout)</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Absceso perirrenal" url="https://medlineplus.gov/spanish/ency/article/001274.htm" language-mapped-url="https://medlineplus.gov/ency/article/001274.htm">
+			<information-category>Asuntos específicos</information-category>
+			<information-category>Spanish/Español</information-category>
+			<information-category>NON-DISPLAY (Patient Handout)</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Absceso pulmonar" url="https://www.merckmanuals.com/es-us/hogar/trastornos-del-pulm%C3%B3n-y-las-v%C3%ADas-respiratorias/absceso-pulmonar/absceso-pulmonar" language-mapped-url="https://www.merckmanuals.com/home/lung-and-airway-disorders/abscess-in-the-lungs/abscess-in-the-lungs">
+			<information-category>Asuntos específicos</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Merck &amp; Co., Inc.</organization>
+		</site>
+		<site title="Absceso retrofaríngeo" url="https://medlineplus.gov/spanish/ency/article/000984.htm" language-mapped-url="https://medlineplus.gov/ency/article/000984.htm">
+			<information-category>Asuntos específicos</information-category>
+			<information-category>Spanish/Español</information-category>
+			<information-category>NON-DISPLAY (Patient Handout)</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Absceso subareolar" url="https://medlineplus.gov/spanish/ency/article/001501.htm" language-mapped-url="https://medlineplus.gov/ency/article/001501.htm">
+			<information-category>Spanish/Español</information-category>
+			<information-category>Mujeres</information-category>
+			<information-category>NON-DISPLAY (Patient Handout)</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Abscesos" url="https://kidshealth.org/es/teens/abscess.html" language-mapped-url="https://kidshealth.org/en/teens/abscess.html">
+			<information-category>Adolescentes</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Fundación Nemours</organization>
+		</site>
+		<site title="Abscesos periamigdalinos" url="https://kidshealth.org/es/teens/peritonsillar-abscess.html" language-mapped-url="https://kidshealth.org/en/teens/peritonsillar-abscess.html">
+			<information-category>Adolescentes</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Fundación Nemours</organization>
+		</site>
+		<site title="Actinomicosis" url="https://medlineplus.gov/spanish/ency/article/000599.htm" language-mapped-url="https://medlineplus.gov/ency/article/000599.htm">
+			<information-category>Spanish/Español</information-category>
+			<information-category>Asuntos relacionados</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Aspergiloma pulmonar" url="https://medlineplus.gov/spanish/ency/article/000127.htm" language-mapped-url="https://medlineplus.gov/ency/article/000127.htm">
+			<information-category>Asuntos específicos</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Aspiración de lesión de piel" url="https://medlineplus.gov/spanish/ency/article/003451.htm" language-mapped-url="https://medlineplus.gov/ency/article/003451.htm">
+			<information-category>Diagnóstico y exámenes</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Celulitis amigdalina y absceso amigdalino" url="https://www.merckmanuals.com/es-us/hogar/trastornos-otorrinolaringol%C3%B3gicos/trastornos-de-la-boca-y-la-garganta/celulitis-amigdalina-y-absceso-amigdalino" language-mapped-url="https://www.merckmanuals.com/home/ear-nose-and-throat-disorders/mouth-and-throat-disorders/tonsillar-cellulitis-and-tonsillar-abscess">
+			<information-category>Asuntos específicos</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Merck &amp; Co., Inc.</organization>
+		</site>
+		<site title="Cirugía de quiste pilonidal" url="https://medlineplus.gov/spanish/ency/article/007591.htm" language-mapped-url="https://medlineplus.gov/ency/article/007591.htm">
+			<information-category>Spanish/Español</information-category>
+			<information-category>NON-DISPLAY (Patient Handout)</information-category>
+			<information-category>Tratamientos y terapias</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Drenaje percutáneo de absceso" url="https://www.radiologyinfo.org/es/info/PercAbscessDrn" language-mapped-url="https://www.radiologyinfo.org/en/info/PercAbscessDrn">
+			<information-category>Spanish/Español</information-category>
+			<information-category>Tratamientos y terapias</information-category>
+			<organization>Colegio Americano de Radiología</organization>
+		</site>
+		<site title="Enterografía por RMN" url="https://www.radiologyinfo.org/es/info/MRenterography" language-mapped-url="https://www.radiologyinfo.org/en/info/MRenterography">
+			<information-category>Diagnóstico y exámenes</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Colegio Americano de Radiología</organization>
+			<organization>Sociedad de Radiología de Norteamérica</organization>
+		</site>
+		<site title="Enterografía por TAC (tomografía axial computada)" url="https://www.radiologyinfo.org/es/info/CTenterography" language-mapped-url="https://www.radiologyinfo.org/en/info/CTenterography">
+			<information-category>Diagnóstico y exámenes</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Colegio Americano de Radiología</organization>
+			<organization>Sociedad de Radiología de Norteamérica</organization>
+		</site>
+		<site title="Foliculitis" url="https://www.mayoclinic.org/es/diseases-conditions/folliculitis/symptoms-causes/syc-20361634?p=1" language-mapped-url="https://www.mayoclinic.org/diseases-conditions/folliculitis/symptoms-causes/syc-20361634?p=1">
+			<information-category>Asuntos específicos</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Fundación Mayo para la Educación y la Investigación Médica</organization>
+		</site>
+		<site title="Gammagrafía de glóbulos blancos marcados con Indio" url="https://medlineplus.gov/spanish/ency/article/003382.htm" language-mapped-url="https://medlineplus.gov/ency/article/003382.htm">
+			<information-category>Diagnóstico y exámenes</information-category>
+			<information-category>Spanish/Español</information-category>
+			<information-category>NON-DISPLAY (Patient Handout)</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Hernia cerebral" url="https://medlineplus.gov/spanish/ency/article/001421.htm" language-mapped-url="https://medlineplus.gov/ency/article/001421.htm">
+			<information-category>Spanish/Español</information-category>
+			<information-category>Asuntos relacionados</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Quiste de la glándula de Bartolino" url="https://es.familydoctor.org/condicion/quiste-de-la-glandula-de-bartolino-es/?adfree=true" language-mapped-url="https://familydoctor.org/condition/bartholins-gland-cyst/?adfree=true">
+			<information-category>Spanish/Español</information-category>
+			<information-category>Mujeres</information-category>
+			<organization>Academia Americana de Médicos de Familia</organization>
+		</site>
+		<site title="Quiste pilonidal" url="https://www.mayoclinic.org/es/diseases-conditions/pilonidal-cyst/symptoms-causes/syc-20376329?p=1" language-mapped-url="https://www.mayoclinic.org/diseases-conditions/pilonidal-cyst/symptoms-causes/syc-20376329?p=1">
+			<information-category>Spanish/Español</information-category>
+			<information-category>Asuntos relacionados</information-category>
+			<organization>Fundación Mayo para la Educación y la Investigación Médica</organization>
+		</site>
+	</health-topic>
+	<health-topic meta-desc="Abscesses are filled with pus and can occur anywhere on your body. They can be painful. Learn about types of abscesses and how they are treated. " title="Abscess" url="https://medlineplus.gov/abscess.html" id="3063" language="English" date-created="01/09/2003">
+		<full-summary>&lt;p&gt;An abscess is a pocket of pus. You can get an abscess almost anywhere in your body. When an area of your body becomes infected, your body's immune system tries to fight the infection. White blood cells go to the infected area, collect within the damaged tissue, and cause inflammation. During this process, pus forms. Pus is a mixture of living and dead white blood cells, germs, and dead tissue. &lt;/p&gt;
+
+&lt;p&gt;Bacteria, viruses, parasites and swallowed objects can all lead to abscesses. Skin abscesses are easy to detect. They are red, raised and painful. Abscesses inside your body may not be obvious and can damage organs, including the brain, lungs and others. Treatments include drainage and antibiotics. &lt;/p&gt;</full-summary>
+		<group url="https://medlineplus.gov/infections.html" id="12">Infections</group>
+		<language-mapped-topic url="https://medlineplus.gov/spanish/abscess.html" id="3064" language="Spanish">Abscesos</language-mapped-topic>
+		<mesh-heading>
+			<descriptor id="D000038">Abscess</descriptor>
+		</mesh-heading>
+		<other-language vernacular-name="español" url="https://medlineplus.gov/spanish/abscess.html">Spanish</other-language>
+		<primary-institute url="http://www.niaid.nih.gov/">National Institute of Allergy and Infectious Diseases</primary-institute>
+		<related-topic url="https://medlineplus.gov/infectiousdiseases.html" id="513">Infectious Diseases</related-topic>
+		<site title="Abscess" url="https://www.skinsight.com/skin-conditions/child/abscess?Imiw9cApl">
+			<information-category>Children</information-category>
+			<organization>VisualDX</organization>
+		</site>
+		<site title="Abscess" url="https://medlineplus.gov/ency/article/001353.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/article/001353.htm">
+			<information-category>Patient Handouts</information-category>
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="Abscess" url="https://www.skinsight.com/skin-conditions/adult/abscess?Imiw9cApl">
+			<information-category>Start Here</information-category>
+			<organization>VisualDX</organization>
+		</site>
+		<site title="Abscess - abdomen or pelvis" url="https://medlineplus.gov/ency/article/000212.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/article/000212.htm">
+			<information-category>Patient Handouts</information-category>
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="Abscess in the Lungs" url="https://www.merckmanuals.com/home/lung-and-airway-disorders/abscess-in-the-lungs/abscess-in-the-lungs" language-mapped-url="https://www.merckmanuals.com/es-us/hogar/trastornos-del-pulm%C3%B3n-y-las-v%C3%ADas-respiratorias/absceso-pulmonar/absceso-pulmonar">
+			<information-category>Specifics</information-category>
+			<organization>Merck &amp; Co., Inc.</organization>
+		</site>
+		<site title="Actinomycosis" url="https://medlineplus.gov/ency/article/000599.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/article/000599.htm">
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="Amebic liver abscess" url="https://medlineplus.gov/ency/article/000211.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/article/000211.htm">
+			<information-category>Patient Handouts</information-category>
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="Anal Abscess and Fistula" url="https://fascrs.org/patients/diseases-and-conditions/a-z/abscess-and-fistula-expanded-information" language-mapped-url="https://fascrs.org/patients/diseases-and-conditions/a-z/absceso-anal-y-la-fistula">
+			<information-category>Specifics</information-category>
+			<organization>American Society of Colon and Rectal Surgeons</organization>
+		</site>
+		<site title="Anorectal abscess" url="https://medlineplus.gov/ency/article/001519.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/article/001519.htm">
+			<information-category>Patient Handouts</information-category>
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="Bartholin cyst or abscess" url="https://medlineplus.gov/ency/article/001489.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/article/001489.htm">
+			<information-category>Patient Handouts</information-category>
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="Bartholin's Cyst" url="https://www.mayoclinic.org/diseases-conditions/bartholin-cyst/symptoms-causes/syc-20369976?p=1">
+			<information-category>Specifics</information-category>
+			<organization>Mayo Foundation for Medical Education and Research</organization>
+		</site>
+		<site title="Brain abscess" url="https://medlineplus.gov/ency/article/000783.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/article/000783.htm">
+			<information-category>Patient Handouts</information-category>
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="Brain herniation" url="https://medlineplus.gov/ency/article/001421.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/article/001421.htm">
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="CT Enterography" url="https://www.radiologyinfo.org/en/info/CTenterography" language-mapped-url="https://www.radiologyinfo.org/es/info/CTenterography">
+			<information-category>Diagnosis and Tests</information-category>
+			<organization>Radiological Society of North America</organization>
+			<organization>American College of Radiology</organization>
+		</site>
+		<site title="Epidural abscess" url="https://medlineplus.gov/ency/article/001416.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/article/001416.htm">
+			<information-category>Patient Handouts</information-category>
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="Folliculitis" url="https://www.mayoclinic.org/diseases-conditions/folliculitis/symptoms-causes/syc-20361634?p=1" language-mapped-url="https://www.mayoclinic.org/es/diseases-conditions/folliculitis/symptoms-causes/syc-20361634?p=1">
+			<information-category>Specifics</information-category>
+			<organization>Mayo Foundation for Medical Education and Research</organization>
+		</site>
+		<site title="Hidradenitis Suppurativa" url="https://www.aocd.org/page/HidradenitisSuppura?">
+			<information-category>Related Issues</information-category>
+			<organization>American Osteopathic College of Dermatology</organization>
+		</site>
+		<site title="Indium-labelled WBC scan" url="https://medlineplus.gov/ency/article/003382.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/article/003382.htm">
+			<information-category>Patient Handouts</information-category>
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="MR Enterography" url="https://www.radiologyinfo.org/en/info/MRenterography" language-mapped-url="https://www.radiologyinfo.org/es/info/MRenterography">
+			<information-category>Diagnosis and Tests</information-category>
+			<organization>Radiological Society of North America</organization>
+			<organization>American College of Radiology</organization>
+		</site>
+		<site title="National Institute of Allergy and Infectious Diseases" url="https://www.niaid.nih.gov/">
+			<information-category>Find an Expert</information-category>
+			<organization>National Institute of Allergy and Infectious Diseases</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="Pancreatic abscess" url="https://medlineplus.gov/ency/article/000270.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/article/000270.htm">
+			<information-category>Patient Handouts</information-category>
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="Percutaneous Abscess Drainage" url="https://www.radiologyinfo.org/en/info/PercAbscessDrn" language-mapped-url="https://www.radiologyinfo.org/es/info/PercAbscessDrn">
+			<information-category>Treatments and Therapies</information-category>
+			<organization>Radiological Society of North America</organization>
+			<organization>American College of Radiology</organization>
+		</site>
+		<site title="Perirenal abscess" url="https://medlineplus.gov/ency/article/001274.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/article/001274.htm">
+			<information-category>Patient Handouts</information-category>
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="Peritonsillar Abscess" url="https://familydoctor.org/condition/peritonsillar-abscess/?adfree=true" language-mapped-url="https://es.familydoctor.org/condicion/absceso-periamigdalino-es/?adfree=true">
+			<information-category>Specifics</information-category>
+			<organization>American Academy of Family Physicians</organization>
+		</site>
+		<site title="Peritonsillar abscess" url="https://medlineplus.gov/ency/article/000986.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/article/000986.htm">
+			<information-category>Patient Handouts</information-category>
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="Peritonsillar Abscess (For Teens)" url="https://kidshealth.org/en/teens/peritonsillar-abscess.html" language-mapped-url="https://kidshealth.org/es/teens/peritonsillar-abscess.html">
+			<information-category>Teenagers</information-category>
+			<organization>Nemours Foundation</organization>
+		</site>
+		<site title="Pilonidal Cyst" url="https://www.mayoclinic.org/diseases-conditions/pilonidal-cyst/symptoms-causes/syc-20376329?p=1" language-mapped-url="https://www.mayoclinic.org/es/diseases-conditions/pilonidal-cyst/symptoms-causes/syc-20376329?p=1">
+			<information-category>Related Issues</information-category>
+			<organization>Mayo Foundation for Medical Education and Research</organization>
+		</site>
+		<site title="Abscess" url="https://pubmed.ncbi.nlm.nih.gov/?term=%22Abscess%22%5Bmajr%3Anoexp%5D+AND+humans%5Bmh%5D+AND+english%5Bla%5D+AND+%22last+1+Year%22+%5Bedat%5D+NOT+%28letter%5Bpt%5D+OR+case+reports%5Bpt%5D+OR+editorial%5Bpt%5D+OR+comment%5Bpt%5D%29+AND+free+full+text%5Bsb%5D+">
+			<information-category>Journal Articles</information-category>
+		</site>
+		<site title="Pulmonary aspergilloma" url="https://medlineplus.gov/ency/article/000127.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/article/000127.htm">
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="Pyogenic liver abscess" url="https://medlineplus.gov/ency/article/000261.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/article/000261.htm">
+			<information-category>Patient Handouts</information-category>
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="Retropharyngeal abscess" url="https://medlineplus.gov/ency/article/000984.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/article/000984.htm">
+			<information-category>Patient Handouts</information-category>
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="Retropharyngeal Abscess (For Parents)" url="https://kidshealth.org/en/parents/retropharyngeal-abscess.html">
+			<information-category>Children</information-category>
+			<organization>Nemours Foundation</organization>
+		</site>
+		<site title="Skin abscess" url="https://medlineplus.gov/ency/article/000863.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/article/000863.htm">
+			<information-category>Patient Handouts</information-category>
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="Skin Abscesses" url="https://kidshealth.org/en/teens/abscess.html" language-mapped-url="https://kidshealth.org/es/teens/abscess.html">
+			<information-category>Start Here</information-category>
+			<organization>Nemours Foundation</organization>
+		</site>
+		<site title="Skin lesion aspiration" url="https://medlineplus.gov/ency/article/003451.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/article/003451.htm">
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="Spinal cord abscess" url="https://medlineplus.gov/ency/article/001405.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/article/001405.htm">
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="Subareolar abscess" url="https://medlineplus.gov/ency/article/001501.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/article/001501.htm">
+			<information-category>Patient Handouts</information-category>
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="Surgery for pilonidal cyst" url="https://medlineplus.gov/ency/article/007591.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/article/007591.htm">
+			<information-category>Patient Handouts</information-category>
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="Tooth abscess" url="https://medlineplus.gov/ency/article/001060.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/article/001060.htm">
+			<information-category>Patient Handouts</information-category>
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="Treating Pilonidal Cysts (Gips Procedure) (For Parents)" url="https://kidshealth.org/en/parents/pilonidal_gips_animation.html">
+			<information-category>Children</information-category>
+			<organization>Nemours Foundation</organization>
+			<standard-description>Video</standard-description>
+		</site>
+	</health-topic>
+	<health-topic meta-desc="Los adultos mayores son vulnerables al abuso físico o emocional. Puede ocurrir en casa o en residencias para personas mayores. Lea sobre signos de maltrato." title="Abuso de las personas mayores" url="https://medlineplus.gov/spanish/elderabuse.html" id="1882" language="Spanish" date-created="01/06/2005">
+		<also-called>Abuso y negligencia hacia las personas mayores</also-called>
+		<also-called>Maltrato al adulto mayor</also-called>
+		<full-summary>&lt;p&gt;Muchos adultos mayores son víctimas de abusos. Este maltrato a una persona mayor es por lo general de parte de un cuidador. Puede ocurrir dentro de la familia. También puede ocurrir en centros especiales o residencias para adultos mayores.&lt;/p&gt;
+&lt;p&gt;El maltrato puede ser:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;	Abuso físico, sexual y emocional &lt;/li&gt;
+&lt;li&gt;Negligencia o abandono &lt;/li&gt;
+&lt;li&gt;	Abuso financiero: El robo de dinero o pertenencias&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Posibles signos de maltrato a personas mayores incluyen moretones inexplicables, quemaduras y lesiones. También pueden haber úlceras por presión y falta de higiene. La persona puede parecer ausente, agitada y deprimida. Puede haber un cambio repentino en la situación financiera de la persona.&lt;/p&gt;
+&lt;p&gt;El abuso de personas mayores no se detendrá por sí solo. Alguien tiene que intervenir y ayudar. Si usted piensa que una persona mayor se encuentra en peligro, llame al 911. De lo contrario, contacte a los servicios de protección para adultos.&lt;/p&gt;
+&lt;p class=""&gt;NIH: Instituto Nacional sobre el Envejecimiento&lt;/p&gt;</full-summary>
+		<group url="https://medlineplus.gov/spanish/olderadults.html" id="6">Personas mayores</group>
+		<group url="https://medlineplus.gov/spanish/injuriesandwounds.html" id="19">Lesiones y heridas</group>
+		<group url="https://medlineplus.gov/spanish/socialfamilyissues.html" id="30">Asuntos sociales y familiares</group>
+		<language-mapped-topic url="https://medlineplus.gov/elderabuse.html" id="529" language="English">Elder Abuse</language-mapped-topic>
+		<primary-institute url="https://medlineplus.gov/spanish/nihinstitutes.html#NIA">Instituto Nacional sobre el Envejecimiento</primary-institute>
+		<related-topic url="https://medlineplus.gov/spanish/intimatepartnerviolence.html" id="1865">Violencia en la pareja</related-topic>
+		<see-reference>Abuso del anciano</see-reference>
+		<site title="Instituto Nacional Sobre el Envejecimiento" url="https://www.nia.nih.gov/espanol" language-mapped-url="https://www.nia.nih.gov/">
+			<information-category>Spanish/Español</information-category>
+			<information-category>Especialistas</information-category>
+			<organization>Instituto Nacional sobre el Envejecimiento</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="Introducción al maltrato a personas mayores (Abuso de adultos mayores)" url="https://www.merckmanuals.com/es-us/hogar/salud-de-las-personas-de-edad-avanzada/maltrato-a-personas-mayores/introducci%C3%B3n-al-maltrato-a-personas-mayores">
+			<information-category>Comience aquí</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Merck &amp; Co., Inc.</organization>
+		</site>
+		<site title="Maltrato y abuso de las personas mayores" url="https://www.nia.nih.gov/espanol/abuso/maltrato-abuso-personas-mayores" language-mapped-url="https://www.nia.nih.gov/health/elder-abuse">
+			<information-category>Comience aquí</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Instituto Nacional sobre el Envejecimiento</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="Prevención y respuesta al maltrato a los ancianos" url="https://www.merckmanuals.com/es-us/hogar/salud-de-las-personas-de-edad-avanzada/maltrato-a-personas-mayores/prevenci%C3%B3n-y-respuesta-al-maltrato-a-los-ancianos">
+			<information-category>Spanish/Español</information-category>
+			<information-category>Prevención y factores de riesgo</information-category>
+			<organization>Merck &amp; Co., Inc.</organization>
+		</site>
+	</health-topic>
+	<health-topic meta-desc="El abuso sexual es un tipo de abuso infantil. Incluye una amplia gama de acciones entre un niño y un adulto o joven. Aquí lo que debe saber. " title="Abuso sexual de menores" url="https://medlineplus.gov/spanish/childsexualabuse.html" id="3782" language="Spanish" date-created="07/07/2004">
+		<also-called>Abuso sexual de niños</also-called>
+		<full-summary>&lt;p&gt;El abuso sexual de menores es una forma de &lt;a href="https://medlineplus.gov/spanish/childabuse.html"&gt;maltrato al menor&lt;/a&gt;. Incluye un amplio espectro de acciones entre un niño y un adulto, o con niños mayores. Con frecuencia, aunque no siempre, implica un contacto físico. Exhibir sus órganos genitales ante un niño o presionar a un niño a tener relaciones sexuales, es abuso sexual contra el menor. Utilizar niños en pornografía también es abuso sexual contra los menores.&lt;/p&gt;
+
+&lt;p&gt;La mayoría de los abusadores conocen al niño de quien abusan. Pueden ser amistades de la familia, vecinos o cuidadores de niños. Casi una tercera parte de los abusadores tienen un parentesco con los niños. La mayoría de los abusadores son hombres. Si cree que un niño puede haber sufrido un abuso, es importante que lo denuncie.&lt;/p&gt;
+</full-summary>
+		<group url="https://medlineplus.gov/spanish/childrenandteenagers.html" id="3">Niños y adolescentes</group>
+		<group url="https://medlineplus.gov/spanish/sexualhealthissues.html" id="34">Asuntos de salud sexual</group>
+		<language-mapped-topic url="https://medlineplus.gov/childsexualabuse.html" id="3781" language="English">Child Sexual Abuse</language-mapped-topic>
+		<related-topic url="https://medlineplus.gov/spanish/childabuse.html" id="1808">Maltrato al menor</related-topic>
+		<see-reference>Chicos, Abuso sexual de</see-reference>
+		<see-reference>Niños, Abuso sexual de</see-reference>
+		<site title="Abuso sexual a los niños" url="https://www.aacap.org/AACAP/Families_and_Youth/Facts_for_Families/FFF-Spanish/El-Abuso-Sexual-a-los-Ninos-009.aspx" language-mapped-url="https://www.aacap.org/AACAP/Families_and_Youth/Facts_for_Families/FFF-Guide/Child-Sexual-Abuse-009.aspx">
+			<information-category>Comience aquí</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Academia Estadounidense de Psiquiatría del Niño y del Adolescente</organization>
+		</site>
+		<site title="Ayudando a sanarse a sí misma: Mujeres en recuperación del abuso infantil" url="https://store.samhsa.gov/sites/default/files/sma12-4133.pdf" language-mapped-url="https://store.samhsa.gov/sites/default/files/sma12-4132.pdf">
+			<information-category>Spanish/Español</information-category>
+			<information-category>Mujeres</information-category>
+			<organization>Administración de Servicios de la Salud Mental y Abuso de Sustancias</organization>
+			<standard-description>PDF</standard-description>
+		</site>
+		<site title="Cuidando a los niños: Lo que los padres necesitan saber sobre el abuso sexual infantil" url="https://www.nctsn.org/sites/default/files/resources//caring_for_kids_what_parents_need_know_about_sexual_abuse_sp.pdf">
+			<information-category>Comience aquí</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Red Nacional para el Estrés Traumático Infantil</organization>
+			<standard-description>PDF</standard-description>
+		</site>
+		<site title="Cómo prevenir el identificar el abuso sexual infantil: Qué deben saber los padres" url="https://www.healthychildren.org/spanish/safety-prevention/at-home/paginas/sexual-abuse.aspx" language-mapped-url="https://www.healthychildren.org/English/safety-prevention/at-home/Pages/Sexual-Abuse.aspx">
+			<information-category>Comience aquí</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Academia Americana de Pediatría</organization>
+		</site>
+		<site title="Entendamos el estrés traumático infantil" url="https://www.nctsn.org/sites/default/files/resources//understanding_child_traumatic_stress_sp.pdf" language-mapped-url="http://www.nctsnet.org/resources/audiences/parents-caregivers/what-is-cts">
+			<information-category>Spanish/Español</information-category>
+			<information-category>Asuntos relacionados</information-category>
+			<organization>Red Nacional para el Estrés Traumático Infantil</organization>
+			<standard-description>PDF</standard-description>
+		</site>
+		<site title="Podemos prevenir la adversidad en la niñez" url="https://vetoviolence.cdc.gov/apps/aces-infographic/es/">
+			<information-category>Spanish/Español</information-category>
+			<information-category>Prevención y factores de riesgo</information-category>
+			<organization>Centros para el Control y la Prevención de Enfermedades</organization>
+			<standard-description>Infografía</standard-description>
+		</site>
+		<site title="Qué se debe saber respecto al abuso sexual en niños" url="https://medlineplus.gov/spanish/ency/patientinstructions/000771.htm" language-mapped-url="https://medlineplus.gov/ency/patientinstructions/000771.htm">
+			<information-category>Comience aquí</information-category>
+			<information-category>Spanish/Español</information-category>
+			<information-category>NON-DISPLAY (Patient Handout)</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Respondiendo al abuso sexual a los niños" url="https://www.aacap.org/AACAP/Families_and_Youth/Facts_for_Families/FFF-Spanish/Respondiendo-al-Abuso-Sexual-a-los-Ni%C3%B1os-y-Adolescentes-028.aspx" language-mapped-url="https://www.aacap.org/AACAP/AACAP/Families_and_Youth/Facts_for_Families/Facts_for_Families_Pages/Responding_To_Child_Sexual_Abuse_28.aspx">
+			<information-category>Spanish/Español</information-category>
+			<information-category>Asuntos relacionados</information-category>
+			<organization>Academia Estadounidense de Psiquiatría del Niño y del Adolescente</organization>
+		</site>
+		<site title="Signos de abuso sexual en la infancia" url="https://es.familydoctor.org/los-signos-de-abuso-sexual-en-la-infancia/?adfree=true" language-mapped-url="https://familydoctor.org/signs-childhood-sexual-abuse/?adfree=true">
+			<information-category>Asuntos específicos</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Academia Americana de Médicos de Familia</organization>
+		</site>
+	</health-topic>
+	<health-topic meta-desc="Un accidente cerebrovascular ocurre cuando se bloquea el flujo de sangre al cerebro. Es una emergencia médica. Una acción rápida puede salvar una vida y ayudar con la rehabilitación y la recuperación" title="Accidente cerebrovascular" url="https://medlineplus.gov/spanish/stroke.html" id="2176" language="Spanish" date-created="07/21/2002">
+		<also-called>ACV</also-called>
+		<also-called>Accidente cerebral</also-called>
+		<also-called>Apoplejía</also-called>
+		<also-called>Ataque cerebral</also-called>
+		<also-called>Derrame cerebral</also-called>
+		<also-called>Infarto cerebral</also-called>
+		<full-summary>&lt;h3&gt;¿Qué es un accidente cerebrovascular?&lt;/h3&gt;
+
+&lt;p&gt;Un accidente cerebrovascular o ataque cerebral sucede cuando se detiene el flujo sanguíneo a parte del cerebro. Al no poder recibir el oxígeno y nutrientes que necesitan, las células cerebrales comienzan a morir en minutos. Esto puede causar un daño severo al cerebro, discapacidad permanente e incluso la muerte.&lt;/p&gt;
+
+&lt;p&gt;Si piensa que usted o alguien está sufriendo un ataque cerebral, llame al 911 de inmediato. El tratamiento oportuno puede salvar una vida y aumentar la posibilidad de una rehabilitación y recuperación exitosa. &lt;/p&gt;
+
+&lt;h3&gt;¿Cuáles son los tipos de accidentes cerebrovasculares?&lt;/h3&gt;
+
+&lt;p&gt;Hay dos tipos de ataques cerebrales:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;El &lt;a href="https://medlineplus.gov/spanish/ischemicstroke.html"&gt;accidente cerebrovascular isquémico&lt;/a&gt; es causado por un &lt;a href="https://medlineplus.gov/spanish/bloodclots.html"&gt;coágulo de sangre&lt;/a&gt; que bloquea o tapa un vaso sanguíneo en el cerebro. Es el tipo más común, un 80% de los ataques cerebrales son isquémicos&lt;/li&gt;
+  &lt;li&gt;El &lt;a href="https://medlineplus.gov/spanish/hemorrhagicstroke.html"&gt;accidente cerebrovascular hemorrágico&lt;/a&gt; es causado por un vaso sanguíneo que se rompe y sangra en el cerebro&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Otra afección similar a un ataque cerebral es el &lt;a href="https://medlineplus.gov/spanish/transientischemicattack.html"&gt;ataque isquémico transitorio&lt;/a&gt;. A veces, se le llama "mini derrame". Sucede cuando la irrigación sanguínea al cerebro es bloqueada por poco tiempo. Si bien el daño a las células cerebrales no es permanente, lo coloca en mayor riesgo de sufrir un accidente cerebrovascular.&lt;/p&gt;
+
+&lt;h3&gt;¿Quién está en riesgo de tener un accidente cerebrovascular?&lt;/h3&gt;
+
+&lt;p&gt;Algunos factores aumentan su riesgo de tener un accidente cerebrovascular. Los mayores factores de riesgo incluyen:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href="https://medlineplus.gov/spanish/highbloodpressure.html"&gt;Presión arterial alta&lt;/a&gt;&lt;/strong&gt;: El principal factor de riesgo de los accidentes cerebrovasculares&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href="https://medlineplus.gov/spanish/diabetes.html"&gt;Diabetes&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href="https://medlineplus.gov/spanish/heartdiseases.html"&gt;Enfermedades del corazón&lt;/a&gt;&lt;/strong&gt;: La fibrilación auricular y otras afecciones cardiacas puede provocar coágulos de sangre que conduzcan a un ataque cerebral&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://medlineplus.gov/spanish/smoking.html"&gt;Fumar&lt;/a&gt;&lt;/strong&gt;: El tabaquismo daña sus vasos sanguíneos y aumenta su presión arterial&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Historia clínica o familiar de accidente cerebrovascular o ataque isquémico transitorio&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Edad&lt;/strong&gt;: Su riesgo aumenta a medida que envejece&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raza y etnicidad&lt;/strong&gt;: Los afroamericanos tienen un riesgo mayor de ataques cerebrales&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Otros factores de riesgo relacionados incluyen:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Uso de alcohol y drogas ilegales&lt;/li&gt;
+  &lt;li&gt;No hacer suficiente ejercicio&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://medlineplus.gov/spanish/cholesterol.html"&gt;Colesterol alto&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Dieta poco saludable&lt;/li&gt;
+  &lt;li&gt;Tener &lt;a href="https://medlineplus.gov/spanish/obesity.html"&gt;obesidad&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;¿Cuáles son los síntomas de un accidente cerebrovascular?&lt;/h3&gt;
+
+&lt;p&gt;Los síntomas del accidente cerebrovascular ocurren a menudo rápidamente. Estos incluyen:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Entumecimiento o debilidad repentina de la cara, brazo o la pierna (especialmente a un lado del cuerpo)&lt;/li&gt;
+  &lt;li&gt;Confusión repentina, dificultad para hablar o para entender el habla&lt;/li&gt;
+  &lt;li&gt;Problemas repentinos para ver con uno o ambos ojos&lt;/li&gt;
+&lt;li&gt;Dificultad repentina para caminar, mareos, pérdida del equilibrio o coordinación&lt;/li&gt;
+  &lt;li&gt;Dolor de cabeza severo y repentino sin causa conocida&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;Si cree que usted o alguien más está sufriendo un ataque cerebral, llame al 911 de inmediato.&lt;/p&gt;
+
+&lt;h3&gt;¿Cómo se diagnostican los accidentes cerebrovasculares?&lt;/h3&gt;
+
+&lt;p&gt;Para hacer un diagnóstico, su profesional de la salud puede:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Preguntar por sus síntomas e historia clínica&lt;/li&gt;
+&lt;li&gt;Hacer un examen físico, incluyendo una revisión de:&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Su estado de alerta mental&lt;/li&gt;
+  &lt;li&gt;Su coordinación y equilibrio&lt;/li&gt;
+  &lt;li&gt;Cualquier entumecimiento o debilidad en su cara, brazos y piernas&lt;/li&gt;
+&lt;li&gt;Cualquier problema para hablar y ver en forma clara&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Pedir algunas pruebas, que pueden incluir:&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Imágenes del cerebro: Como una &lt;a href="https://medlineplus.gov/spanish/ctscans.html"&gt;tomografía computarizada&lt;/a&gt; o una &lt;a href="https://medlineplus.gov/spanish/mriscans.html"&gt;resonancia magnética&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://medlineplus.gov/spanish/hearthealthtests.html"&gt;Pruebas del corazón&lt;/a&gt;: Pueden ayudar a detectar problemas cardíacos o coágulos de sangre que pueden haber conducido a un ataque cerebral. Pueden incluir un  &lt;a href="https://medlineplus.gov/spanish/pruebas-de-laboratorio/electrocardiograma/"&gt;electrocardiograma&lt;/a&gt; y una ecocardiografía&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;¿Cuáles son los tratamientos de un accidente cerebrovascular?&lt;/h3&gt;
+
+&lt;p&gt;Los tratamientos para el accidente cerebrovascular incluyen medicamentos, cirugía y rehabilitación. Los tratamientos que reciba dependen del tipo de accidente cerebrovascular y de la etapa del tratamiento. Las diferentes etapas son:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Tratamiento de emergencia&lt;/strong&gt;: Trata de detener un accidente cerebrovascular mientras está ocurriendo&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Rehabilitación después del accidente cerebrovascular&lt;/strong&gt;: Busca superar las discapacidades causadas por el accidente cerebrovascular&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Prevención&lt;/strong&gt;: Busca prevenir un primer derrame cerebral o, si ya lo ha tenido, prevenir que ocurra otro
+&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;Los tratamientos de emergencia para el accidente cerebrovascular isquémico suelen utilizar medicamentos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Puede recibir t-PA, (activador tisular del plasminógeno), un medicamento para disolver el coágulo de sangre. Solo puede obtener este medicamento dentro de las 4 horas posteriores al inicio de los síntomas. Cuanto antes pueda tomarlo, mayores serán sus posibilidades de recuperación&lt;/li&gt;
+  &lt;li&gt;Si no puede tomar ese medicamento, puede obtener otro que ayude a evitar que las plaquetas se agrupen para formar coágulos de sangre. O puede recibir un &lt;a href="https://medlineplus.gov/spanish/bloodthinners.html"&gt;anticoagulante&lt;/a&gt; para evitar que los coágulos existentes crezcan&lt;/li&gt;
+  &lt;li&gt;Si tiene enfermedad de la arteria carótida, es posible que también necesite un procedimiento para abrir la arteria carótida bloqueada&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;Los tratamientos de emergencia para el accidente cerebrovascular hemorrágico se centran en detener el sangrado. El primer paso es encontrar la causa del sangrado en el cerebro. El siguiente paso es controlarlo:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Si la presión arterial alta es la causa del sangrado, es posible que le administren &lt;a href="https://medlineplus.gov/spanish/bloodpressuremedicines.html"&gt;medicinas para la presión arterial&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Si un &lt;a href="https://medlineplus.gov/spanish/aneurysms.html"&gt;aneurisma&lt;/a&gt; es la causa, es posible que necesite un clipaje (colocación de grapas) del aneurisma o una embolización con espiral. Estas cirugías sirven para prevenir una mayor filtración de sangre del aneurisma. También puede ayudar a prevenir que el aneurisma vuelva a romperse&lt;/li&gt;
+  &lt;li&gt;Si una &lt;a href="https://medlineplus.gov/spanish/arteriovenousmalformations.html"&gt;malformación arteriovenosa&lt;/a&gt; es la causa de un accidente cerebrovascular, es posible que necesite repararla. Una malformación arteriovenosa es una maraña de arterias y venas defectuosas que pueden romperse dentro del cerebro. Una reparación de malformaciones arteriovenosas puede consistir en:&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Cirugía&lt;/li&gt;
+  &lt;li&gt;Inyectar una sustancia en los vasos sanguíneos de la malformación para bloquear el flujo sanguíneo&lt;/li&gt;
+  &lt;li&gt;Radiación para encoger los vasos sanguíneos de la malformación&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;La &lt;a href="https://medlineplus.gov/spanish/strokerehabilitation.html"&gt;rehabilitación posterior al ataque cerebral&lt;/a&gt; puede ayudarle a volver a aprender las habilidades que perdió por los daños causados. El objetivo es tratar de volver a ser lo más independiente posible y tener una mejor calidad de vida.&lt;/p&gt;
+
+&lt;p&gt;La prevención de un nuevo accidente cerebrovascular también es importante, ya que tener uno aumenta el riesgo de sufrir otro. La prevención puede incluir cambios en el estilo de vida saludables para el corazón y medicamentos.&lt;/p&gt;
+
+&lt;h3&gt;¿Se pueden prevenir los accidentes cerebrovasculares?&lt;/h3&gt;
+
+&lt;p&gt;Si ya ha tenido un accidente cerebrovascular o está en riesgo de tener uno y quiere prevenirlo en el futuro, puede hacer algunos cambios saludables en su estilo de vida al:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Comer una dieta saludable para el corazón&lt;/li&gt;
+&lt;li&gt;Lograr un peso saludable&lt;/li&gt;
+&lt;li&gt;Manejar el &lt;a href="https://medlineplus.gov/spanish/stress.html"&gt;estrés&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Hacer &lt;a href="https://medlineplus.gov/spanish/howmuchexercisedoineed.html"&gt;actividad física regular&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://medlineplus.gov/spanish/quittingsmoking.html"&gt;Dejar de fumar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Controlar su &lt;a href="https://medlineplus.gov/spanish/howtopreventhighbloodpressure.html"&gt;presión arterial alta&lt;/a&gt; y los niveles de &lt;a href="https://medlineplus.gov/spanish/howtolowercholesterol.html"&gt;colesterol&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Si estos cambios no son suficientes, es posible que necesite medicamentos para controlar sus factores de riesgo.&lt;/p&gt;
+
+&lt;p class=""&gt;NIH: Instituto Nacional de Trastornos Neurológicos y Accidentes Cerebrovasculares&lt;/p&gt;</full-summary>
+		<group url="https://medlineplus.gov/spanish/olderadults.html" id="6">Personas mayores</group>
+		<group url="https://medlineplus.gov/spanish/bloodheartandcirculation.html" id="7">Sangre, corazón y circulación</group>
+		<group url="https://medlineplus.gov/spanish/brainandnerves.html" id="14">Cerebro y nervios</group>
+		<language-mapped-topic url="https://medlineplus.gov/stroke.html" id="8" language="English">Stroke</language-mapped-topic>
+		<primary-institute url="https://medlineplus.gov/spanish/nihinstitutes.html#NINDS">Instituto Nacional de Trastornos Neurológicos y Accidentes Cerebrovasculares</primary-institute>
+		<related-topic url="https://medlineplus.gov/spanish/hemorrhagicstroke.html" id="6264">Accidente cerebrovascular hemorrágico</related-topic>
+		<related-topic url="https://medlineplus.gov/spanish/ischemicstroke.html" id="6249">Accidente cerebrovascular isquémico</related-topic>
+		<related-topic url="https://medlineplus.gov/spanish/aphasia.html" id="1753">Afasia</related-topic>
+		<related-topic url="https://medlineplus.gov/spanish/transientischemicattack.html" id="2203">Ataque isquémico transitorio</related-topic>
+		<related-topic url="https://medlineplus.gov/spanish/atherosclerosis.html" id="5401">Ateroesclerosis</related-topic>
+		<related-topic url="https://medlineplus.gov/spanish/strokerehabilitation.html" id="5915">Recuperación de un ataque cerebral</related-topic>
+		<see-reference>ACV</see-reference>
+		<see-reference>Apoplejía</see-reference>
+		<see-reference>Cerebrovascular, Enfermedad</see-reference>
+		<see-reference>Derrame cerebral</see-reference>
+		<see-reference>Embolia</see-reference>
+		<see-reference>Endarterectomía carotídia</see-reference>
+		<see-reference>Enfermedad cerebrovascular</see-reference>
+		<site title="Accidente cerebrovascular" url="https://espanol.nichd.nih.gov/salud/temas/stroke/informacion" language-mapped-url="https://www.nichd.nih.gov/health/topics/stroke">
+			<information-category>Comience aquí</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Instituto Nacional de Salud Infantil y Desarrollo Humano</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="Accidente cerebrovascular" url="https://medlineplus.gov/spanish/ency/article/000726.htm" language-mapped-url="https://medlineplus.gov/ency/article/000726.htm">
+			<information-category>Comience aquí</information-category>
+			<information-category>Spanish/Español</information-category>
+			<information-category>NON-DISPLAY (Patient Handout)</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Accidente cerebrovascular" url="https://espanol.womenshealth.gov/heart-disease-and-stroke/stroke" language-mapped-url="https://www.womenshealth.gov/heart-disease-and-stroke/stroke">
+			<information-category>Mujeres</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Oficina para la Salud de la Mujer en el Departamento de Salud y Servicios Humanos de los EE. UU</organization>
+		</site>
+		<site title="Accidente cerebrovascular" url="https://medlineplus.gov/spanish/ency/anatomyvideos/000123.htm" language-mapped-url="https://medlineplus.gov/ency/anatomyvideos/000123.htm">
+			<information-category>Interactivos y videos</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Enciclopedia Médica</organization>
+			<standard-description>Video</standard-description>
+		</site>
+		<site title="Accidente cerebrovascular" url="https://medlineplus.gov/spanish/ency/esp_presentations/100218_1.htm" language-mapped-url="https://medlineplus.gov/ency/presentations/100218_1.htm">
+			<information-category>Spanish/Español</information-category>
+			<information-category>Imágenes</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Accidente cerebrovascular hemorrágico: Tema de salud de MedlinePlus" url="https://medlineplus.gov/spanish/hemorrhagicstroke.html" language-mapped-url="https://medlineplus.gov/hemorrhagicstroke.html">
+			<information-category>Asuntos específicos</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Biblioteca Nacional de Medicina</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="Accidente cerebrovascular isquémico: Tema de salud de MedlinePlus" url="https://medlineplus.gov/spanish/ischemicstroke.html" language-mapped-url="https://medlineplus.gov/ischemicstroke.html">
+			<information-category>Asuntos específicos</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Biblioteca Nacional de Medicina</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="Accidente cerebrovascular: Esperanza en la investigación" url="https://espanol.ninds.nih.gov/es/trastornos/forma-larga/accidente-cerebrovascular-esperanza-en-la-investigacion" language-mapped-url="https://www.ninds.nih.gov/health-information/patient-caregiver-education/hope-through-research/stroke-hope-through-research">
+			<information-category>Comience aquí</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Instituto Nacional de Trastornos Neurológicos y Accidentes Cerebrovasculares</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="Accidente cerebrovascular: Primeros auxilios" url="https://www.mayoclinic.org/es/first-aid/first-aid-stroke/basics/art-20056602?p=1" language-mapped-url="https://www.mayoclinic.org/first-aid/first-aid-stroke/basics/ART-20056602?p=1">
+			<information-category>Spanish/Español</information-category>
+			<information-category>Tratamientos y terapias</information-category>
+			<organization>Fundación Mayo para la Educación y la Investigación Médica</organization>
+		</site>
+		<site title="Accidentes cerebrovasculares" url="https://espanol.ninds.nih.gov/es/trastornos/accidentes-cerebrovasculares" language-mapped-url="https://www.ninds.nih.gov/health-information/stroke/stroke-overview">
+			<information-category>Comience aquí</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Instituto Nacional de Trastornos Neurológicos y Accidentes Cerebrovasculares</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="Alta tras accidente cerebrovascular" url="https://medlineplus.gov/spanish/ency/patientinstructions/000132.htm" language-mapped-url="https://medlineplus.gov/ency/patientinstructions/000132.htm">
+			<information-category>Viviendo con...</information-category>
+			<information-category>Spanish/Español</information-category>
+			<information-category>NON-DISPLAY (Patient Handout)</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Alta tras cirugía del cerebro" url="https://medlineplus.gov/spanish/ency/patientinstructions/000124.htm" language-mapped-url="https://medlineplus.gov/ency/patientinstructions/000124.htm">
+			<information-category>Viviendo con...</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Angiografía por catéter" url="https://www.radiologyinfo.org/es/info/angiocath" language-mapped-url="https://www.radiologyinfo.org/en/info/angiocath">
+			<information-category>Diagnóstico y exámenes</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Colegio Americano de Radiología</organization>
+			<organization>Sociedad de Radiología de Norteamérica</organization>
+		</site>
+		<site title="Angiografía por resonancia magnética" url="https://medlineplus.gov/spanish/ency/article/007269.htm" language-mapped-url="https://medlineplus.gov/ency/article/007269.htm">
+			<information-category>Diagnóstico y exámenes</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Análisis de sangre de lipoproteína (a)" url="https://medlineplus.gov/spanish/pruebas-de-laboratorio/analisis-de-sangre-de-lipoproteina-a/" language-mapped-url="https://medlineplus.gov/lab-tests/lipoprotein-a-blood-test/">
+			<information-category>Diagnóstico y exámenes</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Biblioteca Nacional de Medicina</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="Cambios en la función del cuerpo (después de un derrame cerebral)" url="https://www.cidrr8.research.va.gov/rescue-espanol/physical-needs/changes-in-body-function.cfm">
+			<information-category>Viviendo con...</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Departamento de Asuntos de los Veteranos</organization>
+			<standard-description>Fácil de leer</standard-description>
+		</site>
+		<site title="Cirugía del cerebro" url="https://medlineplus.gov/spanish/ency/article/003018.htm" language-mapped-url="https://medlineplus.gov/ency/article/003018.htm">
+			<information-category>Spanish/Español</information-category>
+			<information-category>Tratamientos y terapias</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Cirugía puede ayudar a más personas después del accidente cerebrovascular" url="https://salud.nih.gov/recursos-de-salud/nih-noticias-de-salud/la-cirugia-puede-ayudar-a-mas-personas-despues-del">
+			<information-category>Spanish/Español</information-category>
+			<information-category>Estadísticas e investigación</information-category>
+			<organization>Institutos Nacionales de la Salud</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="Complicaciones después de sufrir un ataque o derrame cerebral" url="https://www.stroke.org/-/media/Stroke-Files/Spanish-Resources/Hablemos-sobre-complicaciones-despus-de-sufrir-un-ataque-cerebral.pdf">
+			<information-category>Viviendo con...</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Asociación Americana del Corazón</organization>
+			<standard-description>PDF</standard-description>
+			<standard-description>Fácil de leer</standard-description>
+		</site>
+		<site title="Craneotomía" url="https://medlineplus.gov/spanish/ency/esp_presentations/100048_1.htm" language-mapped-url="https://medlineplus.gov/ency/presentations/100048_1.htm">
+			<information-category>Spanish/Español</information-category>
+			<information-category>Imágenes</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Derrame cerebral" url="https://www.cidrr8.research.va.gov/rescue-espanol/stroke-information/about-stroke.cfm">
+			<information-category>Comience aquí</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Departamento de Asuntos de los Veteranos</organization>
+			<standard-description>Fácil de leer</standard-description>
+		</site>
+		<site title="Derrame cerebral: Secundario a la embolia cardiogénica" url="https://medlineplus.gov/spanish/ency/anatomyvideos/000124.htm" language-mapped-url="https://medlineplus.gov/ency/anatomyvideos/000124.htm">
+			<information-category>Interactivos y videos</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Enciclopedia Médica</organization>
+			<standard-description>Video</standard-description>
+		</site>
+		<site title="Diagnóstico de accidente cerebrovascular" url="https://www.texasheart.org/heart-health/heart-information-center/topics/diagnostico-del-accidente-cerebrovascular/">
+			<information-category>Diagnóstico y exámenes</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Instituto del Corazón de Texas</organization>
+		</site>
+		<site title="Electroencefalograma" url="https://medlineplus.gov/spanish/ency/article/003931.htm" language-mapped-url="https://medlineplus.gov/ency/article/003931.htm">
+			<information-category>Diagnóstico y exámenes</information-category>
+			<information-category>Spanish/Español</information-category>
+			<information-category>NON-DISPLAY (Patient Handout)</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Examen de deshidrogenasa láctica" url="https://medlineplus.gov/spanish/ency/article/003471.htm" language-mapped-url="https://medlineplus.gov/ency/article/003471.htm">
+			<information-category>Diagnóstico y exámenes</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Factores de riesgo de accidente cerebrovascular" url="https://medlineplus.gov/spanish/ency/patientinstructions/000341.htm" language-mapped-url="https://medlineplus.gov/ency/patientinstructions/000341.htm">
+			<information-category>Prevención y factores de riesgo</information-category>
+			<information-category>Spanish/Español</information-category>
+			<information-category>NON-DISPLAY (Patient Handout)</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Hablemos sobre de ataque cerebral, AIT y señales de aviso" url="https://www.stroke.org/-/media/stroke-files/spanish-resources/ltas-stroke-tia-and-warning-signs.pdf">
+			<information-category>Comience aquí</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Asociación Americana del Corazón</organization>
+			<standard-description>PDF</standard-description>
+		</site>
+		<site title="Hablemos sobre el diagnóstico del ataque cerebral" url="https://www.stroke.org/-/media/stroke-files/spanish-resources/ltas-stroke-diagnosis.pdf">
+			<information-category>Diagnóstico y exámenes</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Asociación Americana del Corazón</organization>
+			<standard-description>PDF</standard-description>
+		</site>
+		<site title="Hernia cerebral" url="https://medlineplus.gov/spanish/ency/article/001421.htm" language-mapped-url="https://medlineplus.gov/ency/article/001421.htm">
+			<information-category>Spanish/Español</information-category>
+			<information-category>Asuntos relacionados</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Influenza (gripe) y las personas con enfermedades cardiacas o antecedentes de accidentes cerebrovasculares" url="https://espanol.cdc.gov/flu/highrisk/heartdisease.htm" language-mapped-url="https://www.cdc.gov/flu/highrisk/heartdisease.htm">
+			<information-category>Spanish/Español</information-category>
+			<information-category>Asuntos relacionados</information-category>
+			<organization>Centros para el Control y la Prevención de Enfermedades</organization>
+		</site>
+		<site title="Instituto Nacional de Trastornos Neurológicos y Accidentes Cerebrovasculares" url="https://espanol.ninds.nih.gov/es" language-mapped-url="https://www.ninds.nih.gov/">
+			<information-category>Spanish/Español</information-category>
+			<information-category>Especialistas</information-category>
+			<organization>Instituto Nacional de Trastornos Neurológicos y Accidentes Cerebrovasculares</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="Isoenzimas de la DHL prueba de sangre" url="https://medlineplus.gov/spanish/ency/article/003499.htm" language-mapped-url="https://medlineplus.gov/ency/article/003499.htm">
+			<information-category>Diagnóstico y exámenes</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Lidiando con los cambios emocionales después de un derrame cerebral" url="https://www.cidrr8.research.va.gov/rescue-espanol/emotional-needs/emotional-changes.cfm">
+			<information-category>Viviendo con...</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Departamento de Asuntos de los Veteranos</organization>
+			<standard-description>Fácil de leer</standard-description>
+		</site>
+		<site title="Lipoproteína-A" url="https://medlineplus.gov/spanish/ency/article/007262.htm" language-mapped-url="https://medlineplus.gov/ency/article/007262.htm">
+			<information-category>Diagnóstico y exámenes</information-category>
+			<information-category>Spanish/Español</information-category>
+			<information-category>NON-DISPLAY (Patient Handout)</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Modificaciones en el hogar para hacerlo más seguro (después de un derrame cerebral)" url="https://www.cidrr8.research.va.gov/rescue-espanol/independent-living/home-modification.cfm">
+			<information-category>Viviendo con...</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Departamento de Asuntos de los Veteranos</organization>
+			<standard-description>Fácil de leer</standard-description>
+		</site>
+		<site title="Perfusión por TAC de la cabeza" url="https://www.radiologyinfo.org/es/info/perfusionheadct" language-mapped-url="https://www.radiologyinfo.org/en/info/perfusionheadct">
+			<information-category>Diagnóstico y exámenes</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Colegio Americano de Radiología</organization>
+		</site>
+		<site title="Prevención de los accidentes cerebrovasculares" url="https://www.cdc.gov/stroke/es/prevention/prevencion-de-los-accidentes-cerebrovasculares.html" language-mapped-url="https://www.cdc.gov/stroke/prevention/">
+			<information-category>Spanish/Español</information-category>
+			<information-category>Prevención y factores de riesgo</information-category>
+			<organization>Centros para el Control y la Prevención de Enfermedades</organization>
+		</site>
+		<site title="Prevención de un accidente cerebrovascular" url="https://medlineplus.gov/spanish/ency/patientinstructions/000678.htm" language-mapped-url="https://medlineplus.gov/ency/patientinstructions/000678.htm">
+			<information-category>Prevención y factores de riesgo</information-category>
+			<information-category>Spanish/Español</information-category>
+			<information-category>NON-DISPLAY (Patient Handout)</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Problemas del habla y la comunicación (después de un derrame cerebral)" url="https://www.cidrr8.research.va.gov/rescue-espanol/physical-needs/speech-and-communication.cfm">
+			<information-category>Viviendo con...</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Departamento de Asuntos de los Veteranos</organization>
+			<standard-description>Fácil de leer</standard-description>
+		</site>
+		<site title="Problemas para tragar" url="https://medlineplus.gov/spanish/ency/patientinstructions/000065.htm" language-mapped-url="https://medlineplus.gov/ency/patientinstructions/000065.htm">
+			<information-category>Spanish/Español</information-category>
+			<information-category>Asuntos relacionados</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Resonancia magnética de la cabeza" url="https://medlineplus.gov/spanish/ency/article/003791.htm" language-mapped-url="https://medlineplus.gov/ency/article/003791.htm">
+			<information-category>Spanish/Español</information-category>
+			<information-category>NON-DISPLAY (Patient Handout)</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Respuesta auditiva provocada del tronco encefálico (BAER)" url="https://medlineplus.gov/spanish/ency/article/003926.htm" language-mapped-url="https://medlineplus.gov/ency/article/003926.htm">
+			<information-category>Diagnóstico y exámenes</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="RMN funcional (RMNf): Cerebro" url="https://www.radiologyinfo.org/es/info/fmribrain" language-mapped-url="https://www.radiologyinfo.org/en/info/fmribrain">
+			<information-category>Diagnóstico y exámenes</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Colegio Americano de Radiología</organization>
+			<organization>Sociedad de Radiología de Norteamérica</organization>
+		</site>
+		<site title="Trastornos circulatorios vertebrobasilares" url="https://medlineplus.gov/spanish/ency/article/001423.htm" language-mapped-url="https://medlineplus.gov/ency/article/001423.htm">
+			<information-category>Asuntos específicos</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Ultrasonido de cráneo" url="https://www.radiologyinfo.org/es/info/ultrasound-cranial" language-mapped-url="https://www.radiologyinfo.org/en/info/ultrasound-cranial">
+			<information-category>Diagnóstico y exámenes</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Sociedad de Radiología de Norteamérica</organization>
+		</site>
+		<site title="Ultrasonido Doppler transcraneal" url="https://medlineplus.gov/spanish/ency/article/007759.htm" language-mapped-url="https://medlineplus.gov/ency/article/007759.htm">
+			<information-category>Diagnóstico y exámenes</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Ultrasonido vascular" url="https://www.radiologyinfo.org/es/info/vascularus" language-mapped-url="https://www.radiologyinfo.org/en/info/vascularus">
+			<information-category>Diagnóstico y exámenes</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Colegio Americano de Radiología</organization>
+			<organization>Sociedad de Radiología de Norteamérica</organization>
+		</site>
+		<site title="¿Cuáles son algunos resultados comunes de los accidentes cerebrovasculares y algunos tratamientos comunes para estos resultados?" url="https://espanol.nichd.nih.gov/salud/temas/stroke/informacion/tratamientos" language-mapped-url="https://www.nichd.nih.gov/health/topics/stroke/conditioninfo/treatment">
+			<information-category>Spanish/Español</information-category>
+			<information-category>Tratamientos y terapias</information-category>
+			<organization>Instituto Nacional de Salud Infantil y Desarrollo Humano</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="¿Cuántas personas tienen o corren riesgo de tener un accidente cerebrovascular?" url="https://espanol.nichd.nih.gov/salud/temas/stroke/informacion/riesgo">
+			<information-category>Spanish/Español</information-category>
+			<information-category>Estadísticas e investigación</information-category>
+			<organization>Instituto Nacional de Salud Infantil y Desarrollo Humano</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="¿Cómo afecta el derrame cerebral a los familiares y a los amigos?" url="https://www.cidrr8.research.va.gov/rescue-espanol/caregiver-needs/changes-in-relationships.cfm">
+			<information-category>Viviendo con...</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Departamento de Asuntos de los Veteranos</organization>
+			<standard-description>Fácil de leer</standard-description>
+		</site>
+		<site title="¿Qué es un accidente cerebrovascular?" url="https://www.nhlbi.nih.gov/es/salud/accidente-cerebrovascular" language-mapped-url="https://www.nhlbi.nih.gov/health/stroke">
+			<information-category>Comience aquí</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Instituto Nacional del Corazón, los Pulmones y la Sangre</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="¿Sabe reconocer un ataque cardíaco o un ACV? Qué hacer cuando cada minuto cuenta" url="https://salud.nih.gov/recursos-de-salud/nih-noticias-de-salud/sabe-reconocer-un-ataque-cardiaco-o-un-acv">
+			<information-category>Spanish/Español</information-category>
+			<information-category>Síntomas</information-category>
+			<organization>Institutos Nacionales de la Salud</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+	</health-topic>
+	<health-topic meta-desc="Un ataque cerebral hemorrágico ocurre cuando un vaso sanguíneo se rompe y sangra en el cerebro. Entérese sobre síntomas, diagnóstico y tratamientos " title="Accidente cerebrovascular hemorrágico" url="https://medlineplus.gov/spanish/hemorrhagicstroke.html" id="6264" language="Spanish" date-created="08/26/2015">
+		<also-called>Accidente cerebral hemorrágico</also-called>
+		<also-called>Ataque cerebral hemorrágico</also-called>
+		<also-called>Derrame cerebral hemorrágico</also-called>
+		<full-summary>&lt;p&gt;Un &lt;a href="https://medlineplus.gov/spanish/stroke.html"&gt;ataque cerebral&lt;/a&gt; (también llamado apoplejía) es una emergencia médica. Hay dos tipos: &lt;a href="https://medlineplus.gov/spanish/ischemicstroke.html"&gt;isquémico&lt;/a&gt; y hemorrágico. El accidente cerebral hemorrágico es el tipo menos común. Ocurre cuando un vaso sanguíneo se rompe y sangra dentro del cerebro. En cuestión de minutos, las células del cerebro comienzan a morir. Las causas incluyen un &lt;a href="https://medlineplus.gov/spanish/aneurysms.html"&gt;aneurisma&lt;/a&gt; hemorrágico, una &lt;a href="https://medlineplus.gov/spanish/arteriovenousmalformations.html"&gt;malformación arteriovenosa&lt;/a&gt; o la rotura de una pared arterial.&lt;/p&gt;
+
+&lt;p&gt;Los síntomas de un derrame cerebral son:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Entumecimiento o debilidad repentina de la cara, brazo o pierna (especialmente en un lado del cuerpo)&lt;/li&gt;
+&lt;li&gt;Confusión repentina, dificultad para hablar o entender el lenguaje&lt;/li&gt;
+&lt;li&gt;Dificultad repentina para ver con uno o ambos ojos&lt;/li&gt;
+&lt;li&gt;Problemas para caminar repentina, mareos, pérdida de equilibrio o coordinación&lt;/li&gt;
+&lt;li&gt;Dolor de cabeza severo repentino sin causa conocida&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Es importante tratar los ataques cerebrales lo más rápido posible. En un accidente cerebrovascular hemorrágico, los primeros pasos consisten en encontrar la causa del sangrado en el cerebro y luego controlarlo. Se puede necesitar cirugía. La &lt;a href="https://medlineplus.gov/spanish/strokerehabilitation.html"&gt;rehabilitación  tras un accidente cerebrovascular&lt;/a&gt; puede ayudar a las personas a superar las discapacidades causadas por la apoplejía.&lt;/p&gt;
+
+
+&lt;p class=""&gt;NIH: Instituto Nacional de Trastornos Neurológicos y Accidentes Cerebrovasculares&lt;/p&gt;</full-summary>
+		<group url="https://medlineplus.gov/spanish/bloodheartandcirculation.html" id="7">Sangre, corazón y circulación</group>
+		<group url="https://medlineplus.gov/spanish/brainandnerves.html" id="14">Cerebro y nervios</group>
+		<language-mapped-topic url="https://medlineplus.gov/hemorrhagicstroke.html" id="6263" language="English">Hemorrhagic Stroke</language-mapped-topic>
+		<primary-institute url="https://medlineplus.gov/spanish/nihinstitutes.html#NINDS">Instituto Nacional de Trastornos Neurológicos y Accidentes Cerebrovasculares</primary-institute>
+		<site title="Alta tras accidente cerebrovascular" url="https://medlineplus.gov/spanish/ency/patientinstructions/000132.htm" language-mapped-url="https://medlineplus.gov/ency/patientinstructions/000132.htm">
+			<information-category>Más información</information-category>
+			<information-category>Spanish/Español</information-category>
+			<information-category>NON-DISPLAY (Patient Handout)</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Angiopatía amiloide cerebral" url="https://medlineplus.gov/spanish/ency/article/000719.htm" language-mapped-url="https://medlineplus.gov/ency/article/000719.htm">
+			<information-category>Más información</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Hablemos sobre el ataque hemorrágico al cerebro" url="https://www.stroke.org/-/media/Stroke-Files/Spanish-Resources/El-Ataque-Hemorragico-Al-Cerebro.pdf" language-mapped-url="https://www.stroke.org/en/about-stroke/types-of-stroke/hemorrhagic-strokes-bleeds">
+			<information-category>Más información</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Asociación Americana del Corazón</organization>
+			<standard-description>PDF</standard-description>
+		</site>
+		<site title="Hemorragia subaracnoidea" url="https://medlineplus.gov/spanish/ency/article/000701.htm" language-mapped-url="https://medlineplus.gov/ency/article/000701.htm">
+			<information-category>Más información</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Prevención de los accidentes cerebrovasculares" url="https://www.cdc.gov/stroke/es/prevention/prevencion-de-los-accidentes-cerebrovasculares.html" language-mapped-url="https://www.cdc.gov/stroke/prevention/">
+			<information-category>Spanish/Español</information-category>
+			<information-category>Prevención y factores de riesgo</information-category>
+			<organization>Centros para el Control y la Prevención de Enfermedades</organization>
+		</site>
+		<site title="Prevención de un accidente cerebrovascular" url="https://medlineplus.gov/spanish/ency/patientinstructions/000678.htm" language-mapped-url="https://medlineplus.gov/ency/patientinstructions/000678.htm">
+			<information-category>Más información</information-category>
+			<information-category>Spanish/Español</information-category>
+			<information-category>NON-DISPLAY (Patient Handout)</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+	</health-topic>
+	<health-topic meta-desc="Un ataque cerebral isquémico ocurre por un coágulo que bloquea o tapa un vaso sanguíneo en el cerebro. Entérese sobre síntomas, diagnóstico y tratamiento. " title="Accidente cerebrovascular isquémico" url="https://medlineplus.gov/spanish/ischemicstroke.html" id="6249" language="Spanish" date-created="08/26/2015">
+		<also-called>Accidente cerebral isquémico</also-called>
+		<also-called>Ataque isquémico</also-called>
+		<also-called>Ictus isquémico</also-called>
+		<also-called>Infarto cerebral isquémico</also-called>
+		<full-summary>&lt;p&gt;Un &lt;a href="https://medlineplus.gov/spanish/stroke.html"&gt;ataque cerebral&lt;/a&gt; es una emergencia médica. Hay dos tipos: Isquémico y &lt;a href="https://medlineplus.gov/spanish/hemorrhagicstroke.html"&gt;hemorrágico&lt;/a&gt;. El ataque cerebral isquémico es el tipo más común. En general, es causado por un &lt;a href="https://medlineplus.gov/spanish/bloodclots.html"&gt;coágulo sanguíneo&lt;/a&gt; que bloquea o tapa un vaso sanguíneo en el cerebro. Esto evita que la sangre fluya hacia éste órgano. En cuestión de minutos, las células del cerebro comienzan a morir. Otra causa es la estenosis o estrechamiento arterial. Esto puede suceder debido a la &lt;a href="https://medlineplus.gov/spanish/atherosclerosis.html"&gt;aterosclerosis&lt;/a&gt;, una enfermedad en la que se acumula placa en las arterias. Los &lt;a href="https://medlineplus.gov/spanish/transientischemicattack.html"&gt;ataques isquémicos transitorios&lt;/a&gt; se producen cuando la sangre no llega al cerebro por unos instantes. Tener un ataque isquémico transitorio puede significar que usted está en riesgo de sufrir un derrame cerebral más grave.&lt;/p&gt;
+
+&lt;p&gt;Los síntomas de un derrame cerebral son:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Entumecimiento o debilidad repentina de la cara, brazo o pierna (especialmente en un lado del cuerpo)&lt;/li&gt;
+&lt;li&gt;Confusión repentina, dificultad para hablar o entender el lenguaje&lt;/li&gt;
+&lt;li&gt;Dificultad repentina para ver con uno o ambos ojos&lt;/li&gt;
+&lt;li&gt;Problemas para caminar repentino, mareos, pérdida de equilibrio o coordinación&lt;/li&gt;
+&lt;li&gt;Dolor de cabeza severo repentino sin causa conocida&lt;/li&gt;
+
+&lt;/ul&gt;
+
+&lt;p&gt;Es importante tratar los ataques cerebrales lo más rápido posible. Los &lt;a href="https://medlineplus.gov/spanish/bloodthinners.html"&gt;anticoagulantes&lt;/a&gt; pueden usarse para detener un derrame cerebral mientras está ocurriendo, disolviendo en forma rápida el coágulo de sangre. La &lt;a href="https://medlineplus.gov/spanish/strokerehabilitation.html"&gt;rehabilitación  tras un accidente cerebrovascular&lt;/a&gt; puede ayudar a las personas a superar las discapacidades causadas por la apoplejía, o ataque cerebral.&lt;/p&gt;
+
+&lt;p class=""&gt;NIH: Instituto Nacional de Trastornos Neurológicos y Accidentes Cerebrovasculares &lt;/p&gt;</full-summary>
+		<group url="https://medlineplus.gov/spanish/bloodheartandcirculation.html" id="7">Sangre, corazón y circulación</group>
+		<group url="https://medlineplus.gov/spanish/brainandnerves.html" id="14">Cerebro y nervios</group>
+		<language-mapped-topic url="https://medlineplus.gov/ischemicstroke.html" id="6248" language="English">Ischemic Stroke</language-mapped-topic>
+		<primary-institute url="https://medlineplus.gov/spanish/nihinstitutes.html#NINDS">Instituto Nacional de Trastornos Neurológicos y Accidentes Cerebrovasculares</primary-institute>
+		<site title="Accidente cerebrovascular" url="https://medlineplus.gov/spanish/ency/esp_presentations/100218_1.htm" language-mapped-url="https://medlineplus.gov/ency/presentations/100218_1.htm">
+			<information-category>Más información</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Accidente cerebrovascular" url="https://medlineplus.gov/spanish/ency/anatomyvideos/000123.htm" language-mapped-url="https://medlineplus.gov/ency/anatomyvideos/000123.htm">
+			<information-category>Más información</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Enciclopedia Médica</organization>
+			<standard-description>Video</standard-description>
+		</site>
+		<site title="Alta tras accidente cerebrovascular" url="https://medlineplus.gov/spanish/ency/patientinstructions/000132.htm" language-mapped-url="https://medlineplus.gov/ency/patientinstructions/000132.htm">
+			<information-category>Más información</information-category>
+			<information-category>Spanish/Español</information-category>
+			<information-category>NON-DISPLAY (Patient Handout)</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Derrame cerebral: Secundario a la embolia cardiogénica" url="https://medlineplus.gov/spanish/ency/anatomyvideos/000124.htm" language-mapped-url="https://medlineplus.gov/ency/anatomyvideos/000124.htm">
+			<information-category>Más información</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Enciclopedia Médica</organization>
+			<standard-description>Video</standard-description>
+		</site>
+		<site title="Endarterectomía carotídea" url="https://www.texasheart.org/heart-health/heart-information-center/topics/endarterectomia-carotidea/">
+			<information-category>Más información</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Instituto del Corazón de Texas</organization>
+		</site>
+		<site title="Hablemos sobre el ataque isquémico al cerebro" url="https://www.stroke.org/-/media/stroke-files/spanish-resources/ltas-ischemic-stroke.pdf" language-mapped-url="https://www.stroke.org/-/media/stroke-files/lets-talk-about-stroke/type-of-stroke/ds15794_ltas_ischemicstroke_12_20.pdf?la=en">
+			<information-category>Más información</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Asociación Americana del Corazón</organization>
+			<standard-description>PDF</standard-description>
+		</site>
+		<site title="Imágenes por ultrasonido de la arteria carótida" url="https://www.radiologyinfo.org/es/info/us-carotid" language-mapped-url="https://www.radiologyinfo.org/en/info/us-carotid">
+			<information-category>Más información</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Colegio Americano de Radiología</organization>
+			<organization>Sociedad de Radiología de Norteamérica</organization>
+		</site>
+		<site title="Placa vulnerable" url="https://www.texasheart.org/heart-health/heart-information-center/topics/placa-vulnerable/" language-mapped-url="https://www.texasheart.org/heart-health/heart-information-center/topics/vulnerable-plaque/">
+			<information-category>Más información</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Instituto del Corazón de Texas</organization>
+		</site>
+		<site title="Prevención de los accidentes cerebrovasculares" url="https://www.cdc.gov/stroke/es/prevention/prevencion-de-los-accidentes-cerebrovasculares.html" language-mapped-url="https://www.cdc.gov/stroke/prevention/">
+			<information-category>Spanish/Español</information-category>
+			<information-category>Prevención y factores de riesgo</information-category>
+			<organization>Centros para el Control y la Prevención de Enfermedades</organization>
+		</site>
+		<site title="Prevención de un accidente cerebrovascular" url="https://medlineplus.gov/spanish/ency/patientinstructions/000678.htm" language-mapped-url="https://medlineplus.gov/ency/patientinstructions/000678.htm">
+			<information-category>Más información</information-category>
+			<information-category>Spanish/Español</information-category>
+			<information-category>NON-DISPLAY (Patient Handout)</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Terapia trombolítica" url="https://medlineplus.gov/spanish/ency/article/007089.htm" language-mapped-url="https://medlineplus.gov/ency/article/007089.htm">
+			<information-category>Más información</information-category>
+			<information-category>Spanish/Español</information-category>
+			<information-category>NON-DISPLAY (Patient Handout)</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+	</health-topic>
+	<health-topic meta-desc="¿Busca remedio para el ardor en el estómago? Entérese sobre síntomas y tratamiento de este tipo de indigestión." title="Acidez estomacal" url="https://medlineplus.gov/spanish/heartburn.html" id="2257" language="Spanish" date-created="07/21/2002">
+		<also-called>Agruras</also-called>
+		<also-called>Pirosis</also-called>
+		<full-summary>&lt;p&gt;La acidez es una sensación de ardor dolorosa en el pecho o la garganta. Ocurre cuando el ácido del estómago regresa hacia el esófago, el tubo que transporta la comida desde la boca hacia el estómago. &lt;/p&gt;
+
+&lt;p&gt;Si tiene acidez más de dos veces por semana, es posible que tenga &lt;a href="https://medlineplus.gov/spanish/gerd.html"&gt;enfermedad por reflujo gastroesofágico&lt;/a&gt; (ERGE), aunque es posible que sufra de ERGE aún sin tener acidez estomacal. &lt;/p&gt;
+
+&lt;p&gt;El embarazo, algunos alimentos, las bebidas alcohólicas y algunas medicinas pueden provocar acidez. El tratamiento de la acidez es importante porque con el transcurso del tiempo, el reflujo puede dañar el esófago. Las medicinas sin receta médica pueden ayudar. Si la acidez persiste, es posible que necesite medicinas con receta médica o una cirugía. &lt;/p&gt;
+
+&lt;p&gt;Si usted, además, tiene otros síntomas, como un dolor opresivo en el pecho, podría tratarse de un &lt;a href="https://medlineplus.gov/spanish/heartattack.html"&gt;infarto&lt;/a&gt; (ataque al corazón). Busque ayuda de inmediato.&lt;/p&gt;</full-summary>
+		<group url="https://medlineplus.gov/spanish/digestivesystem.html" id="2">Sistema digestivo</group>
+		<group url="https://medlineplus.gov/spanish/symptoms.html" id="31">Síntomas</group>
+		<language-mapped-topic url="https://medlineplus.gov/heartburn.html" id="1653" language="English">Heartburn</language-mapped-topic>
+		<primary-institute url="https://medlineplus.gov/spanish/nihinstitutes.html#NIDDK">Instituto Nacional de la Diabetes y las Enfermedades Digestivas y Renales</primary-institute>
+		<related-topic url="https://medlineplus.gov/spanish/gerd.html" id="1916">Reflujo gastroesofágico</related-topic>
+		<site title="Acidez" url="https://medlineplus.gov/spanish/ency/anatomyvideos/000068.htm" language-mapped-url="https://medlineplus.gov/ency/anatomyvideos/000068.htm">
+			<information-category>Interactivos y videos</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Enciclopedia Médica</organization>
+			<standard-description>Video</standard-description>
+		</site>
+		<site title="Acidez estomacal" url="https://www.mayoclinic.org/es/diseases-conditions/heartburn/symptoms-causes/syc-20373223?p=1" language-mapped-url="https://www.mayoclinic.org/diseases-conditions/heartburn/symptoms-causes/syc-20373223?p=1">
+			<information-category>Comience aquí</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Fundación Mayo para la Educación y la Investigación Médica</organization>
+		</site>
+		<site title="Acidez estomacal" url="https://es.familydoctor.org/condicion/acidez-estomacal-es/?adfree=true" language-mapped-url="https://familydoctor.org/condition/heartburn/?adfree=true">
+			<information-category>Comience aquí</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Academia Americana de Médicos de Familia</organization>
+		</site>
+		<site title="Acidez gástrica" url="https://medlineplus.gov/spanish/ency/article/003114.htm" language-mapped-url="https://medlineplus.gov/ency/article/003114.htm">
+			<information-category>Comience aquí</information-category>
+			<information-category>Spanish/Español</information-category>
+			<information-category>NON-DISPLAY (Patient Handout)</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Acidez gástrica: Qué preguntarle al médico" url="https://medlineplus.gov/spanish/ency/patientinstructions/000225.htm" language-mapped-url="https://medlineplus.gov/ency/patientinstructions/000225.htm">
+			<information-category>Spanish/Español</information-category>
+			<information-category>Asuntos relacionados</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Antiácidos que contienen aspirina pueden causar sangrado" url="https://www.fda.gov/consumers/articulos-para-el-consumidor-en-espanol/advertencia-los-antiacidos-que-contienen-aspirina-pueden-causar-sangrado">
+			<information-category>Spanish/Español</information-category>
+			<information-category>Asuntos relacionados</information-category>
+			<organization>Administración de Alimentos y Medicamentos</organization>
+		</site>
+		<site title="Antiácidos y reductores de ácido: Alivio con medicamentos OTC (sin receta médica) para la acidez estomacal y el reflujo ácido" url="https://es.familydoctor.org/antiacidos-y-reductores-de-acido-alivio-con-medicamentos-otc-para-la-acidez-estomacal-y-el-reflujo-acido/?adfree=true">
+			<information-category>Spanish/Español</information-category>
+			<information-category>Tratamientos y terapias</information-category>
+			<organization>Academia Americana de Médicos de Familia</organization>
+		</site>
+		<site title="Ardor de estómago o ataque cardíaco: Cuándo preocuparse" url="https://www.mayoclinic.org/es/diseases-conditions/heartburn/in-depth/heartburn-gerd/art-20046483?p=1" language-mapped-url="https://www.mayoclinic.org/diseases-conditions/heartburn/in-depth/heartburn-gerd/art-20046483?p=1">
+			<information-category>Diagnóstico y exámenes</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Fundación Mayo para la Educación y la Investigación Médica</organization>
+		</site>
+		<site title="Dieta blanda" url="https://medlineplus.gov/spanish/ency/patientinstructions/000068.htm" language-mapped-url="https://medlineplus.gov/ency/patientinstructions/000068.htm">
+			<information-category>Viviendo con...</information-category>
+			<information-category>Spanish/Español</information-category>
+			<information-category>NON-DISPLAY (Patient Handout)</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="ERGE" url="https://gi.org/patients/recursos-en-espanol/erge/" language-mapped-url="https://gi.org/topics/acid-reflux/">
+			<information-category>Comience aquí</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Colegio Americano de Gastroenterología</organization>
+		</site>
+		<site title="Prueba de Bernstein" url="https://medlineplus.gov/spanish/ency/article/003897.htm" language-mapped-url="https://medlineplus.gov/ency/article/003897.htm">
+			<information-category>Diagnóstico y exámenes</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Prueba de pH esofágico" url="https://medlineplus.gov/spanish/pruebas-de-laboratorio/prueba-de-ph-esofagico/" language-mapped-url="https://medlineplus.gov/lab-tests/esophageal-ph-test/">
+			<information-category>Diagnóstico y exámenes</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Biblioteca Nacional de Medicina</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="Reflujo gastroesofágico en bebés: Tema de salud de MedlinePlus" url="https://medlineplus.gov/spanish/refluxininfants.html" language-mapped-url="https://medlineplus.gov/refluxininfants.html">
+			<information-category>Spanish/Español</information-category>
+			<information-category>Niños/as</information-category>
+			<organization>Biblioteca Nacional de Medicina</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="Reflujo gastroesofágico en niños: Tema de salud de MedlinePlus" url="https://medlineplus.gov/spanish/refluxinchildren.html" language-mapped-url="https://medlineplus.gov/refluxinchildren.html">
+			<information-category>Spanish/Español</information-category>
+			<information-category>Niños/as</information-category>
+			<organization>Biblioteca Nacional de Medicina</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="Reflujo gástrico (RGE y ERGE) en adultos" url="https://www.niddk.nih.gov/health-information/informacion-de-la-salud/enfermedades-digestivas/reflujo-gastrico-rge-enfermedad-por-reflujo-gastroesofagico-erge-adultos" language-mapped-url="https://www.niddk.nih.gov/health-information/digestive-diseases/acid-reflux-ger-gerd-adults">
+			<information-category>Comience aquí</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Instituto Nacional de la Diabetes y las Enfermedades Digestivas y Renales</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="Tomar antiácidos" url="https://medlineplus.gov/spanish/ency/patientinstructions/000198.htm" language-mapped-url="https://medlineplus.gov/ency/patientinstructions/000198.htm">
+			<information-category>Spanish/Español</information-category>
+			<information-category>NON-DISPLAY (Patient Handout)</information-category>
+			<information-category>Tratamientos y terapias</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Tránsito gastrointestinal" url="https://www.niddk.nih.gov/health-information/informacion-de-la-salud/pruebas-diagnosticas/transito-esofagogastroduodenal" language-mapped-url="https://www.niddk.nih.gov/health-information/diagnostic-tests/upper-gi-series">
+			<information-category>Diagnóstico y exámenes</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Instituto Nacional de la Diabetes y las Enfermedades Digestivas y Renales</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+	</health-topic>
+	<health-topic meta-desc="Looking for ways to fight unsightly zits? Both teens and adults can get acne. Learn what causes pimples and blackheads and how to manage them." title="Acne" url="https://medlineplus.gov/acne.html" id="124" language="English" date-created="08/26/1999">
+		<also-called>Pimples</also-called>
+		<also-called>Zits</also-called>
+		<full-summary>&lt;p&gt;Acne is a common skin disease that causes pimples. Pimples form when hair follicles
+under your skin clog up. Most pimples form on the face, neck, back, chest, and shoulders. Anyone can get acne, but
+it is common in teenagers and young adults. It is not serious, but it can cause &lt;a href="https://medlineplus.gov/scars.html"&gt;scars&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;No one knows exactly what causes acne. Hormone changes, such as those during the teenage
+years and pregnancy, probably play a role. There are many myths about what causes acne. Chocolate and greasy foods are often
+blamed, but there is little evidence that foods have much effect on acne in most people.
+Another common myth is that dirty skin causes acne; however, blackheads and pimples are not
+caused by dirt. Stress doesn't cause acne, but stress can make it worse.&lt;/p&gt;
+
+&lt;p&gt;If you have acne:&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;	Clean your skin gently &lt;/li&gt;
+&lt;li&gt;	Try not to touch your skin &lt;/li&gt;
+&lt;li&gt;	Avoid the sun &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Treatments for acne include medicines and creams.&lt;/p&gt;
+
+&lt;p class=""&gt;NIH: National Institute of Arthritis and Musculoskeletal and Skin
+Diseases&lt;/p&gt;</full-summary>
+		<group url="https://medlineplus.gov/skinhairandnails.html" id="18">Skin, Hair and Nails</group>
+		<language-mapped-topic url="https://medlineplus.gov/spanish/acne.html" id="1721" language="Spanish">Acné</language-mapped-topic>
+		<mesh-heading>
+			<descriptor id="D000152">Acne Vulgaris</descriptor>
+		</mesh-heading>
+		<other-language vernacular-name="简体中文" url="https://medlineplus.gov/languages/acne.html#Chinese, Simplified (Mandarin dialect)">Chinese, Simplified (Mandarin dialect)</other-language>
+		<other-language vernacular-name="한국어" url="https://medlineplus.gov/languages/acne.html#Korean">Korean</other-language>
+		<other-language vernacular-name="español" url="https://medlineplus.gov/spanish/acne.html">Spanish</other-language>
+		<other-language vernacular-name="español" url="https://medlineplus.gov/languages/acne.html#Spanish">Spanish</other-language>
+		<other-language vernacular-name="Tiếng Việt" url="https://medlineplus.gov/languages/acne.html#Vietnamese">Vietnamese</other-language>
+		<primary-institute url="http://www.niams.nih.gov/">National Institute of Arthritis and Musculoskeletal and Skin Diseases</primary-institute>
+		<related-topic url="https://medlineplus.gov/hidradenitissuppurativa.html" id="4363">Hidradenitis Suppurativa</related-topic>
+		<related-topic url="https://medlineplus.gov/rosacea.html" id="1247">Rosacea</related-topic>
+		<see-reference>Pimples</see-reference>
+		<see-reference>Zits</see-reference>
+		<site title="Acne" url="https://www.girlshealth.gov/body/grooming/acne.html">
+			<information-category>Teenagers</information-category>
+			<organization>Department of Health and Human Services, Office on Women's Health</organization>
+		</site>
+		<site title="Acne" url="https://medlineplus.gov/ency/article/000873.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/article/000873.htm">
+			<information-category>Patient Handouts</information-category>
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="Acne" url="https://www.womenshealth.gov/a-z-topics/acne" language-mapped-url="https://espanol.womenshealth.gov/a-z-topics/acne">
+			<information-category>Women</information-category>
+			<organization>Department of Health and Human Services, Office on Women's Health</organization>
+		</site>
+		<site title="Acne" url="https://kidshealth.org/en/kids/acne.html" language-mapped-url="https://kidshealth.org/es/kids/acne.html">
+			<information-category>Children</information-category>
+			<organization>Nemours Foundation</organization>
+		</site>
+		<site title="Acne" url="https://familydoctor.org/condition/acne/?adfree=true">
+			<information-category>Start Here</information-category>
+			<organization>American Academy of Family Physicians</organization>
+		</site>
+		<site title="Acne (Acne Vulgaris)" url="https://www.skinsight.com/skin-conditions/adult/acne-vulgaris?Imiw9cApl">
+			<information-category>Start Here</information-category>
+			<organization>VisualDX</organization>
+		</site>
+		<site title="Acne - self-care" url="https://medlineplus.gov/ency/patientinstructions/000750.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/patientinstructions/000750.htm">
+			<information-category>Patient Handouts</information-category>
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="Acne Excoriée" url="https://www.skinsight.com/skin-conditions/teen/acne-excoriee?Imiw9cApl">
+			<information-category>Images</information-category>
+			<organization>VisualDX</organization>
+		</site>
+		<site title="Acne Keloidalis Nuchae" url="https://www.skinsight.com/skin-conditions/adult/acne-keloidalis-nuchae?Imiw9cApl">
+			<information-category>Images</information-category>
+			<organization>VisualDX</organization>
+		</site>
+		<site title="Baby Acne (Neonatal Acne)" url="https://www.skinsight.com/skin-conditions/infant/neonatal-acne-benign-cephalic-pustulosis?Imiw9cApl">
+			<information-category>Children</information-category>
+			<organization>VisualDX</organization>
+		</site>
+		<site title="Can Acne Scars Be Removed?" url="https://kidshealth.org/en/teens/acne-scars.html" language-mapped-url="https://kidshealth.org/es/teens/acne-scars.html">
+			<information-category>Teenagers</information-category>
+			<organization>Nemours Foundation</organization>
+		</site>
+		<site title="Can I Prevent Acne?" url="https://kidshealth.org/en/teens/prevent-acne.html" language-mapped-url="https://kidshealth.org/es/teens/prevent-acne.html">
+			<information-category>Start Here</information-category>
+			<organization>Nemours Foundation</organization>
+		</site>
+		<site title="ClinicalTrials.gov: Acne Vulgaris" url="https://clinicaltrials.gov/search?cond=%22Acne+Vulgaris%22&amp;aggFilters=status:not%20rec">
+			<information-category>Clinical Trials</information-category>
+			<organization>National Institutes of Health</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="Find a Dermatologist" url="https://find-a-derm.aad.org/">
+			<information-category>Find an Expert</information-category>
+			<organization>American Academy of Dermatology</organization>
+		</site>
+		<site title="National Institute of Arthritis and Musculoskeletal and Skin Diseases" url="https://www.niams.nih.gov/" language-mapped-url="https://www.niams.nih.gov/es/portal-en-espanol">
+			<information-category>Find an Expert</information-category>
+			<organization>National Institute of Arthritis and Musculoskeletal and Skin Diseases</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="Nonprescription Acne Treatment: Which Products Work Best?" url="https://www.mayoclinic.org/diseases-conditions/acne/in-depth/acne-treatments/art-20045814?p=1" language-mapped-url="https://www.mayoclinic.org/es/diseases-conditions/acne/in-depth/acne-treatments/art-20045814?p=1">
+			<information-category>Treatments and Therapies</information-category>
+			<organization>Mayo Foundation for Medical Education and Research</organization>
+		</site>
+		<site title="Pregnancy Acne: What's the Best Treatment?" url="https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/expert-answers/pregnancy-acne/faq-20058045?p=1" language-mapped-url="https://www.mayoclinic.org/es/healthy-lifestyle/pregnancy-week-by-week/expert-answers/pregnancy-acne/faq-20058045?p=1">
+			<information-category>Women</information-category>
+			<organization>Mayo Foundation for Medical Education and Research</organization>
+		</site>
+		<site title="Acne" url="https://pubmed.ncbi.nlm.nih.gov/?term=%22Acne+Vulgaris%22%5Bmajr%3Anoexp%5D+AND+humans%5Bmh%5D+AND+english%5Bla%5D+AND+%22last+1+Year%22+%5Bedat%5D+NOT+%28letter%5Bpt%5D+OR+case+reports%5Bpt%5D+OR+editorial%5Bpt%5D+OR+comment%5Bpt%5D%29+AND+free+full+text%5Bsb%5D+">
+			<information-category>Journal Articles</information-category>
+		</site>
+		<site title="Teen Acne: How to Treat and Prevent This Common Skin Condition" url="https://www.healthychildren.org/English/health-issues/conditions/skin/Pages/What-Causes-Acne.aspx" language-mapped-url="https://www.healthychildren.org/spanish/health-issues/conditions/skin/paginas/what-causes-acne.aspx">
+			<information-category>Teenagers</information-category>
+			<organization>American Academy of Pediatrics</organization>
+		</site>
+		<site title="Topical Acne Treatments and Pregnancy" url="https://mothertobaby.org/fact-sheets/topical-acne-treatments-pregnancy/" language-mapped-url="https://mothertobaby.org/es/hojas-informativas/tratamientos-topicos-para-el-acne/">
+			<information-category>Women</information-category>
+			<organization>Organization of Teratology Information Specialists</organization>
+		</site>
+		<site title="What Is Acne?" url="https://www.niams.nih.gov/health-topics/acne" language-mapped-url="https://www.niams.nih.gov/es/informacion-de-salud/acne">
+			<information-category>Start Here</information-category>
+			<organization>National Institute of Arthritis and Musculoskeletal and Skin Diseases</organization>
+			<standard-description>Easy-to-Read</standard-description>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="Why Do I Get Acne?" url="https://kidshealth.org/en/teens/acne.html" language-mapped-url="https://kidshealth.org/es/teens/acne.html">
+			<information-category>Teenagers</information-category>
+			<organization>Nemours Foundation</organization>
+		</site>
+	</health-topic>
+	<health-topic meta-desc="¿Busca remedio para las espinillas? Tanto adultos como jóvenes pueden sufrir acné y puntos negros. Aquí información sobre tratamiento." title="Acné" url="https://medlineplus.gov/spanish/acne.html" id="1721" language="Spanish" date-created="08/19/2002">
+		<also-called>Barros</also-called>
+		<also-called>Espinillas</also-called>
+		<also-called>Granitos</also-called>
+		<full-summary>&lt;p&gt;El acné es una enfermedad común de la piel que provoca espinillas (granos). Las espinillas se forman cuando los folículos pilosos que se encuentran debajo de la piel se tapan. La mayoría de las espinillas aparecen en el rostro, el cuello, la espalda, el pecho y los hombros. Cualquier persona puede tener acné, pero es común en los adolescentes y los adultos jóvenes. No es grave, pero puede dejar &lt;a href="https://medlineplus.gov/spanish/scars.html"&gt;cicatrices&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Nadie sabe exactamente cuál es la causa del acné. Es probable que los cambios hormonales, tales como los que ocurren en la adolescencia o el embarazo, tengan alguna relación con su aparición. Existen muchos mitos acerca de las causas del acné. Con frecuencia se culpa al chocolate y las comidas grasosas, pero en la mayoría de los casos hay pocas evidencias de que la comida tenga algún efecto sobre el acné. Otra creencia común es que la piel sucia puede favorecer el acné; sin embargo, los puntos negros y las espinillas no son producto de la suciedad. El estrés no produce acné, pero puede empeorarlo.&lt;/p&gt;
+&lt;p&gt;Si tiene acné:&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;	Limpie su piel con suavidad&lt;/li&gt;
+&lt;li&gt;	Intente no tocarse la piel&lt;/li&gt;
+&lt;li&gt;	Evite el sol&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Los tratamientos para el acné incluyen medicamentos y cremas.&lt;/p&gt;
+&lt;p class=""&gt;NIH: Instituto Nacional de Artritis y Enfermedades Musculoesqueléticas y de la Piel&lt;/p&gt;</full-summary>
+		<group url="https://medlineplus.gov/spanish/skinhairandnails.html" id="18">Piel, cabello y uñas</group>
+		<language-mapped-topic url="https://medlineplus.gov/acne.html" id="124" language="English">Acne</language-mapped-topic>
+		<primary-institute url="https://medlineplus.gov/spanish/nihinstitutes.html#NIAMS">Instituto Nacional de Artritis y Enfermedades Musculoesqueléticas y de la Piel</primary-institute>
+		<related-topic url="https://medlineplus.gov/spanish/rosacea.html" id="2129">Rosácea</related-topic>
+		<see-reference>Granitos</see-reference>
+		<site title="Accutane  y otros retinoides" url="https://nacersano.marchofdimes.org/embarazo/accutane-y-otros-retinoides.aspx" language-mapped-url="https://www.marchofdimes.org/find-support/topics/pregnancy/isotretinoin-and-other-retinoids-during-pregnancy">
+			<information-category>Spanish/Español</information-category>
+			<information-category>Mujeres</information-category>
+			<organization>Fundación de Niños con Defectos de Nacimiento March of Dimes</organization>
+		</site>
+		<site title="Acné" url="https://www.merckmanuals.com/es-us/hogar/trastornos-de-la-piel/acn%C3%A9-y-trastornos-relacionados/acn%C3%A9">
+			<information-category>Comience aquí</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Merck &amp; Co., Inc.</organization>
+		</site>
+		<site title="Acné" url="https://medlineplus.gov/spanish/ency/article/000873.htm" language-mapped-url="https://medlineplus.gov/ency/article/000873.htm">
+			<information-category>Comience aquí</information-category>
+			<information-category>Spanish/Español</information-category>
+			<information-category>NON-DISPLAY (Patient Handout)</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Acné (para niños)" url="https://kidshealth.org/es/kids/acne.html" language-mapped-url="https://kidshealth.org/en/kids/acne.html">
+			<information-category>Spanish/Español</information-category>
+			<information-category>Niños/as</information-category>
+			<organization>Fundación Nemours</organization>
+		</site>
+		<site title="Acné en los adolescentes: cómo tratar y prevenir esta afección cutánea común" url="https://www.healthychildren.org/spanish/health-issues/conditions/skin/paginas/what-causes-acne.aspx" language-mapped-url="https://www.healthychildren.org/English/health-issues/conditions/skin/Pages/What-Causes-Acne.aspx">
+			<information-category>Adolescentes</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Academia Americana de Pediatría</organization>
+		</site>
+		<site title="Brotes de acné: Control de las espinillas problemáticas" url="https://salud.nih.gov/recursos-de-salud/nih-noticias-de-salud/brotes-de-acne" language-mapped-url="https://newsinhealth.nih.gov/2018/07/acne-breakouts">
+			<information-category>Comience aquí</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Institutos Nacionales de la Salud</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="Cuidados personales para el acné" url="https://medlineplus.gov/spanish/ency/patientinstructions/000750.htm" language-mapped-url="https://medlineplus.gov/ency/patientinstructions/000750.htm">
+			<information-category>Viviendo con...</information-category>
+			<information-category>Spanish/Español</information-category>
+			<information-category>NON-DISPLAY (Patient Handout)</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+		<site title="Instituto Nacional de Artritis y Enfermedades Musculoesqueléticas y de la Piel" url="https://www.niams.nih.gov/es/portal-en-espanol" language-mapped-url="https://www.niams.nih.gov/">
+			<information-category>Spanish/Español</information-category>
+			<information-category>Especialistas</information-category>
+			<organization>Instituto Nacional de Artritis y Enfermedades Musculoesqueléticas y de la Piel</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="Isotretinoína (Accutane) y el embarazo" url="https://mothertobaby.org/es/hojas-informativas/la-isotretinoina-accutane/" language-mapped-url="https://mothertobaby.org/fact-sheets/isotretinoin-accutane-pregnancy/pdf/">
+			<information-category>Spanish/Español</information-category>
+			<information-category>Mujeres</information-category>
+			<organization>Organización de Especialistas de Información Teratológica</organization>
+		</site>
+		<site title="Tratamiento sin receta médica para el acné: ¿qué productos dan más resultado?" url="https://www.mayoclinic.org/es/diseases-conditions/acne/in-depth/acne-treatments/art-20045814?p=1" language-mapped-url="https://www.mayoclinic.org/diseases-conditions/acne/in-depth/acne-treatments/art-20045814?p=1">
+			<information-category>Spanish/Español</information-category>
+			<information-category>Tratamientos y terapias</information-category>
+			<organization>Fundación Mayo para la Educación y la Investigación Médica</organization>
+		</site>
+		<site title="Tratamientos tópicos para el acné y el embarazo" url="https://mothertobaby.org/es/hojas-informativas/tratamientos-topicos-para-el-acne/" language-mapped-url="https://mothertobaby.org/fact-sheets/topical-acne-treatments-pregnancy/">
+			<information-category>Mujeres</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Organización de Especialistas de Información Teratológica</organization>
+		</site>
+		<site title="¿Cuál es la mejor manera de tratar el acné durante el embarazo?" url="https://www.mayoclinic.org/es/healthy-lifestyle/pregnancy-week-by-week/expert-answers/pregnancy-acne/faq-20058045?p=1" language-mapped-url="https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/expert-answers/pregnancy-acne/faq-20058045?p=1">
+			<information-category>Mujeres</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Fundación Mayo para la Educación y la Investigación Médica</organization>
+		</site>
+		<site title="¿Es posible eliminar las cicatrices del acné?" url="https://kidshealth.org/es/teens/acne-scars.html" language-mapped-url="https://kidshealth.org/en/teens/acne-scars.html">
+			<information-category>Adolescentes</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Fundación Nemours</organization>
+		</site>
+		<site title="¿Por qué me sale acné?" url="https://kidshealth.org/es/teens/acne.html" language-mapped-url="https://kidshealth.org/en/teens/acne.html">
+			<information-category>Adolescentes</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Fundación Nemours</organization>
+		</site>
+		<site title="¿Qué es el acné?" url="https://www.niams.nih.gov/es/informacion-de-salud/acne" language-mapped-url="https://www.niams.nih.gov/health-topics/acne">
+			<information-category>Comience aquí</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Instituto Nacional de Artritis y Enfermedades Musculoesqueléticas y de la Piel</organization>
+			<standard-description>NIH</standard-description>
+			<standard-description>Fácil de leer</standard-description>
+		</site>
+	</health-topic>
+	<health-topic meta-desc="An acoustic neuroma is a benign tumor that grows on the cranial nerve that connects the ear to the brain. It can affect hearing and balance nerves." title="Acoustic Neuroma" url="https://medlineplus.gov/acousticneuroma.html" id="1624" language="English" date-created="04/22/2002">
+		<also-called>Acoustic neurilemmoma</also-called>
+		<also-called>Acoustic neurinoma</also-called>
+		<also-called>Auditory tumor</also-called>
+		<also-called>Vestibular schwannoma</also-called>
+		<full-summary>&lt;p&gt;An acoustic neuroma is a &lt;a href="https://medlineplus.gov/benigntumors.html"&gt;benign tumor&lt;/a&gt; that develops on the nerve that connects the ear to the brain. The tumor usually grows slowly. As it grows, it presses against the hearing and balance nerves. At first, you may have no symptoms or mild symptoms. They can include:&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt; Loss of hearing on one side &lt;/li&gt;
+&lt;li&gt; Ringing in ears&lt;/li&gt;
+&lt;li&gt; Dizziness and balance problems&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The tumor can also eventually cause numbness or paralysis of the face. If it grows large enough, it can press against the brain, becoming life-threatening.&lt;/p&gt;
+
+&lt;p&gt;Acoustic neuroma can be difficult to diagnose, because the symptoms are similar to those of middle ear problems.  Ear exams, hearing tests, and scans can show if you have it.&lt;/p&gt;
+
+&lt;p&gt;If the tumor stays small, you may only need to have it checked regularly.  If you do need treatment, surgery and radiation are options.&lt;/p&gt;
+
+&lt;p&gt;If the tumors affect both hearing nerves, it is often because of a genetic disorder called &lt;a href="https://medlineplus.gov/neurofibromatosis.html"&gt;neurofibromatosis&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p class=""&gt;NIH: National Institute on Deafness and Communication Disorders&lt;/p&gt;</full-summary>
+		<group url="https://medlineplus.gov/brainandnerves.html" id="14">Brain and Nerves</group>
+		<group url="https://medlineplus.gov/earnoseandthroat.html" id="16">Ear, Nose and Throat</group>
+		<language-mapped-topic url="https://medlineplus.gov/spanish/acousticneuroma.html" id="2251" language="Spanish">Neuroma acústico</language-mapped-topic>
+		<mesh-heading>
+			<descriptor id="D009464">Neuroma, Acoustic</descriptor>
+		</mesh-heading>
+		<other-language vernacular-name="español" url="https://medlineplus.gov/spanish/acousticneuroma.html">Spanish</other-language>
+		<primary-institute url="https://www.nidcd.nih.gov/">National Institute on Deafness and Other Communication Disorders</primary-institute>
+		<related-topic url="https://medlineplus.gov/neurofibromatosis.html" id="1387">Neurofibromatosis</related-topic>
+		<see-reference>Auditory Tumor</see-reference>
+		<see-reference>Neuroma, Acoustic</see-reference>
+		<see-reference>Vestibular Schwannoma</see-reference>
+		<site title="Acoustic neuroma" url="https://medlineplus.gov/ency/article/000778.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/article/000778.htm">
+			<information-category>Patient Handouts</information-category>
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="Acoustic Neuroma Educational Video" url="https://www.anausa.org/learn-about-acoustic-neuroma/educational-video">
+			<information-category>Videos and Tutorials</information-category>
+			<organization>Acoustic Neuroma Association</organization>
+			<standard-description>Video</standard-description>
+		</site>
+		<site title="Brain MRI (Magnetic Resonance Imaging)" url="https://www.radiologyinfo.org/en/info/mri-brain" language-mapped-url="https://www.radiologyinfo.org/es/info/mri-brain">
+			<information-category>Diagnosis and Tests</information-category>
+			<organization>Radiological Society of North America</organization>
+			<organization>American College of Radiology</organization>
+			<standard-description>Video</standard-description>
+		</site>
+		<site title="ClinicalTrials.gov: Neuroma, Acoustic" url="https://clinicaltrials.gov/search?cond=%22Neuroma,+Acoustic%22&amp;aggFilters=status:not%20rec">
+			<information-category>Clinical Trials</information-category>
+			<organization>National Institutes of Health</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="Computed Tomography (CT) -- Head" url="https://www.radiologyinfo.org/en/info/headct" language-mapped-url="https://www.radiologyinfo.org/es/info/headct">
+			<information-category>Diagnosis and Tests</information-category>
+			<organization>Radiological Society of North America</organization>
+			<organization>American College of Radiology</organization>
+			<standard-description>Video</standard-description>
+		</site>
+		<site title="Diagnosing Acoustic Neuroma" url="https://www.anausa.org/learn-about-acoustic-neuroma/diagnosing-an-acoustic-neuroma">
+			<information-category>Diagnosis and Tests</information-category>
+			<organization>Acoustic Neuroma Association</organization>
+		</site>
+		<site title="Directory of Organizations (Deafness and Communication Disorders)" url="https://www.nidcd.nih.gov/directory">
+			<information-category>Find an Expert</information-category>
+			<organization>National Institute on Deafness and Other Communication Disorders</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="Do You Need a Hearing Test?" url="https://www.nidcd.nih.gov/health/do-you-need-hearing-test" language-mapped-url="https://www.nidcd.nih.gov/es/espanol/necesita-una-prueba-de-audicion-preguntas-interactivas">
+			<information-category>Health Check Tools</information-category>
+			<organization>National Institute on Deafness and Other Communication Disorders</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="Head CT scan" url="https://medlineplus.gov/ency/article/003786.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/article/003786.htm">
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="Head MRI" url="https://medlineplus.gov/ency/article/003791.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/article/003791.htm">
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="National Institute on Deafness and Other Communication Disorders" url="https://www.nidcd.nih.gov">
+			<information-category>Find an Expert</information-category>
+			<organization>National Institute on Deafness and Other Communication Disorders</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="NIDCD Glossary" url="https://www.nidcd.nih.gov/glossary">
+			<information-category>Reference Desk</information-category>
+			<organization>National Institute on Deafness and Other Communication Disorders</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="Acoustic Neuroma" url="https://pubmed.ncbi.nlm.nih.gov/?term=%22Neuroma%2C+Acoustic%22%5Bmajr%3Anoexp%5D+AND+humans%5Bmh%5D+AND+english%5Bla%5D+AND+%22last+1+Year%22+%5Bedat%5D+NOT+%28letter%5Bpt%5D+OR+case+reports%5Bpt%5D+OR+editorial%5Bpt%5D+OR+comment%5Bpt%5D%29+AND+free+full+text%5Bsb%5D+">
+			<information-category>Journal Articles</information-category>
+		</site>
+		<site title="Stereotactic radiosurgery - discharge" url="https://medlineplus.gov/ency/patientinstructions/000131.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/patientinstructions/000131.htm">
+			<information-category>Patient Handouts</information-category>
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="Stereotactic radiosurgery - Gamma Knife" url="https://medlineplus.gov/ency/article/007577.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/article/007577.htm">
+			<information-category>Patient Handouts</information-category>
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="Symptoms of Acoustic Neuroma" url="https://www.anausa.org/learn-about-acoustic-neuroma/symptoms-from-an-acoustic-neuroma">
+			<information-category>Symptoms</information-category>
+			<organization>Acoustic Neuroma Association</organization>
+		</site>
+		<site title="Treatment Options - Overview" url="https://www.anausa.org/learn-about-acoustic-neuroma/treatment-options/overview">
+			<information-category>Treatments and Therapies</information-category>
+			<organization>Acoustic Neuroma Association</organization>
+		</site>
+		<site title="Types of Post-Treatment Issues" url="https://www.anausa.org/learn-about-acoustic-neuroma/side-effects-of-an-acoustic-neuroma">
+			<information-category>Related Issues</information-category>
+			<organization>Acoustic Neuroma Association</organization>
+		</site>
+		<site title="Vestibular Schwannoma (Acoustic Neuroma) and Neurofibromatosis" url="https://www.nidcd.nih.gov/health/vestibular-schwannoma-acoustic-neuroma-and-neurofibromatosis">
+			<information-category>Start Here</information-category>
+			<organization>National Institute on Deafness and Other Communication Disorders</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="What Is Acoustic Neuroma?" url="https://www.anausa.org/learn-about-acoustic-neuroma/what-is-acoustic-neuroma">
+			<information-category>Start Here</information-category>
+			<organization>Acoustic Neuroma Association</organization>
+		</site>
+		<site title="When You Visit Your Doctor: Acoustic Neuroma" url="https://www.health.harvard.edu/diseases-and-conditions/when-you-visit-your-doctor-acoustic-neuroma">
+			<information-category>Diagnosis and Tests</information-category>
+			<organization>Harvard Medical School</organization>
+		</site>
+	</health-topic>
+	<health-topic meta-desc="Are you considering acupuncture to treat pain? Find out about how this type of traditional Chinese medicine might help you. " title="Acupuncture" url="https://medlineplus.gov/acupuncture.html" id="3071" language="English" date-created="01/13/2003">
+		<full-summary>&lt;p&gt;Acupuncture has been practiced in China and other Asian countries for thousands of years. Acupuncture involves stimulating specific points on the body. This is most often done by inserting thin needles through the skin, to cause a change in the physical functions of the body.&lt;/p&gt;
+
+&lt;p&gt;Research has shown that acupuncture reduces nausea and vomiting after surgery and chemotherapy. It can also relieve pain. Researchers don't fully understand how acupuncture works. It might aid the activity of your body's pain-killing chemicals. It also might affect how you release chemicals that regulate blood pressure and flow.&lt;/p&gt;
+
+&lt;p class=""&gt;NIH: National Center for Complementary and Integrative Health&lt;/p&gt;</full-summary>
+		<group url="https://medlineplus.gov/complementaryandalternativetherapies.html" id="35">Complementary and Alternative Therapies</group>
+		<language-mapped-topic url="https://medlineplus.gov/spanish/acupuncture.html" id="3072" language="Spanish">Acupuntura</language-mapped-topic>
+		<mesh-heading>
+			<descriptor id="D015670">Acupuncture Therapy</descriptor>
+		</mesh-heading>
+		<other-language vernacular-name="español" url="https://medlineplus.gov/spanish/acupuncture.html">Spanish</other-language>
+		<primary-institute url="https://nccih.nih.gov/">National Center for Complementary and Integrative Health</primary-institute>
+		<site title="6 Things to Know When Selecting a Complementary Health Practitioner" url="https://www.nccih.nih.gov/health/tips/things-to-know-when-selecting-a-complementary-health-practitioner" language-mapped-url="https://www.nccih.nih.gov/health/espanol/consejos-a-la-hora-de-hablar-seis-aspectos-que-debe-conocer-al-elegir-un-profesional-de-medicina-complementaria">
+			<information-category>Learn More</information-category>
+			<organization>National Center for Complementary and Integrative Health</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="Acupuncture" url="https://www.cancer.gov/about-cancer/treatment/cam/patient/acupuncture-pdq" language-mapped-url="https://www.cancer.gov/espanol/cancer/tratamiento/mca/paciente/acupuntura-pdq">
+			<information-category>Learn More</information-category>
+			<organization>National Cancer Institute</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="Acupuncture" url="https://youngwomenshealth.org/guides/acupuncture/">
+			<information-category>Learn More</information-category>
+			<organization>Boston Children's Hospital</organization>
+		</site>
+		<site title="Acupuncture" url="https://www.mayoclinic.org/tests-procedures/acupuncture/about/pac-20392763?p=1" language-mapped-url="https://www.mayoclinic.org/es/tests-procedures/acupuncture/about/pac-20392763?p=1">
+			<information-category>Learn More</information-category>
+			<organization>Mayo Foundation for Medical Education and Research</organization>
+		</site>
+		<site title="Acupuncture (For Parents)" url="https://kidshealth.org/en/parents/acupuncture.html" language-mapped-url="https://kidshealth.org/es/parents/acupuncture.html">
+			<information-category>Learn More</information-category>
+			<organization>Nemours Foundation</organization>
+		</site>
+		<site title="Acupuncture: What You Need to Know" url="https://www.nccih.nih.gov/health/acupuncture-what-you-need-to-know">
+			<information-category>Learn More</information-category>
+			<organization>National Center for Complementary and Integrative Health</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="ClinicalTrials.gov: Acupuncture Therapy" url="https://clinicaltrials.gov/search?intr=acupuncture&amp;aggFilters=status:not%20rec">
+			<information-category>Clinical Trials</information-category>
+			<organization>National Institutes of Health</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="Find a NCCAOM Certified Practitioner" url="https://www.nccaom.org/find-a-practitioner-directory/">
+			<information-category>Learn More</information-category>
+			<organization>National Certification Commission for Acupuncture and Oriental Medicine</organization>
+		</site>
+		<site title="National Center for Complementary and Integrative Health" url="https://www.nccih.nih.gov/">
+			<information-category>Learn More</information-category>
+			<organization>National Center for Complementary and Integrative Health</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="Paying for Complementary and Integrative Health Approaches" url="https://www.nccih.nih.gov/health/paying-for-complementary-and-integrative-health-approaches">
+			<information-category>Learn More</information-category>
+			<organization>National Center for Complementary and Integrative Health</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="Acupuncture" url="https://pubmed.ncbi.nlm.nih.gov/?term=%22Acupuncture+Therapy%22%5Bmajr%3Anoexp%5D+AND+humans%5Bmh%5D+AND+english%5Bla%5D+AND+%22last+1+Year%22+%5Bedat%5D+AND+%28patient+education+handout%5Bpt%5D+OR+guideline%5Bpt%5D+OR+clinical+trial%5Bpt%5D%29++NOT+%28letter%5Bpt%5D+OR+case+reports%5Bpt%5D+OR+editorial%5Bpt%5D+OR+comment%5Bpt%5D%29+AND+free+full+text%5Bsb%5D+">
+			<information-category>Journal Articles</information-category>
+		</site>
+	</health-topic>
+	<health-topic meta-desc="¿Está pensando en la acupuntura para tratar el dolor? Entérese cómo esta medicina tradicional china podría ayudarle. " title="Acupuntura" url="https://medlineplus.gov/spanish/acupuncture.html" id="3072" language="Spanish" date-created="02/07/2003">
+		<full-summary>&lt;p&gt;La acupuntura se ha practicado en China y en otros países asiáticos por miles de años. Es una práctica que implica estimular partes específicas del cuerpo, generalmente, mediante la inserción de agujas muy finas. Esto crea un cambio en las funciones físicas del cuerpo. &lt;/p&gt;
+
+&lt;p&gt;Las investigaciones han demostrado que la acupuntura reduce las náuseas y los vómitos después de una cirugía y quimioterapia. También puede aliviar el dolor. Los investigadores no comprenden en su totalidad el efecto de la acupuntura pero se cree que podría ayudar a la actividad de los químicos que alivian el dolor del cuerpo. También podría afectar la manera en la que se liberan las sustancias químicas que regulan la presión arterial y el flujo de la sangre. &lt;/p&gt;
+
+&lt;p class=""&gt;NIH: Centro Nacional de Salud Complementaria e Integral &lt;/p&gt;</full-summary>
+		<group url="https://medlineplus.gov/spanish/complementaryandalternativetherapies.html" id="35">Terapias complementarias y alternativas</group>
+		<language-mapped-topic url="https://medlineplus.gov/acupuncture.html" id="3071" language="English">Acupuncture</language-mapped-topic>
+		<primary-institute url="https://medlineplus.gov/spanish/nihinstitutes.html#NCCAM">Centro Nacional de Salud Complementaria e Integral</primary-institute>
+		<site title="Acupuntura" url="https://www.mayoclinic.org/es/tests-procedures/acupuncture/about/pac-20392763?p=1" language-mapped-url="https://www.mayoclinic.org/tests-procedures/acupuncture/about/pac-20392763?p=1">
+			<information-category>Más información</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Fundación Mayo para la Educación y la Investigación Médica</organization>
+		</site>
+		<site title="Acupuntura" url="https://kidshealth.org/es/parents/acupuncture.html" language-mapped-url="https://kidshealth.org/en/parents/acupuncture.html">
+			<information-category>Más información</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Fundación Nemours</organization>
+		</site>
+		<site title="Acupuntura (PDQ)" url="https://www.cancer.gov/espanol/cancer/tratamiento/mca/paciente/acupuntura-pdq" language-mapped-url="https://www.cancer.gov/about-cancer/treatment/cam/patient/acupuncture-pdq">
+			<information-category>Más información</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Instituto Nacional del Cáncer</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="Consejos a la hora de hablar: Seis aspectos que debe conocer al elegir un profesional de medicina complementaria" url="https://www.nccih.nih.gov/health/espanol/consejos-a-la-hora-de-hablar-seis-aspectos-que-debe-conocer-al-elegir-un-profesional-de-medicina-complementaria" language-mapped-url="https://www.nccih.nih.gov/health/tips/things-to-know-when-selecting-a-complementary-health-practitioner">
+			<information-category>Más información</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Centro Nacional de Salud Complementaria e Integral</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="Cómo tratar el dolor con acupuntura" url="https://sites.jamanetwork.com/spanish-patient-pages/2014/hoja-para-el-paciente-de-jama-141001.pdf">
+			<information-category>Más información</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Asociación Médica Americana</organization>
+			<standard-description>PDF</standard-description>
+		</site>
+		<site title="Medicina alternativa para el alivio del dolor" url="https://medlineplus.gov/spanish/ency/article/002064.htm" language-mapped-url="https://medlineplus.gov/ency/article/002064.htm">
+			<information-category>Más información</information-category>
+			<information-category>Spanish/Español</information-category>
+			<organization>Enciclopedia Médica</organization>
+		</site>
+	</health-topic>
+	<health-topic meta-desc="Bronchitis is an inflammation of the airways that carry air to your lungs. Learn about acute bronchitis symptoms, causes, and treatment" title="Acute Bronchitis" url="https://medlineplus.gov/acutebronchitis.html" id="5755" language="English" date-created="01/11/2011">
+		<full-summary>&lt;p&gt;Bronchitis is an inflammation of the bronchial tubes, the airways that carry air to your lungs. It causes a cough that often brings up mucus. It can also cause shortness of breath, wheezing, a low fever, and chest tightness. There are two main types of bronchitis: acute and &lt;a href="https://medlineplus.gov/chronicbronchitis.html"&gt;chronic&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Most cases of acute bronchitis get better within several days. But your cough can last for several weeks after the infection is gone.&lt;/p&gt;
+
+&lt;p&gt;The same viruses that cause colds and the flu often cause acute bronchitis. These viruses spread through the air when people cough, or though physical contact (for example, on unwashed hands). Being exposed to tobacco smoke, air pollution, dusts, vapors, and fumes can also cause acute bronchitis. Less often, bacteria can also cause acute bronchitis.&lt;/p&gt;
+
+&lt;p&gt;To diagnose acute bronchitis, your health care provider will ask about your symptoms and listen to your breathing. You may also have other tests.&lt;/p&gt;
+
+&lt;p&gt;Treatments include rest, fluids, and aspirin (for adults) or acetaminophen to treat fever. A humidifier or steam can also help. You may need inhaled medicine to open your airways if you are wheezing. Antibiotics won't help if the cause is viral. You may get antibiotics if the cause is bacterial.&lt;/p&gt;
+
+&lt;p class=""&gt;NIH: National Heart, Lung, and Blood Institute&lt;/p&gt;</full-summary>
+		<group url="https://medlineplus.gov/infections.html" id="12">Infections</group>
+		<group url="https://medlineplus.gov/lungsandbreathing.html" id="15">Lungs and Breathing</group>
+		<language-mapped-topic url="https://medlineplus.gov/spanish/acutebronchitis.html" id="5756" language="Spanish">Bronquitis aguda</language-mapped-topic>
+		<mesh-heading>
+			<descriptor id="D001991">Bronchitis</descriptor>
+		</mesh-heading>
+		<other-language vernacular-name="العربية" url="https://medlineplus.gov/languages/acutebronchitis.html#Arabic">Arabic</other-language>
+		<other-language vernacular-name="简体中文" url="https://medlineplus.gov/languages/acutebronchitis.html#Chinese, Simplified (Mandarin dialect)">Chinese, Simplified (Mandarin dialect)</other-language>
+		<other-language vernacular-name="繁體中文" url="https://medlineplus.gov/languages/acutebronchitis.html#Chinese, Traditional (Cantonese dialect)">Chinese, Traditional (Cantonese dialect)</other-language>
+		<other-language vernacular-name="français" url="https://medlineplus.gov/languages/acutebronchitis.html#French">French</other-language>
+		<other-language vernacular-name="हिन्दी" url="https://medlineplus.gov/languages/acutebronchitis.html#Hindi">Hindi</other-language>
+		<other-language vernacular-name="日本語" url="https://medlineplus.gov/languages/acutebronchitis.html#Japanese">Japanese</other-language>
+		<other-language vernacular-name="한국어" url="https://medlineplus.gov/languages/acutebronchitis.html#Korean">Korean</other-language>
+		<other-language vernacular-name="नेपाली" url="https://medlineplus.gov/languages/acutebronchitis.html#Nepali">Nepali</other-language>
+		<other-language vernacular-name="Русский" url="https://medlineplus.gov/languages/acutebronchitis.html#Russian">Russian</other-language>
+		<other-language vernacular-name="Af-Soomaali " url="https://medlineplus.gov/languages/acutebronchitis.html#Somali">Somali</other-language>
+		<other-language vernacular-name="español" url="https://medlineplus.gov/spanish/acutebronchitis.html">Spanish</other-language>
+		<other-language vernacular-name="español" url="https://medlineplus.gov/languages/acutebronchitis.html#Spanish">Spanish</other-language>
+		<primary-institute url="http://www.nhlbi.nih.gov/">National Heart, Lung, and Blood Institute</primary-institute>
+		<related-topic url="https://medlineplus.gov/commoncold.html" id="196">Common Cold</related-topic>
+		<related-topic url="https://medlineplus.gov/respiratorysyncytialvirusinfections.html" id="3101">Respiratory Syncytial Virus Infections</related-topic>
+		<see-reference>Bronchitis</see-reference>
+		<site title="Acute Bronchitis" url="https://www.lung.org/lung-health-diseases/lung-disease-lookup/bronchitis">
+			<information-category>Start Here</information-category>
+			<organization>American Lung Association</organization>
+		</site>
+		<site title="Acute Bronchitis" url="https://familydoctor.org/condition/acute-bronchitis/?adfree=true" language-mapped-url="https://es.familydoctor.org/condicion/bronquitis-aguda-es/?adfree=true">
+			<information-category>Start Here</information-category>
+			<organization>American Academy of Family Physicians</organization>
+		</site>
+		<site title="Acute bronchitis" url="https://medlineplus.gov/ency/article/001087.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/article/001087.htm">
+			<information-category>Patient Handouts</information-category>
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="American Lung Association" url="https://www.lung.org/">
+			<information-category>Find an Expert</information-category>
+			<organization>American Lung Association</organization>
+		</site>
+		<site title="Arterial Blood Gas (ABG) Test" url="https://medlineplus.gov/lab-tests/blood-oxygen-level/" language-mapped-url="https://medlineplus.gov/spanish/pruebas-de-laboratorio/prueba-de-gasometria-arterial/">
+			<information-category>Diagnosis and Tests</information-category>
+			<organization>National Library of Medicine</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="Blood gases" url="https://medlineplus.gov/ency/article/003855.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/article/003855.htm">
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="Bronchi, Bronchial Tree, and Lungs" url="https://training.seer.cancer.gov/anatomy/respiratory/passages/bronchi.html">
+			<information-category>Reference Desk</information-category>
+			<organization>National Cancer Institute</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="Bronchiolitis" url="https://medlineplus.gov/ency/article/000975.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/article/000975.htm">
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="Bronchitis" url="https://www.nhlbi.nih.gov/health/bronchitis" language-mapped-url="https://www.nhlbi.nih.gov/es/salud/bronquitis">
+			<information-category>Start Here</information-category>
+			<organization>National Heart, Lung, and Blood Institute</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="Bronchitis (For Parents)" url="https://kidshealth.org/en/parents/bronchitis.html" language-mapped-url="https://kidshealth.org/es/parents/bronchitis.html">
+			<information-category>Children</information-category>
+			<organization>Nemours Foundation</organization>
+		</site>
+		<site title="Bronchitis Symptoms, Diagnosis, and Treatment" url="https://www.lung.org/lung-health-diseases/lung-disease-lookup/bronchitis/symptoms-diagnosis-treatment">
+			<information-category>Treatments and Therapies</information-category>
+			<organization>American Lung Association</organization>
+		</site>
+		<site title="Chest Cold (Acute Bronchitis) Basics" url="https://www.cdc.gov/acute-bronchitis/about/">
+			<information-category>Start Here</information-category>
+			<organization>Centers for Disease Control and Prevention</organization>
+		</site>
+		<site title="Chest x-ray" url="https://medlineplus.gov/ency/article/003804.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/article/003804.htm">
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="ClinicalTrials.gov: Bronchiolitis" url="https://clinicaltrials.gov/search?cond=%22Bronchiolitis%22&amp;aggFilters=status:not%20rec">
+			<information-category>Clinical Trials</information-category>
+			<organization>National Institutes of Health</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="ClinicalTrials.gov: Bronchitis" url="https://clinicaltrials.gov/search?cond=%22Bronchitis%22&amp;aggFilters=status:not%20rec">
+			<information-category>Clinical Trials</information-category>
+			<organization>National Institutes of Health</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="Cough Culprits: What's the Difference Between Bronchitis and Pneumonia?" url="https://newsinhealth.nih.gov/2017/05/cough-culprits" language-mapped-url="https://salud.nih.gov/recursos-de-salud/nih-noticias-de-salud/los-culpables-de-la-tos">
+			<information-category>Related Issues</information-category>
+			<organization>National Institutes of Health</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="How the Lungs Work" url="https://www.nhlbi.nih.gov/health/lungs" language-mapped-url="https://www.nhlbi.nih.gov/es/salud/pulmones">
+			<information-category>Reference Desk</information-category>
+			<organization>National Heart, Lung, and Blood Institute</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="Industrial bronchitis" url="https://medlineplus.gov/ency/article/000072.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/article/000072.htm">
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="Is Acute Bronchitis Contagious?" url="https://www.mayoclinic.org/diseases-conditions/bronchitis/expert-answers/acute-bronchitis/faq-20057839?p=1" language-mapped-url="https://www.mayoclinic.org/es/diseases-conditions/bronchitis/expert-answers/acute-bronchitis/faq-20057839?p=1">
+			<information-category>Prevention and Risk Factors</information-category>
+			<organization>Mayo Foundation for Medical Education and Research</organization>
+		</site>
+		<site title="National Heart, Lung, and Blood Institute" url="https://www.nhlbi.nih.gov/">
+			<information-category>Find an Expert</information-category>
+			<organization>National Heart, Lung, and Blood Institute</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+		<site title="Oxygen safety" url="https://medlineplus.gov/ency/patientinstructions/000049.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/patientinstructions/000049.htm">
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="Plastic Bronchitis (For Parents)" url="https://kidshealth.org/en/parents/plastic-bronchitis.html" language-mapped-url="https://kidshealth.org/es/parents/plastic-bronchitis.html">
+			<information-category>Children</information-category>
+			<organization>Nemours Foundation</organization>
+		</site>
+		<site title="Postural drainage" url="https://medlineplus.gov/ency/patientinstructions/000051.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/patientinstructions/000051.htm">
+			<information-category>Patient Handouts</information-category>
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="Acute bronchitis" url="https://pubmed.ncbi.nlm.nih.gov/?term=%22Bronchitis%22%5Bmajr%3Anoexp%5D+AND+humans%5Bmh%5D+AND+english%5Bla%5D+AND+%22last+1+Year%22+%5Bedat%5D+NOT+%28letter%5Bpt%5D+OR+case+reports%5Bpt%5D+OR+editorial%5Bpt%5D+OR+comment%5Bpt%5D%29+AND+free+full+text%5Bsb%5D+">
+			<information-category>Journal Articles</information-category>
+		</site>
+		<site title="Sputum culture" url="https://medlineplus.gov/ency/article/003723.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/article/003723.htm">
+			<information-category>Patient Handouts</information-category>
+			<information-category>Encyclopedia</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="Tests for Lung Disease" url="https://www.nhlbi.nih.gov/health/lung-tests" language-mapped-url="https://www.nhlbi.nih.gov/es/salud/pruebas-pulmonares">
+			<information-category>Diagnosis and Tests</information-category>
+			<organization>National Heart, Lung, and Blood Institute</organization>
+			<standard-description>NIH</standard-description>
+		</site>
+	</health-topic>
+	<health-topic meta-desc="Acute flaccid myelitis (AFM) is a rare but serious neurologic disease. It mostly affects children. Learn about its possible causes and symptoms." title="Acute Flaccid Myelitis" url="https://medlineplus.gov/acuteflaccidmyelitis.html" id="7207" language="English" date-created="11/01/2018">
+		<also-called>AFM</also-called>
+		<full-summary>&lt;h3&gt;What is acute flaccid myelitis (AFM)?&lt;/h3&gt;
+&lt;p&gt;Acute flaccid myelitis (AFM) is a &lt;a href="https://medlineplus.gov/neurologicdiseases.html"&gt;neurologic disease&lt;/a&gt;. It is rare, but serious. It affects an area of the spinal cord called gray matter. This can cause the muscles and reflexes in the body to become weak.&lt;/p&gt;
+
+&lt;p&gt;Because of these symptoms, some people call AFM a "polio-like" illness. But it is different from &lt;a href="https://medlineplus.gov/polioandpostpoliosyndrome.html"&gt;polio&lt;/a&gt;. AFM is not caused by polioviruses.&lt;/p&gt;
+
+&lt;h3&gt;What causes acute flaccid myelitis (AFM)?&lt;/h3&gt;
+&lt;p&gt;AFM can be caused by several different viruses. Researchers think that enteroviruses have been causing the recent increases in the number of children with AFM. AFM can also be caused by other viruses, including flaviviruses, herpesviruses, and adenoviruses.&lt;/p&gt;
+
+&lt;p&gt;Most people with AFM had a mild respiratory illness or &lt;a href="https://medlineplus.gov/fever.html"&gt;fever&lt;/a&gt; (like you would get from a &lt;a href="https://medlineplus.gov/viralinfections.html"&gt;viral infection&lt;/a&gt;) before they got AFM.&lt;/p&gt;
+
+&lt;h3&gt;Who is more likely to develop acute flaccid myelitis (AFM)?&lt;/h3&gt;
+&lt;p&gt;Anyone can get AFM, but most cases (more than 90%) have been in young children.&lt;/p&gt;
+
+&lt;h3&gt;What are the symptoms of acute flaccid myelitis (AFM)?&lt;/h3&gt;
+&lt;p&gt;Most people with AFM will suddenly have:&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;Arm or leg weakness&lt;/li&gt;
+&lt;li&gt;A loss of muscle tone and reflexes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Some people also have other symptoms, including:&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;Facial drooping/weakness&lt;/li&gt;
+&lt;li&gt;Trouble moving the eyes&lt;/li&gt;
+&lt;li&gt;Drooping eyelids&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://medlineplus.gov/swallowingdisorders.html"&gt;Trouble swallowing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Slurred speech&lt;/li&gt;
+&lt;li&gt;Pain in the arms, legs, back, or neck&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Sometimes AFM can weaken the muscles that you need for breathing. This can lead to &lt;a href="https://medlineplus.gov/respiratoryfailure.html"&gt;respiratory failure&lt;/a&gt;, which is very serious. If you get respiratory failure, you may need to use a ventilator (breathing machine) to help you breathe.&lt;/p&gt;
+
+&lt;p&gt;If you or your child develops any of these symptoms, get medical care right away.&lt;/p&gt;
+
+&lt;h3&gt;How is acute flaccid myelitis (AFM) diagnosed?&lt;/h3&gt;
+&lt;p&gt;AFM causes many of the same symptoms as other neurologic diseases, such as transverse myelitis and &lt;a href="https://medlineplus.gov/guillainbarresyndrome.html"&gt;Guillain-Barre syndrome&lt;/a&gt;. This can make it difficult to diagnose. To find out if you have AFM, your doctor may use: &lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;A &lt;a href="https://medlineplus.gov/lab-tests/neurological-exam/"&gt;neurologic exam&lt;/a&gt;, including looking at where there is weakness, poor muscle tone, and decreased reflexes&lt;/li&gt;
+&lt;li&gt;An &lt;a href="https://medlineplus.gov/mriscans.html"&gt;MRI&lt;/a&gt; to look at the spinal cord and brain&lt;/li&gt;
+&lt;li&gt;Lab tests on the &lt;a href="https://medlineplus.gov/lab-tests/cerebrospinal-fluid-csf-analysis/"&gt;cerebrospinal fluid&lt;/a&gt; (the fluid around the brain and spinal cord)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://medlineplus.gov/lab-tests/electromyography-emg-and-nerve-conduction-studies/ "&gt;Nerve conduction and electromyography (EMG) studies&lt;/a&gt;. These tests check nerve speed and the response of muscles to the messages from the nerves. &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It is important that the tests are done as soon as possible after the symptoms start.&lt;/p&gt;
+
+&lt;h3&gt;What are the treatments for acute flaccid myelitis (AFM)?&lt;/h3&gt;
+&lt;p&gt;There is no specific treatment for AFM. A doctor who specializes in treating brain and spinal cord illnesses (neurologist) may recommend treatments for specific symptoms. For example, physical and/or occupational therapy may help with arm or leg weakness. Researchers do not know the long-term outcomes of people who get AFM.&lt;/p&gt;
+
+&lt;h3&gt;Can acute flaccid myelitis (AFM) be prevented?&lt;/h3&gt;
+&lt;p&gt;There is no specific way to prevent AFM. But you can take steps to prevent getting sick from a virus by:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://medlineplus.gov/germsandhygiene.html"&gt;Washing your hands&lt;/a&gt; often with soap and water&lt;/li&gt;
+&lt;li&gt;Avoiding touching your face with unwashed hands&lt;/li&gt;
+&lt;li&gt;Avoiding close contact with people who are sick&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://medlineplus.gov/cleaningdisinfectingandsanitizing.html"&gt;Cleaning and disinfecting&lt;/a&gt; surfaces that you frequently touch, including toys&lt;/li&gt;
+&lt;li&gt;Covering coughs and sneezes with a tissue or upper shirt sleeve, not hands&lt;/li&gt;
+&lt;li&gt;Staying home when sick&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p class=""&gt;Centers for Disease Control and Prevention&lt;/p&gt;</full-summary>
+		<group url="https://medlineplus.gov/childrenandteenagers.html" id="3">Children and Teenagers</group>
+		<group url="https://medlineplus.gov/infections.html" id="12">Infections</group>
+		<group url="https://medlineplus.gov/brainandnerves.html" id="14">Brain and Nerves</group>
+		<language-mapped-topic url="https://medlineplus.gov/spanish/acuteflaccidmyelitis.html" id="7208" language="Spanish">Mielitis flácida aguda</language-mapped-topic>
+		<other-language vernacular-name="español" url="https://medlineplus.gov/spanish/acuteflaccidmyelitis.html">Spanish</other-language>
+		<primary-institute url="http://www.ninds.nih.gov/">National Institute of Neurological Disorders and Stroke</primary-institute>
+		<site title="About Acute Flaccid Myelitis (AFM)" url="https://www.cdc.gov/acute-flaccid-myelitis/about/" language-mapped-url="https://www.cdc.gov/acute-flaccid-myelitis/about-afm-sp.html">
+			<information-category>Learn More</information-category>
+			<organization>Centers for Disease Control and Prevention</organization>
+		</site>
+		<site title="Acute flaccid myelitis" url="https://medlineplus.gov/ency/article/007743.htm" language-mapped-url="https://medlineplus.gov/spanish/ency/article/007743.htm">
+			<information-category>Learn More</information-category>
+			<organization>Medical Encyclopedia</organization>
+		</site>
+		<site title="Acute Flaccid Myelitis (AFM)" url="https://www.cdc.gov/acute-flaccid-myelitis/">
+			<information-category>Learn More</information-category>
+			<organization>Centers for Disease Control and Prevention</organization>
+		</site>
+		<site title="Acute Flaccid Myelitis (AFM) (For Parents)" url="https://kidshealth.org/en/parents/acute-flaccid-myelitis.html" language-mapped-url="https://kidshealth.org/es/parents/acute-flaccid-myelitis.html">
+			<information-category>Learn More</information-category>
+			<organization>Nemours Foundation</organization>
+		</site>
+		<site title="CDC Vital Signs: Acute Flaccid Myelitis (AFM)" url="https://www.cdc.gov/vitalsigns/afm2020/">
+			<information-category>Learn More</information-category>
+			<organization>Centers for Disease Control and Prevention</organization>
+		</site>
+	</health-topic>
+</health-topics>
