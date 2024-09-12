@@ -79,7 +79,7 @@ class Gui:
         st.session_state['data_file'] = HealthTopicDataset.from_xml_file(data_file)
 
 
-    def render_sidebar(self, data_file: BytesIO):
+    def render_sidebar_buttons(self, data_file: BytesIO):
         """
         Render the buttons of the pages in the sidebar.
         """
