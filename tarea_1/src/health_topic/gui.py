@@ -73,7 +73,7 @@ class Gui:
 
         # reset the page
         # put the button at the end of the sidebar
-        self.render_sidebar(data_file)
+        self.render_sidebar_buttons(data_file)
 
         # return the XML data file
         st.session_state['data_file'] = HealthTopicDataset.from_xml_file(data_file)
