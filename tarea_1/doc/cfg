@@ -1,0 +1,125 @@
+###
+
+Document -> Prolog HealthTopics
+
+###
+
+Prolog -> XmlDeclStartTag XmlDeclAttributes XmlDeclEndTag DocTypeDeclStartTag DocTypeDeclName DocTypeDeclExternalId StartTagClose
+
+XmlDeclAttributes -> VersionKey String EncodingKey String
+
+###
+
+HealthTopics -> HealthTopicsStartTagOpen HealthTopicsAttributes StartTagClose HealthTopicList HealthTopicsEndTag
+
+HealthTopicList -> HealthTopic HealthTopicList | HealthTopic
+
+HealthTopicsAttributes -> TotalKey Integer DateGeneratedKey Timestamp
+
+###
+
+HealthTopic -> HealthTopicStartTagOpen HealthTopicAttributes StartTagClose HealthTopicContent HealthTopicEndTag
+
+HealthTopicContent -> AlsoCalledList FullSummary GroupList LanguageMappedTopicOpt MeshHeadingList OtherLanguageList PrimaryInstituteOpt RelatedTopicList SeeReferenceList SiteList
+
+AlsoCalledList -> AlsoCalled AlsoCalledList | ε
+GroupList -> Group GroupList | Group
+LanguageMappedTopicOpt -> LanguageMappedTopic | ε
+MeshHeadingList -> MeshHeading MeshHeadingList | ε
+OtherLanguageList -> OtherLanguage OtherLanguageList | ε
+PrimaryInstituteOpt -> PrimaryInstitute | ε
+RelatedTopicList -> RelatedTopic RelatedTopicList | ε
+SeeReferenceList -> SeeReference SeeReferenceList | ε
+SiteList -> Site SiteList | Site
+
+HealthTopicAttributes -> MetaDescKey String TitleKey String UrlKey Uri IdKey Integer LanguageKey Language DateCreatedKey Date
+
+###
+
+FullSummary -> FullSummaryStartTagOpen StartTagClose TextContent FullSummaryEndTag
+
+###
+
+Group -> GroupStartTagOpen GroupAttributes StartTagClose TextContent GroupEndTag
+
+GroupAttributes -> UrlKey Uri IdKey Integer
+
+###
+
+LanguageMappedTopic -> LanguageMappedTopicStartTagOpen LanguageMappedTopicAttributes StartTagClose TextContent LanguageMappedTopicEndTag
+
+LanguageMappedTopicAttributes -> UrlKey Uri IdKey Integer LanguageKey Language
+
+###
+
+MeshHeading -> MeshHeadingStartTagOpen StartTagClose Descriptor QualifierList MeshHeadingEndTag
+
+QualifierList -> Qualifier QualifierList | ε
+
+###
+
+OtherLanguage -> OtherLanguageStartTagOpen OtherLanguageAttributes StartTagClose TextContent OtherLanguageEndTag
+
+OtherLanguageAttributes -> VernacularNameKey String UrlKey Uri
+
+###
+
+PrimaryInstitute -> PrimaryInstituteStartTagOpen PrimaryInstituteAttributes StartTagClose TextContent PrimaryInstituteEndTag
+
+PrimaryInstituteAttributes -> UrlKey Uri
+
+###
+
+RelatedTopic -> RelatedTopicStartTagOpen RelatedTopicAttributes StartTagClose TextContent RelatedTopicEndTag
+
+RelatedTopicAttributes -> UrlKey Uri IdKey Integer
+
+###
+
+SeeReference -> SeeReferenceStartTagOpen StartTagClose TextContent SeeReferenceEndTag
+
+###
+
+Site -> SiteStartTagOpen SiteAttributes StartTagClose SiteContent SiteEndTag
+
+SiteContent -> InformationCategoryList OrganizationList StandardDescriptionList
+
+InformationCategoryList -> InformationCategory InformationCategoryList | InformationCategory
+OrganizationList -> Organization OrganizationList | ε
+StandardDescriptionList -> StandardDescription StandardDescriptionList | ε
+
+SiteAttributes -> TitleKey String UrlKey Uri LanguageMappedUrlKey Uri | TitleKey String UrlKey Uri
+
+###
+
+AlsoCalled -> AlsoCalledStartTagOpen StartTagClose TextContent AlsoCalledEndTag
+
+###
+
+Descriptor -> DescriptorStartTagOpen DescriptorAttributes StartTagClose TextContent DescriptorEndTag
+
+DescriptorAttributes -> IdKey String
+
+###
+
+Qualifier -> QualifierStartTagOpen QualifierAttributes StartTagClose TextContent QualifierEndTag
+
+QualifierAttributes -> IdKey String
+
+###
+
+InformationCategory -> InformationCategoryStartTagOpen StartTagClose TextContent InformationCategoryEndTag
+
+###
+
+Organization -> OrganizationStartTagOpen StartTagClose TextContent OrganizationEndTag
+
+###
+
+StandardDescription -> StandardDescriptionStartTagOpen StartTagClose TextContent StandardDescriptionEndTag
+
+###
+
+TextContent -> Text TextContent | Text
+
+###
