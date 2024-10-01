@@ -6,7 +6,7 @@ from pandas import DataFrame
 
 import pandas as pd
 
-from .analysis.parsing import XmlParser
+from ..analysis.parsing import XmlParser
 from .conversion import DictToDataFrameConverter
 from .util import replace_in_keys, list_elems_to_string
 
@@ -158,7 +158,7 @@ class HealthTopicDataset:
 
         # Get the top 10 information categories by count
         top_ten_categories = (category_counts.nlargest(top, 'count')
-        .reset_index(drop=True)
-        .set_index('info_cat_name'))
+                              .reset_index(drop=True)
+                              .set_index('info_cat_name'))
 
         return top_ten_categories

@@ -1,5 +1,5 @@
-
 import streamlit as st
+
 
 def display_data_statistics_page():
     st.title("Estadísticas")

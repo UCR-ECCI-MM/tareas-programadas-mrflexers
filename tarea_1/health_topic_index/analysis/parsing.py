@@ -6,6 +6,11 @@ import ply.yacc as yacc
 from .constants import *
 from .lexing import XmlLexer
 
+OUTPUT_FOLDER = './xml_parser'
+
+TAB_MODULE = 'parser.parsetab'
+
+
 class XmlParser:
 
     @staticmethod
@@ -14,10 +19,8 @@ class XmlParser:
         data = file.read().decode('utf-8')
         return _Parser().parse(data)
 
-class _Parser:
-    _OUTPUT_FOLDER = './xml_parser'
-    _TAB_MODULE = 'parser.parsetab'
 
+class _Parser:
     _token_to_key = {
         'AlsoCalled': ALSO_CALLED,
         'AlsoCalledList': ALSO_CALLED,
@@ -139,12 +142,12 @@ class _Parser:
         return parent
 
     def __init__(self):
-        if not os.path.exists(self._OUTPUT_FOLDER):
-            os.makedirs(self._OUTPUT_FOLDER)
+        if not os.path.exists(OUTPUT_FOLDER):
+            os.makedirs(OUTPUT_FOLDER)
 
         self.lexer = XmlLexer()
         self.tokens = self.lexer.tokens
-        self.parser = yacc.yacc(module=self, outputdir=self._OUTPUT_FOLDER, tabmodule=self._TAB_MODULE)
+        self.parser = yacc.yacc(module=self, outputdir=OUTPUT_FOLDER, tabmodule=TAB_MODULE)
 
     # Parsing rules
     def p_Document(self, p):

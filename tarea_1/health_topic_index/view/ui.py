@@ -1,13 +1,12 @@
-
 from io import BytesIO
 import streamlit as st
 
-from .dataset import HealthTopicDataset
+from health_topic_index.health_topic.dataset import HealthTopicDataset
 
 
 # TODO: make this dynamic, so we can add or remove pages, and the sidebar will be updated
 # TODO: add error page if data is not loaded, or the failure in process state
-class Gui:
+class UI:
     """
     Class to manage the different pages of the GUI.
     """
@@ -17,7 +16,6 @@ class Gui:
         self.pages = {}
         self.home_page_name = None
         st.set_page_config(layout="wide", page_title="Índice de Temas de Salud")
-
 
     def add_page(self, name: str, function: callable):
         """
@@ -44,7 +42,6 @@ class Gui:
         if name not in st.session_state:
             st.session_state[name] = False
 
-
     def run(self):
         """
         Class method to run the GUI in the application
@@ -55,7 +52,6 @@ class Gui:
         with st.empty():
             self.display_pages()
 
-
     def display_sidebar(self):
         """
         Class method to display the sidebar of the GUI.
@@ -64,8 +60,8 @@ class Gui:
 
         # Uploader
         data_file = st.sidebar.file_uploader(label="Archivo por procesar:",
-                                            type=["xml"],
-                                            key="upload_xml")
+                                             type=["xml"],
+                                             key="upload_xml")
 
         # Initialize the app with the main page and return to main page if the data is not loaded
         if data_file is None and not st.session_state[self.home_page_name]:
@@ -77,7 +73,6 @@ class Gui:
 
         # return the XML data file
         st.session_state['data_file'] = HealthTopicDataset.from_xml_file(data_file)
-
 
     def render_sidebar_buttons(self, data_file: BytesIO):
         """
@@ -94,7 +89,6 @@ class Gui:
                 if st.sidebar.button(label=page_name, use_container_width=True, disabled=is_disabled, type=page_type):
                     self.update_session_state(page_name)
 
-
     def update_session_state(self, active_page: str):
         """
         Update the session state of the pages.
@@ -107,7 +101,6 @@ class Gui:
         for page_name in self.pages.keys():
             st.session_state[page_name] = (page_name == active_page)
         st.rerun()
-
 
     def display_pages(self):
         """

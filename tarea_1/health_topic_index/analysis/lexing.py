@@ -4,6 +4,7 @@ import ply.lex as lex
 
 from .constants import *
 
+
 class XmlLexer:
     def __init__(self):
         self._lexer = _Lexer()
@@ -20,6 +21,7 @@ class XmlLexer:
     def token(self):
         """Wrapper method to get the next token."""
         return self._ply_lexer.token()
+
 
 class _Lexer:
     tokens = [

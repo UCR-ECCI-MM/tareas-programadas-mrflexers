@@ -12,10 +12,12 @@ cabo análisis léxico y sintáctico del mismo, mostrando los datos resultantes 
 ## Dependencias
 
 - Python 3.12+
+- sentence-transformers
+- matplotlib
 - streamlit
 - watchdog
 - pandas
-- matplotlib
+- ply
 
 ## Instalación
 
@@ -25,13 +27,7 @@ cabo análisis léxico y sintáctico del mismo, mostrando los datos resultantes 
 python -m venv venv
 ```
 
-- Instalar las dependencias
-
-```bash
-pip install -r requirements.txt
-```
-
-- Instalar los paquetes del proyecto
+- Instalar el proyecto
 
 ```bash
 pip install .
@@ -40,5 +36,5 @@ pip install .
 ## Ejecución
 
 ```bash
-streamlit run src/app.py
+health_topic_index
 ```
