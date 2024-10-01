@@ -1,6 +1,7 @@
-
 import streamlit as st
-from ..dataset import HealthTopicDataset
+
+from health_topic_index.health_topic.dataset import HealthTopicDataset
+
 
 def display_main_page():
     # Home Page data: here show the app name, description, and the options of funct
