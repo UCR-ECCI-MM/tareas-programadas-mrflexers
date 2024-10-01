@@ -6,7 +6,7 @@ from pandas import DataFrame
 
 import pandas as pd
 
-from .parsing import XmlParser
+from .analysis.parsing import XmlParser
 from .conversion import DictToDataFrameConverter
 from .util import replace_in_keys, list_elems_to_string
 
@@ -60,10 +60,11 @@ class HealthTopicDataset:
 
     @classmethod
     def from_xml_file(cls, file: BytesIO) -> HealthTopicDataset:
-        health_topic_dict = XmlParser.parse_file(file)
-        health_topic_dict = replace_in_keys(health_topic_dict, '-', '_')
-        health_topic_dict['health_topics'] = health_topic_dict.pop('health_topic')
-        return cls.from_dict(health_topic_dict)
+        document_dict = XmlParser.parse_file(file)
+        health_topics_dict = document_dict['health-topics']
+        health_topics_dict = replace_in_keys(health_topics_dict, '-', '_')
+        health_topics_dict['health_topics'] = health_topics_dict.pop('health_topic')
+        return cls.from_dict(health_topics_dict)
 
     @staticmethod
     def _normalize_dfs(dfs: Dict[str, DataFrame]) -> Dict[str, DataFrame]:

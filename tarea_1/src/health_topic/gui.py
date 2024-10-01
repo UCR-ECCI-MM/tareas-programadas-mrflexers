@@ -88,9 +88,10 @@ class Gui:
             for page_name in self.pages.keys():
                 # Create a button for each page
                 # Type change to primary when is Inicio
-                if st.sidebar.button(label=page_name, use_container_width=True,
-                                     disabled=data_file is None and page_name != self.home_page_name,
-                                     type="primary" if page_name == self.home_page_name else "secondary"):
+                is_disabled = data_file is None and page_name != self.home_page_name
+                page_type = "primary" if page_name == self.home_page_name else "secondary"
+
+                if st.sidebar.button(label=page_name, use_container_width=True, disabled=is_disabled, type=page_type):
                     self.update_session_state(page_name)
 
 
