@@ -3,9 +3,6 @@ import streamlit as st
 
 from health_topic_index.health_topic.dataset import HealthTopicDataset
 
-
-# TODO: make this dynamic, so we can add or remove pages, and the sidebar will be updated
-# TODO: add error page if data is not loaded, or the failure in process state
 class UI:
     """
     Class to manage the different pages of the GUI.
@@ -61,18 +58,23 @@ class UI:
         # Uploader
         data_file = st.sidebar.file_uploader(label="Archivo por procesar:",
                                              type=["xml"],
-                                             key="upload_xml")
+                                             key="upload_file")
 
-        # Initialize the app with the main page and return to main page if the data is not loaded
-        if data_file is None and not st.session_state[self.home_page_name]:
-            self.update_session_state(self.home_page_name)
+        # If the file is not uploaded, initialize the dataset and the home page
+        if data_file is None:
+            # Initialize the session variable of the dataset
+            st.session_state['dataset'] = None
+            if not st.session_state[self.home_page_name]:
+                self.update_session_state(self.home_page_name)
+        else:
+            if st.session_state['dataset'] is None:
+                st.session_state['dataset'] = HealthTopicDataset.from_xml_file(data_file)
 
         # reset the page
         # put the button at the end of the sidebar
         self.render_sidebar_buttons(data_file)
 
-        # return the XML data file
-        st.session_state['data_file'] = HealthTopicDataset.from_xml_file(data_file)
+
 
     def render_sidebar_buttons(self, data_file: BytesIO):
         """
@@ -86,7 +88,8 @@ class UI:
                 is_disabled = data_file is None and page_name != self.home_page_name
                 page_type = "primary" if page_name == self.home_page_name else "secondary"
 
-                if st.sidebar.button(label=page_name, use_container_width=True, disabled=is_disabled, type=page_type):
+                if st.sidebar.button(label=page_name, use_container_width=True,
+                                     disabled=is_disabled, type=page_type):
                     self.update_session_state(page_name)
 
     def update_session_state(self, active_page: str):
@@ -99,8 +102,9 @@ class UI:
             The name of the active page.
         """
         for page_name in self.pages.keys():
-            st.session_state[page_name] = (page_name == active_page)
-        st.rerun()
+            st.session_state[page_name] = page_name == active_page
+        # TODO: look if this is necessary, because can cause a rerender of dataset
+        #st.rerun()
 
     def display_pages(self):
         """
