@@ -113,6 +113,15 @@ class HealthTopicDataset:
         self.size = dfs['health_topic'].count()
         self.timestamp = timestamp
 
+    def limit_records_to_query(self, query: str) -> None:
+        # If query != whitespace o vacio
+        ## Llama motor de busqueda
+        ## Obtiene ids que juegan
+        # else
+        ## ids que juegan son todos jejepz
+        # Crea un clon de HTs y filtra por ids que juegan
+        pass
+
     def get_health_topics(self):
         health_topic_df = self._dfs['health_topic']
 
