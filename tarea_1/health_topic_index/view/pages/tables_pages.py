@@ -1,6 +1,5 @@
 import streamlit as st
 
-
 def display_health_themes_page():
     st.title("Temas de Salud")
 
@@ -15,7 +14,7 @@ def display_health_themes_page():
         csv = convert_df_to_csv(st.session_state.dataset.get_health_topics())
 
         st.download_button(label="Descargar como CSV", data=csv, file_name="temas_de_salud.csv",
-                           mime="text/csv", type="primary")
+                           mime="text/csv", icon=":material/download:")
 
 
 def display_sites_page():
@@ -34,7 +33,7 @@ def display_sites_page():
         csv = convert_df_to_csv(st.session_state.dataset.get_health_topics())
 
         st.download_button(label="Descargar como CSV", data=csv, file_name="temas_de_salud.csv",
-                           mime="text/csv", type="primary")
+                           mime="text/csv", icon=":material/download:")
 
 @st.cache_data
 def convert_df_to_csv(df):
