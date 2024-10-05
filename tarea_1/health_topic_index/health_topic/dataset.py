@@ -170,7 +170,6 @@ class HealthTopicDataset:
 
         # Get the top 10 information categories by count
         top_ten_categories = (category_counts.nlargest(top, 'count')
-                              .reset_index(drop=True)
-                              .set_index('info_cat_name'))
+                              .reset_index(drop=True))
 
         return top_ten_categories

@@ -26,15 +26,20 @@ def display_main_page():
 # General data into the main page
 def display_general_data_main_page(file: HealthTopicDataset):
     """Display general data of the XML file in the main page."""
-    st.markdown(
-        f"""
-        ___
-        ## Información General
 
-        |                              |                                    |
-        |------------------------------|------------------------------------|
-        |    __Nombre del archivo__    | {st.session_state.upload_file.name} |
-        | __Fecha y hora de creación__ |                   {file.timestamp} |
-        |    __Número de registros__   |                {file.size.iloc[0]} |
-        """
-    )
+    # check if file is not empty
+    if st.session_state.dataset is None:
+        st.error("El archivo no se pudo procesar, por favor subir un archivo MedlinePlus XML válido.")
+    else:
+        st.markdown(
+            f"""
+            ___
+            ## Información General
+
+            |                              |                                    |
+            |------------------------------|------------------------------------|
+            |    __Nombre del archivo__    | {st.session_state.upload_file.name} |
+            | __Fecha y hora de creación__ |                   {file.timestamp} |
+            |    __Número de registros__   |                {file.size.iloc[0]} |
+            """
+        )
