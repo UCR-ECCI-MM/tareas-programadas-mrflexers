@@ -1,5 +1,6 @@
 from io import BytesIO
 import altair as alt
+import vl_convert as vlc
 import streamlit as st
 
 def display_data_statistics_page():
@@ -22,9 +23,23 @@ def display_data_statistics_page():
         ).configure_axis(
             labelLimit=200,  # Adjust the limit of large labels
         ).properties(
+            width=1000,
             height=500  # Height of the chart
         )
 
         # use on_select when the graph need to be dynamic
         st.altair_chart(bar_chart, use_container_width=True)
 
+
+    # Generar botones de descarga para PNG y SVG
+    st.download_button(
+        label="Descargar",
+        data=chart_to_bytes(bar_chart),
+        file_name="cat_mas_populares.png",
+        mime="image/png",
+    )
+
+
+def chart_to_bytes(chart: alt.Chart) -> BytesIO:
+    chart_bytes = vlc.vegalite_to_png(chart.to_dict())
+    return chart_bytes
