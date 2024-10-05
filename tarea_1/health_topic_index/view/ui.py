@@ -1,5 +1,6 @@
 from io import BytesIO
 import streamlit as st
+from health_topic_index.logger.logger import AppLogger
 
 from health_topic_index.health_topic.dataset import HealthTopicDataset
 
@@ -13,6 +14,7 @@ class UI:
         self.pages = {}
         self.home_page_name = None
         st.set_page_config(layout="wide", page_title="Índice de Temas de Salud")
+        self.logger = AppLogger()
 
     def add_page(self, name: str, function: callable):
         """
@@ -53,7 +55,6 @@ class UI:
         """
         Class method to display the sidebar of the GUI.
         """
-        # Set the session state
 
         # Uploader
         data_file = st.sidebar.file_uploader(label="Archivo por procesar:",
@@ -68,15 +69,18 @@ class UI:
                 self.update_session_state(self.home_page_name)
         else:
             if st.session_state['dataset'] is None:
-                st.session_state['dataset'] = HealthTopicDataset.from_xml_file(data_file)
+                try:
+                    st.session_state['dataset'] = HealthTopicDataset.from_xml_file(data_file)
+                except Exception as _:
+                    # TODO: this try catch needs to be in dataset class
+                    AppLogger.log_exception()
 
         # reset the page
         # put the button at the end of the sidebar
-        self.render_sidebar_buttons(data_file)
+        self.render_sidebar_buttons()
 
 
-
-    def render_sidebar_buttons(self, data_file: BytesIO):
+    def render_sidebar_buttons(self):
         """
         Render the buttons of the pages in the sidebar.
         """
@@ -85,7 +89,7 @@ class UI:
             for page_name in self.pages.keys():
                 # Create a button for each page
                 # Type change to primary when is Inicio
-                is_disabled = data_file is None and page_name != self.home_page_name
+                is_disabled = st.session_state.dataset is None and page_name != self.home_page_name
                 page_type = "primary" if page_name == self.home_page_name else "secondary"
 
                 if st.sidebar.button(label=page_name, use_container_width=True,
