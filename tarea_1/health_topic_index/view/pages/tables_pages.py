@@ -11,17 +11,14 @@ def display_health_themes_page():
                      hide_index=True
         )
 
-        csv = convert_df_to_csv(st.session_state.dataset.get_health_topics())
-
-        st.download_button(label="Descargar como CSV", data=csv, file_name="temas_de_salud.csv",
-                           mime="text/csv", icon=":material/download:")
+        download_csv(st.session_state.dataset.get_health_topics(), "temas_salud.csv")
 
 
 def display_sites_page():
     st.title("Sitios")
 
     if 'dataset' in st.session_state:
-        # TODO: descripcion column not needed
+        # TODO: description column not needed
         st.dataframe(st.session_state.dataset.get_sites(),
                      height=600,
                      use_container_width=True,
@@ -30,10 +27,13 @@ def display_sites_page():
                      hide_index=True
         )
 
-        csv = convert_df_to_csv(st.session_state.dataset.get_health_topics())
+        download_csv(st.session_state.dataset.get_sites(), "sitios.csv")
 
-        st.download_button(label="Descargar como CSV", data=csv, file_name="temas_de_salud.csv",
-                           mime="text/csv", icon=":material/download:")
+
+def download_csv(df, filename):
+    csv = convert_df_to_csv(df)
+    st.download_button(label="Descargar", data=csv, file_name=filename,
+                       mime="text/csv", icon=":material/download:")
 
 @st.cache_data
 def convert_df_to_csv(df):
