@@ -114,16 +114,27 @@ class UI:
 
 
     def render_sidebar_search(self):
-        # # add a separator
-        # st.markdown("---")
-        # # show the search box if dataset is not None
-        # if st.session_state.dataset is not None:
-        #     # TODO: implement on change to begin the filtering
-        #     search_box = st.text_input(label="Buscador inteligente", key="search_box", on_change=None, placeholder="Escriba aquí...")
-        #     if search_box:
-        #         # Perform search operation here
-        #         st.write(f"Searching for {search_box}")
-        pass
+        # add a separator
+        st.markdown("---")
+        # show the search box if dataset is not None
+        if st.session_state.dataset is not None:
+            st.session_state['search_box'] = st.text_input(
+                label="Buscador inteligente",
+                key="search_box",
+                on_change=self.send_filter_command,
+                placeholder="Escriba aquí..."
+            )
+
+
+    def send_filter_command():
+        """
+        Send the search box value to the search engine to filter the dataset.
+        """
+        # If the search box is not empty, say to HealthTopicDataset
+        # to filter the dataset
+        if st.session_state.search_box:
+            # TODO: Add a filter command to the dataset
+            pass
 
 
     def display_pages(self):
