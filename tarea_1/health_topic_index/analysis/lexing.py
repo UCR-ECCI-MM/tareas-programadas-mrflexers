@@ -241,7 +241,7 @@ class _Lexer:
         return t
 
     def t_String(self, t):
-        r'"[^"]+"'
+        r'"[^"]*"'
         t.value = self._replace_html_entities(t.value.replace('"', ''))
         return t
 

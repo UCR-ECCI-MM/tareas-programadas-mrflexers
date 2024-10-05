@@ -126,15 +126,11 @@ class UI:
             )
 
 
-    def send_filter_command():
+    def send_filter_command(self):
         """
         Send the search box value to the search engine to filter the dataset.
         """
-        # If the search box is not empty, say to HealthTopicDataset
-        # to filter the dataset
-        if st.session_state.search_box:
-            # TODO: Add a filter command to the dataset
-            pass
+        st.session_state['dataset'].semantic_filter(st.session_state['search_box'])
 
 
     def display_pages(self):

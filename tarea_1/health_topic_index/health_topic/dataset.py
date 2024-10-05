@@ -116,7 +116,7 @@ class HealthTopicDataset:
         self.size = dfs['health_topic'].count()
         self.timestamp = timestamp
 
-    def semantic_filter_health_topics(self, query: str) -> HealthTopicDataset:
+    def semantic_filter(self, query: str) -> HealthTopicDataset:
         self._filtered_hts = self._dfs['health_topic'][:]
 
         if query and not query.isspace():
