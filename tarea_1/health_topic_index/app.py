@@ -6,8 +6,6 @@ from health_topic_index.view import (
     display_sites_page,
 )
 
-# TODO: add error page if data is not loaded, or the failure in process state
-
 def main():
     # Initialize the GUI
     gui = UI()
