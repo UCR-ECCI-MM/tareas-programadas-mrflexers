@@ -1,0 +1,116 @@
+2024-10-05 07:54:55,213 ERROR Error procesando el archivo: Traceback (most recent call last):
+  File "D:\SomeCode\tareas-programadas-mrflexers\tarea_1\health_topic_index\view\ui.py", line 73, in display_sidebar
+    st.session_state['dataset'] = HealthTopicDataset.from_xml_file(data_file)
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\SomeCode\tareas-programadas-mrflexers\tarea_1\health_topic_index\health_topic\dataset.py", line 63, in from_xml_file
+    document_dict = XmlParser.parse_file(file)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\SomeCode\tareas-programadas-mrflexers\tarea_1\health_topic_index\analysis\parsing.py", line 20, in parse_file
+    return _Parser().parse(data)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\SomeCode\tareas-programadas-mrflexers\tarea_1\health_topic_index\analysis\parsing.py", line 396, in parse
+    result = self.parser.parse(data, lexer=self.lexer)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\SomeCode\tareas-programadas-mrflexers\tarea_1\.venv\Lib\site-packages\ply\yacc.py", line 333, in parse
+    return self.parseopt_notrack(input, lexer, debug, tracking, tokenfunc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\SomeCode\tareas-programadas-mrflexers\tarea_1\.venv\Lib\site-packages\ply\yacc.py", line 1063, in parseopt_notrack
+    lookahead = get_token()     # Get the next token
+                ^^^^^^^^^^^
+  File "D:\SomeCode\tareas-programadas-mrflexers\tarea_1\health_topic_index\analysis\lexing.py", line 23, in token
+    return self._ply_lexer.token()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\SomeCode\tareas-programadas-mrflexers\tarea_1\.venv\Lib\site-packages\ply\lex.py", line 386, in token
+    newtok = self.lexerrorf(tok)
+             ^^^^^^^^^^^^^^^^^^^
+  File "D:\SomeCode\tareas-programadas-mrflexers\tarea_1\health_topic_index\analysis\lexing.py", line 260, in t_error
+    raise Exception(f"Illegal character '{t.value[0]}' at line {t.lexer.lineno}")
+Exception: Illegal character '<' at line 56
+
+2024-10-05 07:54:59,555 ERROR Error procesando el archivo: Traceback (most recent call last):
+  File "D:\SomeCode\tareas-programadas-mrflexers\tarea_1\health_topic_index\view\ui.py", line 73, in display_sidebar
+    st.session_state['dataset'] = HealthTopicDataset.from_xml_file(data_file)
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\SomeCode\tareas-programadas-mrflexers\tarea_1\health_topic_index\health_topic\dataset.py", line 63, in from_xml_file
+    document_dict = XmlParser.parse_file(file)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\SomeCode\tareas-programadas-mrflexers\tarea_1\health_topic_index\analysis\parsing.py", line 20, in parse_file
+    return _Parser().parse(data)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\SomeCode\tareas-programadas-mrflexers\tarea_1\health_topic_index\analysis\parsing.py", line 396, in parse
+    result = self.parser.parse(data, lexer=self.lexer)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\SomeCode\tareas-programadas-mrflexers\tarea_1\.venv\Lib\site-packages\ply\yacc.py", line 333, in parse
+    return self.parseopt_notrack(input, lexer, debug, tracking, tokenfunc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\SomeCode\tareas-programadas-mrflexers\tarea_1\.venv\Lib\site-packages\ply\yacc.py", line 1063, in parseopt_notrack
+    lookahead = get_token()     # Get the next token
+                ^^^^^^^^^^^
+  File "D:\SomeCode\tareas-programadas-mrflexers\tarea_1\health_topic_index\analysis\lexing.py", line 23, in token
+    return self._ply_lexer.token()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\SomeCode\tareas-programadas-mrflexers\tarea_1\.venv\Lib\site-packages\ply\lex.py", line 386, in token
+    newtok = self.lexerrorf(tok)
+             ^^^^^^^^^^^^^^^^^^^
+  File "D:\SomeCode\tareas-programadas-mrflexers\tarea_1\health_topic_index\analysis\lexing.py", line 260, in t_error
+    raise Exception(f"Illegal character '{t.value[0]}' at line {t.lexer.lineno}")
+Exception: Illegal character '<' at line 56
+
+2024-10-05 08:14:16,531 ERROR Error procesando el archivo: Traceback (most recent call last):
+  File "D:\SomeCode\tareas-programadas-mrflexers\tarea_1\health_topic_index\view\ui.py", line 73, in display_sidebar
+    st.session_state['dataset'] = HealthTopicDataset.from_xml_file(data_file)
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\SomeCode\tareas-programadas-mrflexers\tarea_1\health_topic_index\health_topic\dataset.py", line 63, in from_xml_file
+    document_dict = XmlParser.parse_file(file)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\SomeCode\tareas-programadas-mrflexers\tarea_1\health_topic_index\analysis\parsing.py", line 20, in parse_file
+    return _Parser().parse(data)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\SomeCode\tareas-programadas-mrflexers\tarea_1\health_topic_index\analysis\parsing.py", line 396, in parse
+    result = self.parser.parse(data, lexer=self.lexer)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\SomeCode\tareas-programadas-mrflexers\tarea_1\.venv\Lib\site-packages\ply\yacc.py", line 333, in parse
+    return self.parseopt_notrack(input, lexer, debug, tracking, tokenfunc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\SomeCode\tareas-programadas-mrflexers\tarea_1\.venv\Lib\site-packages\ply\yacc.py", line 1063, in parseopt_notrack
+    lookahead = get_token()     # Get the next token
+                ^^^^^^^^^^^
+  File "D:\SomeCode\tareas-programadas-mrflexers\tarea_1\health_topic_index\analysis\lexing.py", line 23, in token
+    return self._ply_lexer.token()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\SomeCode\tareas-programadas-mrflexers\tarea_1\.venv\Lib\site-packages\ply\lex.py", line 386, in token
+    newtok = self.lexerrorf(tok)
+             ^^^^^^^^^^^^^^^^^^^
+  File "D:\SomeCode\tareas-programadas-mrflexers\tarea_1\health_topic_index\analysis\lexing.py", line 260, in t_error
+    raise Exception(f"Illegal character '{t.value[0]}' at line {t.lexer.lineno}")
+Exception: Illegal character '<' at line 56
+
+2024-10-05 08:16:46,067 ERROR Error procesando el archivo: Traceback (most recent call last):
+  File "D:\SomeCode\tareas-programadas-mrflexers\tarea_1\health_topic_index\view\ui.py", line 73, in display_sidebar
+    st.session_state['dataset'] = HealthTopicDataset.from_xml_file(data_file)
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\SomeCode\tareas-programadas-mrflexers\tarea_1\health_topic_index\health_topic\dataset.py", line 63, in from_xml_file
+    document_dict = XmlParser.parse_file(file)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\SomeCode\tareas-programadas-mrflexers\tarea_1\health_topic_index\analysis\parsing.py", line 20, in parse_file
+    return _Parser().parse(data)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\SomeCode\tareas-programadas-mrflexers\tarea_1\health_topic_index\analysis\parsing.py", line 396, in parse
+    result = self.parser.parse(data, lexer=self.lexer)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\SomeCode\tareas-programadas-mrflexers\tarea_1\.venv\Lib\site-packages\ply\yacc.py", line 333, in parse
+    return self.parseopt_notrack(input, lexer, debug, tracking, tokenfunc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\SomeCode\tareas-programadas-mrflexers\tarea_1\.venv\Lib\site-packages\ply\yacc.py", line 1063, in parseopt_notrack
+    lookahead = get_token()     # Get the next token
+                ^^^^^^^^^^^
+  File "D:\SomeCode\tareas-programadas-mrflexers\tarea_1\health_topic_index\analysis\lexing.py", line 23, in token
+    return self._ply_lexer.token()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\SomeCode\tareas-programadas-mrflexers\tarea_1\.venv\Lib\site-packages\ply\lex.py", line 386, in token
+    newtok = self.lexerrorf(tok)
+             ^^^^^^^^^^^^^^^^^^^
+  File "D:\SomeCode\tareas-programadas-mrflexers\tarea_1\health_topic_index\analysis\lexing.py", line 260, in t_error
+    raise Exception(f"Illegal character '{t.value[0]}' at line {t.lexer.lineno}")
+Exception: Illegal character '' at line 1
+
