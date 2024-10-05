@@ -37,8 +37,8 @@ def display_data_statistics_page():
         data=chart_to_bytes(bar_chart),
         file_name="cat_mas_populares.png",
         mime="image/png",
+        icon=":material/download:",
     )
-
 
 def chart_to_bytes(chart: alt.Chart) -> BytesIO:
     chart_bytes = vlc.vegalite_to_png(chart.to_dict())
