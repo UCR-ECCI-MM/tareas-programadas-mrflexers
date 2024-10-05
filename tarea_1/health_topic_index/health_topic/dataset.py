@@ -8,14 +8,14 @@ import pandas as pd
 
 from ..analysis.parsing import XmlParser
 from .conversion import DictToDataFrameConverter
+from .search import SearchEngine
 from .util import replace_in_keys, list_elems_to_string
 
 HEALTH_TOPIC_PK = 'id'
 
 ATTR_PKS = {'site': 'url', 'primary_institute': 'url', 'group': 'id', 'related_topic': 'id', 'information_category': 0}
 
-ATTRS_TO_PRUNE = ['also_called', 'see_reference', 'full_summary',
-                  'mesh_heading', 'language_mapped_topic', 'other_language']
+ATTRS_TO_PRUNE = ['also_called', 'see_reference', 'mesh_heading', 'language_mapped_topic', 'other_language']
 
 RENAMINGS = {
     'meta_desc': 'description',
@@ -110,25 +110,28 @@ class HealthTopicDataset:
     def __init__(self, dfs: Dict[str, DataFrame], timestamp: str):
         """Expects normalized set of DataFrames"""
         self._dfs = dfs
+        self._filtered_hts = dfs['health_topic'][:]
+        self._search_engine = SearchEngine(dfs['health_topic'][['id', 'full_summary']]
+                                           .rename(columns={'full_summary': 'text'}))
         self.size = dfs['health_topic'].count()
         self.timestamp = timestamp
 
-    def limit_records_to_query(self, query: str) -> None:
-        # If query != whitespace o vacio
-        ## Llama motor de busqueda
-        ## Obtiene ids que juegan
-        # else
-        ## ids que juegan son todos jejepz
-        # Crea un clon de HTs y filtra por ids que juegan
-        pass
+    def semantic_filter_health_topics(self, query: str) -> HealthTopicDataset:
+        self._filtered_hts = self._dfs['health_topic'][:]
+
+        if query and not query.isspace():
+            result_ids = self._search_engine.search(query)
+            self._filtered_hts = self._filtered_hts[self._filtered_hts['id'].isin(result_ids)]
+
+        return self
 
     def get_health_topics(self):
-        health_topic_df = self._dfs['health_topic']
+        health_topic_df = self._filtered_hts[:]
 
         title_col = health_topic_df.pop('title')
         health_topic_df.insert(0, 'title', title_col)
 
-        return (health_topic_df.drop(columns=['id'])
+        return (health_topic_df.drop(columns=['id', 'full_summary'])
         .rename(
             columns={
                 'title': 'Título', 'description': 'Descripción', 'url': 'URL',
