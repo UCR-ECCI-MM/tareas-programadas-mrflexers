@@ -1,5 +1,6 @@
 from io import BytesIO
 import streamlit as st
+from health_topic_index.logger.logger import AppLogger
 
 from health_topic_index.health_topic.dataset import HealthTopicDataset
 
@@ -13,6 +14,7 @@ class UI:
         self.pages = {}
         self.home_page_name = None
         st.set_page_config(layout="wide", page_title="Índice de Temas de Salud")
+        self.logger = AppLogger()
 
     def add_page(self, name: str, function: callable):
         """
@@ -53,44 +55,48 @@ class UI:
         """
         Class method to display the sidebar of the GUI.
         """
-        # Set the session state
+        with st.sidebar:
+            # Uploader
+            data_file = st.file_uploader(label="Archivo por procesar:",
+                                                type=["xml"],
+                                                key="upload_file")
 
-        # Uploader
-        data_file = st.sidebar.file_uploader(label="Archivo por procesar:",
-                                             type=["xml"],
-                                             key="upload_file")
+            # If the file is not uploaded, initialize the dataset and the home page
+            if data_file is None:
+                # Initialize the session variable of the dataset
+                st.session_state['dataset'] = None
+                if not st.session_state[self.home_page_name]:
+                    self.update_session_state(self.home_page_name)
+            else:
+                if st.session_state['dataset'] is None:
+                    try:
+                        st.session_state['dataset'] = HealthTopicDataset.from_xml_file(data_file)
+                    except Exception as _:
+                        # TODO: this try catch needs to be in dataset class
+                        AppLogger.log_exception()
 
-        # If the file is not uploaded, initialize the dataset and the home page
-        if data_file is None:
-            # Initialize the session variable of the dataset
-            st.session_state['dataset'] = None
-            if not st.session_state[self.home_page_name]:
-                self.update_session_state(self.home_page_name)
-        else:
-            if st.session_state['dataset'] is None:
-                st.session_state['dataset'] = HealthTopicDataset.from_xml_file(data_file)
-
-        # reset the page
-        # put the button at the end of the sidebar
-        self.render_sidebar_buttons(data_file)
+            # reset the page
+            # put the button at the end of the sidebar
+            with st.container():
+                self.render_sidebar_buttons()
+                self.render_sidebar_search()
 
 
 
-    def render_sidebar_buttons(self, data_file: BytesIO):
+    def render_sidebar_buttons(self):
         """
         Render the buttons of the pages in the sidebar.
         """
-        # Create a container for the sidebar
-        with st.sidebar.container():
-            for page_name in self.pages.keys():
-                # Create a button for each page
-                # Type change to primary when is Inicio
-                is_disabled = data_file is None and page_name != self.home_page_name
-                page_type = "primary" if page_name == self.home_page_name else "secondary"
+        # Create a button for each page
+        for page_name in self.pages.keys():
+            # Create a button for each page
+            # Type change to primary when is Inicio
+            is_disabled = st.session_state.dataset is None and page_name != self.home_page_name
+            page_type = "primary" if page_name == self.home_page_name else "secondary"
 
-                if st.sidebar.button(label=page_name, use_container_width=True,
-                                     disabled=is_disabled, type=page_type):
-                    self.update_session_state(page_name)
+            if st.button(label=page_name, use_container_width=True,
+                                    disabled=is_disabled, type=page_type):
+                self.update_session_state(page_name)
 
     def update_session_state(self, active_page: str):
         """
@@ -106,6 +112,20 @@ class UI:
         # TODO: look if this is necessary, because can cause a rerender of dataset
         #st.rerun()
 
+
+    def render_sidebar_search(self):
+        # # add a separator
+        # st.markdown("---")
+        # # show the search box if dataset is not None
+        # if st.session_state.dataset is not None:
+        #     # TODO: implement on change to begin the filtering
+        #     search_box = st.text_input(label="Buscador inteligente", key="search_box", on_change=None, placeholder="Escriba aquí...")
+        #     if search_box:
+        #         # Perform search operation here
+        #         st.write(f"Searching for {search_box}")
+        pass
+
+
     def display_pages(self):
         """
         Render the pages of the pages dict.
@@ -115,3 +135,5 @@ class UI:
             if st.session_state[name]:
                 with st.container():
                     function()
+
+
