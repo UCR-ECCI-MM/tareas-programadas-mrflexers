@@ -10,7 +10,6 @@ from health_topic_index.view import (
 
 logger = setup_logger(__name__)
 
-logger.info("Starting app")
 
 def main():
     # Initialize the GUI

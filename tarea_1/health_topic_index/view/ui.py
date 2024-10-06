@@ -128,7 +128,6 @@ class UI:
                 placeholder="Escriba aquí..."
             )
 
-
     def send_filter_command(self):
         """
         Send the search box value to the search engine to filter the dataset.
