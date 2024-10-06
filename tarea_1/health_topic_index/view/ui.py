@@ -1,8 +1,10 @@
-from io import BytesIO
 import streamlit as st
-from health_topic_index.logger.logger import AppLogger
+from health_topic_index import setup_logger
 
 from health_topic_index.health_topic.dataset import HealthTopicDataset
+
+logger = setup_logger(__name__)
+
 
 class UI:
     """
@@ -13,8 +15,11 @@ class UI:
         # Initialize the pages
         self.pages = {}
         self.home_page_name = None
-        st.set_page_config(layout="wide", page_title="Índice de Temas de Salud")
-        self.logger = AppLogger()
+        st.set_page_config(
+            layout="wide",
+            page_title="Índice de Temas de Salud",
+            page_icon=":robot_face:"
+        )
 
     def add_page(self, name: str, function: callable):
         """
@@ -45,11 +50,15 @@ class UI:
         """
         Class method to run the GUI in the application
         """
-        # Set the sidebar
-        self.display_sidebar()
-        # Set a place holder for the main page
-        with st.empty():
-            self.display_pages()
+        try:
+            # Set the sidebar
+            self.display_sidebar()
+            # Set a place holder for the main page
+            with st.empty():
+                self.display_pages()
+        except Exception:
+            logger.exception("An error occurred while rendering the GUI")
+            st.error("Ocurrió un error al renderizar la interfaz")
 
     def display_sidebar(self):
         """
@@ -58,8 +67,8 @@ class UI:
         with st.sidebar:
             # Uploader
             data_file = st.file_uploader(label="Archivo por procesar:",
-                                                type=["xml"],
-                                                key="upload_file")
+                                         type=["xml"],
+                                         key="upload_file")
 
             # If the file is not uploaded, initialize the dataset and the home page
             if data_file is None:
@@ -71,17 +80,14 @@ class UI:
                 if st.session_state['dataset'] is None:
                     try:
                         st.session_state['dataset'] = HealthTopicDataset.from_xml_file(data_file)
-                    except Exception as _:
-                        # TODO: this try catch needs to be in dataset class
-                        AppLogger.log_exception()
+                    except Exception:
+                        logger.exception("An error occurred while loading the dataset")
 
             # reset the page
             # put the button at the end of the sidebar
             with st.container():
                 self.render_sidebar_buttons()
                 self.render_sidebar_search()
-
-
 
     def render_sidebar_buttons(self):
         """
@@ -95,7 +101,7 @@ class UI:
             page_type = "primary" if page_name == self.home_page_name else "secondary"
 
             if st.button(label=page_name, use_container_width=True,
-                                    disabled=is_disabled, type=page_type):
+                         disabled=is_disabled, type=page_type):
                 self.update_session_state(page_name)
 
     def update_session_state(self, active_page: str):
@@ -109,22 +115,26 @@ class UI:
         """
         for page_name in self.pages.keys():
             st.session_state[page_name] = page_name == active_page
-        # TODO: look if this is necessary, because can cause a rerender of dataset
-        #st.rerun()
-
 
     def render_sidebar_search(self):
-        # # add a separator
-        # st.markdown("---")
-        # # show the search box if dataset is not None
-        # if st.session_state.dataset is not None:
-        #     # TODO: implement on change to begin the filtering
-        #     search_box = st.text_input(label="Buscador inteligente", key="search_box", on_change=None, placeholder="Escriba aquí...")
-        #     if search_box:
-        #         # Perform search operation here
-        #         st.write(f"Searching for {search_box}")
-        pass
+        # add a separator
+        st.markdown("---")
+        # show the search box if dataset is not None
+        if st.session_state.dataset is not None:
+            st.text_input(
+                label="Buscador inteligente",
+                key="search_box",  # Clave para que el valor se almacene en st.session_state['search_box']
+                on_change=self.send_filter_command,  # Función que se llamará cuando el texto cambie
+                placeholder="Escriba aquí..."
+            )
 
+    def send_filter_command(self):
+        """
+        Send the search box value to the search engine to filter the dataset.
+        """
+        search_term = st.session_state.get('search_box', '')
+
+        st.session_state['dataset'].semantic_filter(search_term)
 
     def display_pages(self):
         """
@@ -135,5 +145,3 @@ class UI:
             if st.session_state[name]:
                 with st.container():
                     function()
-
-

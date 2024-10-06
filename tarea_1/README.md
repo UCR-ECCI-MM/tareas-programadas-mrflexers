@@ -36,5 +36,5 @@ pip install .
 ## Ejecución
 
 ```bash
-health_topic_index
+./launch.sh
 ```

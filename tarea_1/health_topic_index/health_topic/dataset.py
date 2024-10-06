@@ -6,16 +6,17 @@ from pandas import DataFrame
 
 import pandas as pd
 
+from .. import setup_logger
 from ..analysis.parsing import XmlParser
 from .conversion import DictToDataFrameConverter
+from .search import SearchEngine
 from .util import replace_in_keys, list_elems_to_string
 
 HEALTH_TOPIC_PK = 'id'
 
 ATTR_PKS = {'site': 'url', 'primary_institute': 'url', 'group': 'id', 'related_topic': 'id', 'information_category': 0}
 
-ATTRS_TO_PRUNE = ['also_called', 'see_reference', 'full_summary',
-                  'mesh_heading', 'language_mapped_topic', 'other_language']
+ATTRS_TO_PRUNE = ['also_called', 'see_reference', 'mesh_heading', 'language_mapped_topic', 'other_language']
 
 RENAMINGS = {
     'meta_desc': 'description',
@@ -25,6 +26,8 @@ RENAMINGS = {
 }
 
 CONVERTER = DictToDataFrameConverter
+
+logger = setup_logger(__name__)
 
 
 class HealthTopicDataset:
@@ -110,25 +113,29 @@ class HealthTopicDataset:
     def __init__(self, dfs: Dict[str, DataFrame], timestamp: str):
         """Expects normalized set of DataFrames"""
         self._dfs = dfs
+        self._filtered_hts = dfs['health_topic'][:]
+        self._search_engine = SearchEngine(dfs['health_topic'][['id', 'full_summary']]
+                                           .rename(columns={'full_summary': 'text'}))
         self.size = dfs['health_topic'].count()
         self.timestamp = timestamp
 
-    def limit_records_to_query(self, query: str) -> None:
-        # If query != whitespace o vacio
-        ## Llama motor de busqueda
-        ## Obtiene ids que juegan
-        # else
-        ## ids que juegan son todos jejepz
-        # Crea un clon de HTs y filtra por ids que juegan
-        pass
+    def semantic_filter(self, query: str) -> HealthTopicDataset:
+        self._filtered_hts = self._dfs['health_topic'][:]
+
+        if query and not query.isspace():
+            result_ids = self._search_engine.search(query)
+            self._filtered_hts = self._filtered_hts[self._filtered_hts['id'].isin(result_ids)]
+            self._filtered_hts = self._filtered_hts.set_index('id').loc[result_ids].reset_index()
+
+        return self
 
     def get_health_topics(self):
-        health_topic_df = self._dfs['health_topic']
+        health_topic_df = self._filtered_hts[:]
 
         title_col = health_topic_df.pop('title')
         health_topic_df.insert(0, 'title', title_col)
 
-        return (health_topic_df.drop(columns=['id'])
+        return (health_topic_df.drop(columns=['id', 'full_summary'])
         .rename(
             columns={
                 'title': 'Título', 'description': 'Descripción', 'url': 'URL',
@@ -137,12 +144,45 @@ class HealthTopicDataset:
         ))
 
     def get_sites(self):
+        # Get the filtered health topic IDs in order
+        health_topic_ids = self._filtered_hts['id'].tolist()
+
+        # Create a mapping of health_topic_id to its rank (order)
+        ht_rank_df = pd.DataFrame({
+            'health_topic_id': health_topic_ids,
+            'ht_rank': range(len(health_topic_ids))
+        })
+
+        # Filter site_health_topic to include only the filtered health topics
+        site_health_topic_df = self._dfs['site_health_topic']
+        filtered_site_ht = site_health_topic_df[
+            site_health_topic_df['health_topic_id'].isin(health_topic_ids)
+        ]
+
+        # Merge to associate each URL with the earliest health topic rank
+        filtered_site_ht = filtered_site_ht.merge(ht_rank_df, on='health_topic_id', how='inner')
+
+        # Sort filtered_site_ht by ht_rank to maintain health topic order
+        filtered_site_ht = filtered_site_ht.sort_values('ht_rank')
+
+        # Remove duplicates while preserving order
+        ordered_urls = filtered_site_ht.drop_duplicates(subset='url')['url'].tolist()
+
+        # Filter the sites DataFrame and preserve the order, keeping only URLs in ordered_urls
         sites_df = self._dfs['site']
+        sites_df = sites_df[sites_df['url'].isin(ordered_urls)].copy()
+
+        # Convert 'url' column to Categorical with the categories from ordered_urls
+        sites_df['url'] = pd.Categorical(sites_df['url'], categories=ordered_urls, ordered=True)
+
+        # Sort the DataFrame by 'url', placing NaN values at the bottom (though there should be no NaN values here)
+        sites_df = sites_df.sort_values(by='url', na_position='last')
 
         title_col = sites_df.pop('title')
         sites_df.insert(0, 'title', title_col)
 
         sites_df['description'] = list_elems_to_string(sites_df['description'])
+        sites_df['organization'] = list_elems_to_string(sites_df['organization'])
 
         return sites_df.rename(
             columns={
@@ -152,9 +192,16 @@ class HealthTopicDataset:
         )
 
     def get_top_info_cat(self, top: int = 10):
-        # Merge site_health_topic with info_cat_site to associate health topics with information categories
+        # Get the filtered health topic IDs
+        health_topic_ids = self._filtered_hts['id']
+
+        # Filter site_health_topic to include only the filtered health topics
+        filtered_site_health_topic = self._dfs['site_health_topic'][
+            self._dfs['site_health_topic']['health_topic_id'].isin(health_topic_ids)]
+
+        # Merge with info_cat_site to associate health topics with information categories
         merged_df = pd.merge(
-            self._dfs['site_health_topic'],
+            filtered_site_health_topic,
             self._dfs['info_cat_site'],
             left_on='url',
             right_on='site_url'
@@ -165,8 +212,7 @@ class HealthTopicDataset:
         # Group by information_category and count the occurrences of health_topic
         category_counts = merged_df.groupby('info_cat_name').size().reset_index(name='count')
 
-        # Get the top 10 information categories by count
-        top_ten_categories = (category_counts.nlargest(top, 'count')
-                              .reset_index(drop=True))
+        # Get the top N information categories by count
+        top_categories = category_counts.nlargest(top, 'count').reset_index(drop=True)
 
-        return top_ten_categories
+        return top_categories

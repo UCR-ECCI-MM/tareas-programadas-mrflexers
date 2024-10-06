@@ -9,10 +9,5 @@ setup(
     version='0.1',
     packages=find_packages(),
     include_package_data=True,
-    install_requires=requirements,
-    entry_points={
-        'console_scripts': [
-            'health_topic_index=health_topic_index.launch:main',  # Command to run your app
-        ],
-    },
+    install_requires=requirements
 )
