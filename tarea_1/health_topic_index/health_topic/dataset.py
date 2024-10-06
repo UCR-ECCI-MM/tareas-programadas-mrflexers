@@ -6,6 +6,7 @@ from pandas import DataFrame
 
 import pandas as pd
 
+from .. import setup_logger
 from ..analysis.parsing import XmlParser
 from .conversion import DictToDataFrameConverter
 from .search import SearchEngine
@@ -25,6 +26,8 @@ RENAMINGS = {
 }
 
 CONVERTER = DictToDataFrameConverter
+
+logger = setup_logger(__name__)
 
 
 class HealthTopicDataset:
@@ -122,6 +125,10 @@ class HealthTopicDataset:
         if query and not query.isspace():
             result_ids = self._search_engine.search(query)
             self._filtered_hts = self._filtered_hts[self._filtered_hts['id'].isin(result_ids)]
+            self._filtered_hts = self._filtered_hts.set_index('id').loc[result_ids].reset_index()
+
+        # DEBUG
+        logger.info(f"Filtered health topics: {self._filtered_hts}")
 
         return self
 
@@ -140,7 +147,57 @@ class HealthTopicDataset:
         ))
 
     def get_sites(self):
+        # Get the filtered health topic IDs in order
+        health_topic_ids = self._filtered_hts['id'].tolist()
+
+        # DEBUG
+        logger.info(f"Filtered health topic IDs: {health_topic_ids}")
+
+        # Create a mapping of health_topic_id to its rank (order)
+        ht_rank_df = pd.DataFrame({
+            'health_topic_id': health_topic_ids,
+            'ht_rank': range(len(health_topic_ids))
+        })
+
+        # DEBUG
+        logger.info(f"Health topic rank: {ht_rank_df}")
+
+        # Filter site_health_topic to include only the filtered health topics
+        site_health_topic_df = self._dfs['site_health_topic']
+        filtered_site_ht = site_health_topic_df[
+            site_health_topic_df['health_topic_id'].isin(health_topic_ids)
+        ]
+
+        # DEBUG
+        logger.info(f"Filtered site health topic: {filtered_site_ht}")
+
+        # Merge to associate each URL with the earliest health topic rank
+        filtered_site_ht = filtered_site_ht.merge(ht_rank_df, on='health_topic_id', how='inner')
+
+        # Sort filtered_site_ht by ht_rank to maintain health topic order
+        filtered_site_ht = filtered_site_ht.sort_values('ht_rank')
+
+        # DEBUG
+        logger.info(f"Filtered site health topic with rank: {filtered_site_ht}")
+
+        # Remove duplicates while preserving order
+        ordered_urls = filtered_site_ht.drop_duplicates(subset='url')['url'].tolist()
+
+        # DEBUG
+        logger.info(f"Ordered URLs: {ordered_urls[:20]}")
+
+        # Filter the sites DataFrame and preserve the order, keeping only URLs in ordered_urls
         sites_df = self._dfs['site']
+        sites_df = sites_df[sites_df['url'].isin(ordered_urls)].copy()
+
+        # Convert 'url' column to Categorical with the categories from ordered_urls
+        sites_df['url'] = pd.Categorical(sites_df['url'], categories=ordered_urls, ordered=True)
+
+        # Sort the DataFrame by 'url', placing NaN values at the bottom (though there should be no NaN values here)
+        sites_df = sites_df.sort_values(by='url', na_position='last')
+
+        # DEBUG
+        logger.info(f"Sites DataFrame: {sites_df}")
 
         title_col = sites_df.pop('title')
         sites_df.insert(0, 'title', title_col)
@@ -155,9 +212,16 @@ class HealthTopicDataset:
         )
 
     def get_top_info_cat(self, top: int = 10):
-        # Merge site_health_topic with info_cat_site to associate health topics with information categories
+        # Get the filtered health topic IDs
+        health_topic_ids = self._filtered_hts['id']
+
+        # Filter site_health_topic to include only the filtered health topics
+        filtered_site_health_topic = self._dfs['site_health_topic'][
+            self._dfs['site_health_topic']['health_topic_id'].isin(health_topic_ids)]
+
+        # Merge with info_cat_site to associate health topics with information categories
         merged_df = pd.merge(
-            self._dfs['site_health_topic'],
+            filtered_site_health_topic,
             self._dfs['info_cat_site'],
             left_on='url',
             right_on='site_url'
@@ -168,8 +232,7 @@ class HealthTopicDataset:
         # Group by information_category and count the occurrences of health_topic
         category_counts = merged_df.groupby('info_cat_name').size().reset_index(name='count')
 
-        # Get the top 10 information categories by count
-        top_ten_categories = (category_counts.nlargest(top, 'count')
-                              .reset_index(drop=True))
+        # Get the top N information categories by count
+        top_categories = category_counts.nlargest(top, 'count').reset_index(drop=True)
 
-        return top_ten_categories
+        return top_categories

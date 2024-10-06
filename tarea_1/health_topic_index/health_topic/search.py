@@ -23,7 +23,7 @@ class SearchEngine:
 
         for token in tokenized_query:
             for language in languages:
-                for syn in wn.synsets(token, lang=language):
+                for syn in wn.synsets(token, lang=language)[:3]:    # Limit to top 3 synonyms per word
                     for language in languages:
                         for lemma in syn.lemmas(language):
                             expanded_query.add(lemma.name().replace("_", " "))
