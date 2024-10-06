@@ -16,7 +16,7 @@ def display_main_page():
 
     if st.session_state.upload_file is not None:
         if st.session_state.upload_file.size > MAX_FILE_SIZE:
-            st.error("El archivo es muy grande, por favor subir un archivo de tamaño menor a 200MB.")
+            st.error("Por favor subir un archivo de tamaño menor a 200MB.")
         else:
             # Get path, and pass to load
             # avail three option buttons when my_upload is not None

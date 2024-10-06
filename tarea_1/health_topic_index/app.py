@@ -1,3 +1,5 @@
+from health_topic_index import setup_logger
+
 from health_topic_index.view import (
     UI,
     display_main_page,
@@ -6,7 +8,10 @@ from health_topic_index.view import (
     display_sites_page,
 )
 
+logger = setup_logger(__name__)
+
 def main():
+    logger.info("Starting app")
     # Initialize the GUI
     gui = UI()
 
@@ -17,7 +22,10 @@ def main():
     gui.add_page("Sitios", display_sites_page)
 
     # Run the GUI
-    gui.run()
+    try:
+        gui.run()
+    except Exception:
+        logger.exception("An error occurred in the main app")
 
 if __name__ == "__main__":
     main()

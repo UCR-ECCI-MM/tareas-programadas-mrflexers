@@ -1,8 +1,10 @@
-from io import BytesIO
 import streamlit as st
-from health_topic_index.logger.logger import AppLogger
+from health_topic_index import setup_logger
 
 from health_topic_index.health_topic.dataset import HealthTopicDataset
+
+logger = setup_logger(__name__)
+
 
 class UI:
     """
@@ -14,7 +16,6 @@ class UI:
         self.pages = {}
         self.home_page_name = None
         st.set_page_config(layout="wide", page_title="Índice de Temas de Salud")
-        self.logger = AppLogger()
 
     def add_page(self, name: str, function: callable):
         """
@@ -45,11 +46,15 @@ class UI:
         """
         Class method to run the GUI in the application
         """
-        # Set the sidebar
-        self.display_sidebar()
-        # Set a place holder for the main page
-        with st.empty():
-            self.display_pages()
+        try:
+            # Set the sidebar
+            self.display_sidebar()
+            # Set a place holder for the main page
+            with st.empty():
+                self.display_pages()
+        except Exception:
+            logger.exception("An error occurred while rendering the GUI")
+            st.error("Ocurrió un error al renderizar la interfaz")
 
     def display_sidebar(self):
         """
@@ -58,8 +63,8 @@ class UI:
         with st.sidebar:
             # Uploader
             data_file = st.file_uploader(label="Archivo por procesar:",
-                                                type=["xml"],
-                                                key="upload_file")
+                                         type=["xml"],
+                                         key="upload_file")
 
             # If the file is not uploaded, initialize the dataset and the home page
             if data_file is None:
@@ -71,17 +76,14 @@ class UI:
                 if st.session_state['dataset'] is None:
                     try:
                         st.session_state['dataset'] = HealthTopicDataset.from_xml_file(data_file)
-                    except Exception as _:
-                        # TODO: this try catch needs to be in dataset class
-                        AppLogger.log_exception()
+                    except Exception:
+                        logger.exception("An error occurred while loading the dataset")
 
             # reset the page
             # put the button at the end of the sidebar
             with st.container():
                 self.render_sidebar_buttons()
                 self.render_sidebar_search()
-
-
 
     def render_sidebar_buttons(self):
         """
@@ -95,7 +97,7 @@ class UI:
             page_type = "primary" if page_name == self.home_page_name else "secondary"
 
             if st.button(label=page_name, use_container_width=True,
-                                    disabled=is_disabled, type=page_type):
+                         disabled=is_disabled, type=page_type):
                 self.update_session_state(page_name)
 
     def update_session_state(self, active_page: str):
@@ -110,8 +112,7 @@ class UI:
         for page_name in self.pages.keys():
             st.session_state[page_name] = page_name == active_page
         # TODO: look if this is necessary, because can cause a rerender of dataset
-        st.rerun()
-
+         st.rerun()
 
     def render_sidebar_search(self):
         # add a separator
@@ -126,14 +127,12 @@ class UI:
             if st.button("Buscar"):
                 self.send_filter_command(input_search_text)
 
-
     def send_filter_command(self, text: str):
         """
         Send the search box value to the search engine to filter the dataset.
         """
         print(text)
         st.session_state['dataset'].semantic_filter(text)
-
 
     def display_pages(self):
         """
@@ -144,5 +143,3 @@ class UI:
             if st.session_state[name]:
                 with st.container():
                     function()
-
-
