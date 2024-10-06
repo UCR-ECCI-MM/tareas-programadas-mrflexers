@@ -29,7 +29,6 @@ def display_data_statistics_page():
             data=chart_in_bytes,
             file_name="cat_mas_populares.png",
             mime="image/png",
-            icon=":material/download:",
             disabled=False,
         )
 

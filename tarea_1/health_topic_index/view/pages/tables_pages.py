@@ -33,7 +33,7 @@ def display_sites_page():
 def download_csv(df, filename):
     csv = convert_df_to_csv(df)
     st.download_button(label="Descargar", data=csv, file_name=filename,
-                       mime="text/csv", icon=":material/download:")
+                       mime="text/csv")
 
 @st.cache_data
 def convert_df_to_csv(df):
