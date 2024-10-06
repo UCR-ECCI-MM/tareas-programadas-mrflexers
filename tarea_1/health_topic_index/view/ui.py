@@ -112,7 +112,7 @@ class UI:
         for page_name in self.pages.keys():
             st.session_state[page_name] = page_name == active_page
         # TODO: look if this is necessary, because can cause a rerender of dataset
-         st.rerun()
+        st.rerun()
 
     def render_sidebar_search(self):
         # add a separator
@@ -121,7 +121,7 @@ class UI:
         if st.session_state.dataset is not None:
             input_search_text = st.text_input(
                 label="Buscador inteligente",
-               # on_change=self.send_filter_command,
+                # on_change=self.send_filter_command,
                 placeholder="Escriba aquí..."
             )
             if st.button("Buscar"):
@@ -131,7 +131,6 @@ class UI:
         """
         Send the search box value to the search engine to filter the dataset.
         """
-        print(text)
         st.session_state['dataset'].semantic_filter(text)
 
     def display_pages(self):
