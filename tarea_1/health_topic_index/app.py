@@ -17,9 +17,9 @@ def main():
 
     # add pages to gui
     gui.add_page("Inicio", display_main_page)
-    gui.add_page("Estadísticas", display_data_statistics_page)
     gui.add_page("Temas de Salud", display_health_themes_page)
     gui.add_page("Sitios", display_sites_page)
+    gui.add_page("Estadísticas", display_data_statistics_page)
 
     # Run the GUI
     try:

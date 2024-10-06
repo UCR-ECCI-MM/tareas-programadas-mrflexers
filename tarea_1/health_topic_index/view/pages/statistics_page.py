@@ -4,33 +4,54 @@ import vl_convert as vlc
 import streamlit as st
 import pandas as pd
 
+
 def display_data_statistics_page():
     st.title("Estadísticas")
 
     if 'dataset' in st.session_state:
         # obtain from the dataset the top information categories
-        df = st.session_state.dataset.get_top_info_cat()
-
+        top_info_cat_df = st.session_state.dataset.get_top_info_cat()
 
         st.write('## Categorías de Información más populares')
 
         # Create the bar chart
-        bar_chart = create_bar_chart(df, 'Conteo de temas', 'Categoría de Información')
+        bar_chart = create_bar_chart(top_info_cat_df, 'Conteo de temas', 'Categoría de Información')
 
         # use on_select when the graph need to be dynamic
         st.altair_chart(bar_chart, use_container_width=True)
 
         # Aquí se genera el gráfico en bytes
-        chart_in_bytes = chart_to_bytes(bar_chart)
+        bar_chart_in_bytes = chart_to_bytes(bar_chart)
 
         # Una vez que el gráfico esté listo, reemplazar el botón con uno habilitado
         st.download_button(
             label="Descargar",
-            data=chart_in_bytes,
+            data=bar_chart_in_bytes,
             file_name="cat_mas_populares.png",
             mime="image/png",
             disabled=False,
         )
+
+        # obtain from the dataset the update frequency
+        update_frequency_df = st.session_state.dataset.get_update_frequency()
+
+        st.write('## Frecuencia de Actualización de Temas de Salud')
+
+        # Create the line chart
+        line_chart = create_line_chart(update_frequency_df, 'Fecha', 'Cantidad de Temas de Salud')
+
+        st.altair_chart(line_chart, use_container_width=True)
+
+        line_chart_in_bytes = chart_to_bytes(line_chart)
+
+        st.download_button(
+            label="Descargar",
+            data=line_chart_in_bytes,
+            file_name="frecuencia_de_temas.png",
+            mime="image/png",
+            disabled=False,
+        )
+
 
 # Cache the data to avoid recalculating it each time the state of page change
 @st.cache_data
@@ -45,8 +66,8 @@ def create_bar_chart(df: pd.DataFrame, x_title: str, y_title: str) -> alt.Chart:
     y_title : str
         The title of the y-axis.
     """
-    value_column = df.columns[1] # name of the column with the values
-    label_column = df.columns[0] # name of the column with the labels
+    value_column = df.columns[1]  # name of the column with the values
+    label_column = df.columns[0]  # name of the column with the labels
 
     # Create the bar chart
     bar_chart = alt.Chart(df).mark_bar().encode(
@@ -62,6 +83,30 @@ def create_bar_chart(df: pd.DataFrame, x_title: str, y_title: str) -> alt.Chart:
 
     return bar_chart
 
+
+@st.cache_data
+def create_line_chart(df: pd.DataFrame, x_title: str, y_title: str) -> alt.Chart:
+    """
+    Create an Altair chart.
+    ---
+    df : pd.DataFrame
+        The data to plot.
+    x_title : str
+        The title of the x-axis.
+    y_title : str
+        The title of the y-axis.
+    """
+    # Create the line chart
+    line_chart = alt.Chart(df).mark_line().encode(
+        x=alt.X('Fecha:T', title=x_title),
+        y=alt.Y('Cantidad de Temas de Salud:Q', title=y_title),
+        tooltip=['Fecha', 'Cantidad de Temas de Salud']  # to show details on hover
+    ).properties(
+        width=1000,
+        height=500  # Height of the chart
+    )
+
+    return line_chart
 
 
 @st.cache_data

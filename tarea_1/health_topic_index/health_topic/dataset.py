@@ -216,3 +216,20 @@ class HealthTopicDataset:
         top_categories = category_counts.nlargest(top, 'count').reset_index(drop=True)
 
         return top_categories
+
+    def get_update_frequency(self):
+        dates_series = self._filtered_hts[:]['date_created']
+        dates_series = pd.to_datetime(dates_series, format='%m/%d/%Y')
+        dates_series = dates_series.sort_values()
+
+        date_counts = dates_series.value_counts().sort_index().reset_index()
+        date_counts.columns = ['date', 'count']
+
+        date_counts['cumulative_count'] = date_counts['count'].cumsum()
+        date_counts = date_counts.drop(columns=['count'])
+
+        return date_counts.rename(
+            columns={
+                'date': 'Fecha', 'cumulative_count': 'Cantidad de Temas de Salud'
+            }
+        )
