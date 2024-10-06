@@ -15,7 +15,11 @@ class UI:
         # Initialize the pages
         self.pages = {}
         self.home_page_name = None
-        st.set_page_config(layout="wide", page_title="Índice de Temas de Salud")
+        st.set_page_config(
+            layout="wide",
+            page_title="Índice de Temas de Salud",
+            page_icon=":robot_face:"
+        )
 
     def add_page(self, name: str, function: callable):
         """
