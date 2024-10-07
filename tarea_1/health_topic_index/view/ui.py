@@ -1,4 +1,5 @@
 import streamlit as st
+
 from health_topic_index import setup_logger
 
 from health_topic_index.health_topic.dataset import HealthTopicDataset
@@ -52,15 +53,15 @@ class UI:
         """
         try:
             # Set the sidebar
-            self.display_sidebar()
+            self._display_sidebar()
             # Set a place holder for the main page
             with st.empty():
-                self.display_pages()
+                self._display_pages()
         except Exception:
             logger.exception("An error occurred while rendering the GUI")
             st.error("Ocurrió un error al renderizar la interfaz")
 
-    def display_sidebar(self):
+    def _display_sidebar(self):
         """
         Class method to display the sidebar of the GUI.
         """
@@ -73,11 +74,15 @@ class UI:
             # If the file is not uploaded, initialize the dataset and the home page
             if data_file is None:
                 # Initialize the session variable of the dataset
+                st.session_state['file_id'] = None
                 st.session_state['dataset'] = None
                 if not st.session_state[self.home_page_name]:
-                    self.update_session_state(self.home_page_name)
+                    self._update_session_state(self.home_page_name)
             else:
-                if st.session_state['dataset'] is None:
+                incoming_file_id = data_file.file_id
+                current_file_id = st.session_state['file_id']
+
+                if current_file_id is None or incoming_file_id != current_file_id:
                     try:
                         st.session_state['dataset'] = HealthTopicDataset.from_xml_file(data_file)
                     except Exception:
@@ -86,10 +91,10 @@ class UI:
             # reset the page
             # put the button at the end of the sidebar
             with st.container():
-                self.render_sidebar_buttons()
-                self.render_sidebar_search()
+                self._render_sidebar_buttons()
+                self._render_sidebar_search()
 
-    def render_sidebar_buttons(self):
+    def _render_sidebar_buttons(self):
         """
         Render the buttons of the pages in the sidebar.
         """
@@ -102,9 +107,9 @@ class UI:
 
             if st.button(label=page_name, use_container_width=True,
                          disabled=is_disabled, type=page_type):
-                self.update_session_state(page_name)
+                self._update_session_state(page_name)
 
-    def update_session_state(self, active_page: str):
+    def _update_session_state(self, active_page: str):
         """
         Update the session state of the pages.
 
@@ -116,7 +121,7 @@ class UI:
         for page_name in self.pages.keys():
             st.session_state[page_name] = page_name == active_page
 
-    def render_sidebar_search(self):
+    def _render_sidebar_search(self):
         # add a separator
         st.markdown("---")
         # show the search box if dataset is not None
@@ -124,11 +129,11 @@ class UI:
             st.text_input(
                 label="Filtro semántico",
                 key="search_box",  # Clave para que el valor se almacene en st.session_state['search_box']
-                on_change=self.send_filter_command,  # Función que se llamará cuando el texto cambie
+                on_change=self._send_filter_command,  # Función que se llamará cuando el texto cambie
                 placeholder="Escriba aquí..."
             )
 
-    def send_filter_command(self):
+    def _send_filter_command(self):
         """
         Send the search box value to the search engine to filter the dataset.
         """
@@ -136,7 +141,7 @@ class UI:
 
         st.session_state['dataset'].semantic_filter(search_term)
 
-    def display_pages(self):
+    def _display_pages(self):
         """
         Render the pages of the pages dict.
         """

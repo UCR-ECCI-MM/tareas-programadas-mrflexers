@@ -3,7 +3,6 @@ watchdog>=4.0.2
 pandas>=2.2.2
 matplotlib>=3.9.2
 ply>=3.11
-sentence-transformers>=3.1.1
 nltk>=3.9.1
 rank-bm25>=0.2.2
 vl-convert-python>=1.6.1
