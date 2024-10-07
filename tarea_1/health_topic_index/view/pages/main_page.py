@@ -5,12 +5,10 @@ from health_topic_index.health_topic.dataset import HealthTopicDataset
 
 def display_main_page():
     # Home Page data: here show the app name, description, and the options of funct
-    st.markdown("""
-        ## Índice de Temas de Salud :hospital:
+    st.markdown("# Índice de Temas de Salud :hospital:")
 
-        Arrastrar un archivo XML al panel de navegación, y luego seleccionar la opción deseada para explorar los datos.
-        """
-    )
+    if st.session_state['dataset'] is None:
+        st.markdown("### _Arrastrar un archivo XML a la entrada de archivos para comenzar_")
 
     MAX_FILE_SIZE = 150 * 1024 * 1024  # 150MB
 

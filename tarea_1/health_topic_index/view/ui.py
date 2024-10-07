@@ -122,7 +122,7 @@ class UI:
         # show the search box if dataset is not None
         if st.session_state.dataset is not None:
             st.text_input(
-                label="Buscador inteligente",
+                label="Filtro semántico",
                 key="search_box",  # Clave para que el valor se almacene en st.session_state['search_box']
                 on_change=self.send_filter_command,  # Función que se llamará cuando el texto cambie
                 placeholder="Escriba aquí..."
