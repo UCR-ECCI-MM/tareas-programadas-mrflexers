@@ -5,7 +5,7 @@ import ply.lex as lex
 from .constants import *
 
 
-class XmlLexer:
+class HealthTopicLexer:
     def __init__(self):
         self._lexer = _Lexer()
         self._ply_lexer = self._lexer.build()

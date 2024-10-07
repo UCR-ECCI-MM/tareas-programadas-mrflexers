@@ -7,7 +7,7 @@ from pandas import DataFrame
 import pandas as pd
 
 from .. import setup_logger
-from ..analysis.parsing import XmlParser
+from health_topic_index.health_topic.analysis.parsing import HealthTopicParser
 from .conversion import DictToDataFrameConverter
 from .search import SearchEngine
 from .util import replace_in_keys, list_elems_to_string
@@ -68,7 +68,7 @@ class HealthTopicDataset:
 
     @classmethod
     def from_xml_file(cls, file: BytesIO) -> HealthTopicDataset:
-        document_dict = XmlParser.parse_file(file)
+        document_dict = HealthTopicParser.parse_file(file)
         health_topics_dict = document_dict['health-topics']
         health_topics_dict = replace_in_keys(health_topics_dict, '-', '_')
         health_topics_dict['health_topics'] = health_topics_dict.pop('health_topic')

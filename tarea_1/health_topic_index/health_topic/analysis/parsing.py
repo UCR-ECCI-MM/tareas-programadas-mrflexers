@@ -4,14 +4,14 @@ from io import BytesIO
 import ply.yacc as yacc
 
 from .constants import *
-from .lexing import XmlLexer
+from .lexing import HealthTopicLexer
 
 OUTPUT_FOLDER = './xml_parser'
 
 TAB_MODULE = 'parser.parsetab'
 
 
-class XmlParser:
+class HealthTopicParser:
 
     @staticmethod
     def parse_file(file: BytesIO) -> dict:
@@ -145,7 +145,7 @@ class _Parser:
         if not os.path.exists(OUTPUT_FOLDER):
             os.makedirs(OUTPUT_FOLDER)
 
-        self.lexer = XmlLexer()
+        self.lexer = HealthTopicLexer()
         self.tokens = self.lexer.tokens
         self.parser = yacc.yacc(module=self, outputdir=OUTPUT_FOLDER, tabmodule=TAB_MODULE)
 
