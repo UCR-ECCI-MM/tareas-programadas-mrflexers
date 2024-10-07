@@ -6,48 +6,51 @@ import pandas as pd
 
 
 def display_data_statistics_page():
-    st.title("Estadísticas")
-
     if 'dataset' in st.session_state:
-        # obtain from the dataset the top information categories
-        top_info_cat_df = st.session_state.dataset.get_top_info_cat()
+        with st.spinner('Cargando...'):
+            # obtain from the dataset the top information categories
+            top_info_cat_df = st.session_state.dataset.get_top_info_cat()
 
-        # Create the bar chart
-        bar_chart = create_bar_chart(top_info_cat_df, 'Conteo de temas', 'Categoría de Información')
+            # Create the bar chart
+            bar_chart = create_bar_chart(top_info_cat_df, 'Conteo de temas', 'Categoría de Información')
 
-        st.session_state.bar_chart_in_bytes = chart_to_bytes(bar_chart)
+            st.session_state.bar_chart_in_bytes = chart_to_bytes(bar_chart)
 
-        # obtain from the dataset the update frequency
-        update_frequency_df = st.session_state.dataset.get_update_frequency()
+            # obtain from the dataset the update frequency
+            update_frequency_df = st.session_state.dataset.get_update_frequency()
 
-        # Create the line chart
-        line_chart = create_line_chart(update_frequency_df, 'Fecha', 'Total de Temas de Salud')
+            # Create the line chart
+            line_chart = create_line_chart(update_frequency_df, 'Fecha', 'Total de Temas de Salud')
 
-        st.session_state.line_chart_in_bytes = chart_to_bytes(line_chart)
+            st.session_state.line_chart_in_bytes = chart_to_bytes(line_chart)
 
-        st.write('## Categorías de Información más populares')
+            st.title("Estadísticas")
 
-        st.altair_chart(bar_chart, use_container_width=True)
+            st.write('## Categorías de Información más populares')
 
-        st.download_button(
-            label="Descargar",
-            data=st.session_state.bar_chart_in_bytes,
-            file_name="cat_mas_populares.png",
-            mime="image/png",
-            disabled=False,
-        )
+            st.altair_chart(bar_chart, use_container_width=True)
 
-        st.write('## Frecuencia de Actualización de Temas de Salud')
+            st.download_button(
+                label="Descargar",
+                data=st.session_state.bar_chart_in_bytes,
+                file_name="cat_mas_populares.png",
+                mime="image/png",
+                disabled=False,
+            )
 
-        st.altair_chart(line_chart, use_container_width=True)
+            st.write('## Frecuencia de Actualización de Temas de Salud')
 
-        st.download_button(
-            label="Descargar",
-            data=st.session_state.line_chart_in_bytes,
-            file_name="frecuencia_de_temas.png",
-            mime="image/png",
-            disabled=False,
-        )
+            st.altair_chart(line_chart, use_container_width=True)
+
+            st.download_button(
+                label="Descargar",
+                data=st.session_state.line_chart_in_bytes,
+                file_name="frecuencia_de_temas.png",
+                mime="image/png",
+                disabled=False,
+            )
+    else:
+        st.error("Ocurrió un error al renderizar la interfaz")
 
 
 # Cache the data to avoid recalculating it each time the state of page change

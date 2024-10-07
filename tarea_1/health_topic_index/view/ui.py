@@ -94,36 +94,66 @@ class UI:
         Class method to display the sidebar of the GUI.
         """
         with st.sidebar:
-            # if st.button(label="Cargar datos de MedlinePlus", use_container_width=True):
-            #     self._load_latest_data_from_medlineplus()
-            #     if "upload_file" in st.session_state:
-            #         st.session_state['upload_file'] = None
-
-            # Uploader
-            data_file = st.file_uploader(label="Archivo por procesar:",
-                                         type=["xml"],
-                                         key="upload_file")
-
-            # If the file is not uploaded, initialize the dataset and the home page
-            if data_file is None:
-                # Initialize the session variable of the dataset
+            # Initialize session state variables if they are not already set
+            if 'file_id' not in st.session_state:
                 st.session_state['file_id'] = None
+            if 'dataset' not in st.session_state:
                 st.session_state['dataset'] = None
+            if 'dataset_source' not in st.session_state:
+                st.session_state['dataset_source'] = None
+            if 'uploader_key' not in st.session_state:
+                st.session_state['uploader_key'] = 0  # Initialize uploader key
+            if 'data_file' not in st.session_state:
+                st.session_state['data_file'] = None
+
+            if st.session_state['dataset'] is None:
                 if not st.session_state[self.home_page_name]:
                     self._update_active_page(self.home_page_name)
-            else:
+
+            if st.button(label="Cargar datos desde MedlinePlus", use_container_width=True):
+                self._load_latest_data_from_medlineplus()
+                # Reset the file uploader by changing its key
+                st.session_state['uploader_key'] += 1  # Increment to change the key
+
+            # Uploader with dynamic key
+            data_file = st.file_uploader(
+                label="Subir un archivo:",
+                type=["xml"],
+                key=f"upload_file_{st.session_state['uploader_key']}"
+            )
+
+            if data_file is not None:
+                # File is uploaded
+                st.session_state['data_file'] = data_file  # Store in session state
+                if not hasattr(st.session_state['data_file'], 'size'):
+                    st.session_state['data_file'].size = data_file.size
+
                 incoming_file_id = data_file.file_id
                 current_file_id = st.session_state['file_id']
 
                 if current_file_id is None or incoming_file_id != current_file_id:
                     try:
                         st.session_state['dataset'] = HealthTopicDataset.from_xml_file(data_file)
+                        self._send_filter_command()
                         st.session_state['file_id'] = incoming_file_id
+                        st.session_state['dataset_source'] = 'uploader'
                     except Exception:
                         logger.exception("An error occurred while loading the dataset")
+            else:
+                # No file is uploaded
+                if st.session_state['dataset_source'] == 'uploader':
+                    # User had uploaded a file before and now has removed it
+                    st.session_state['file_id'] = None
+                    st.session_state['dataset'] = None
+                    st.session_state['dataset_source'] = None
+                    st.session_state['data_file'] = None
+                    if not st.session_state[self.home_page_name]:
+                        self._update_active_page(self.home_page_name)
+                else:
+                    # Dataset was loaded programmatically; do not reset
+                    pass
 
-            # reset the page
-            # put the button at the end of the sidebar
+            # Render the rest of the sidebar
             with st.container():
                 self._render_sidebar_buttons()
                 self._render_sidebar_search()
@@ -200,7 +230,12 @@ class UI:
             if latest_file:
                 try:
                     st.session_state['dataset'] = HealthTopicDataset.from_xml_file(latest_file)
+                    self._send_filter_command()
                     st.session_state['file_id'] = 'web'
+                    st.session_state['dataset_source'] = 'programmatic'
+                    # Set data_file to latest_file
+                    st.session_state['data_file'] = latest_file
+                    st.session_state['data_file'].size = latest_file.getbuffer().nbytes
                 except Exception:
                     logger.exception("An error occurred while loading the dataset")
                 break

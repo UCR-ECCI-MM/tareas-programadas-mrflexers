@@ -4,7 +4,7 @@ from health_topic_index.view import (
     UI,
     display_main_page,
     display_data_statistics_page,
-    display_health_themes_page,
+    display_health_topics_page,
     display_sites_page,
 )
 
@@ -17,7 +17,7 @@ def main():
 
     # add pages to gui
     gui.add_page("Inicio", display_main_page)
-    gui.add_page("Temas de Salud", display_health_themes_page)
+    gui.add_page("Temas de Salud", display_health_topics_page)
     gui.add_page("Sitios", display_sites_page)
     gui.add_page("Estadísticas", display_data_statistics_page)
 
