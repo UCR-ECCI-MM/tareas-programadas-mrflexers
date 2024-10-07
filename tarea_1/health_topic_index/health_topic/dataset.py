@@ -29,6 +29,11 @@ CONVERTER = DictToDataFrameConverter
 
 logger = setup_logger(__name__)
 
+lang_translate_map = {
+    'English': 'Inglés',
+    'Spanish': 'Español'
+}
+
 
 class HealthTopicDataset:
 
@@ -68,6 +73,10 @@ class HealthTopicDataset:
         health_topics_dict = replace_in_keys(health_topics_dict, '-', '_')
         health_topics_dict['health_topics'] = health_topics_dict.pop('health_topic')
         return cls.from_dict(health_topics_dict)
+
+    @staticmethod
+    def _translate_lang(lang: str) -> str:
+        return lang_translate_map.get(lang, lang)
 
     @staticmethod
     def _normalize_dfs(dfs: Dict[str, DataFrame]) -> Dict[str, DataFrame]:
@@ -132,6 +141,8 @@ class HealthTopicDataset:
     def get_health_topics(self):
         health_topic_df = self._filtered_hts[:]
 
+        health_topic_df['language'] = health_topic_df['language'].apply(self._translate_lang)
+
         title_col = health_topic_df.pop('title')
         health_topic_df.insert(0, 'title', title_col)
 
@@ -155,6 +166,10 @@ class HealthTopicDataset:
 
         # Filter site_health_topic to include only the filtered health topics
         site_health_topic_df = self._dfs['site_health_topic']
+
+        ht_rank_df['health_topic_id'] = ht_rank_df['health_topic_id'].astype(
+            site_health_topic_df['health_topic_id'].dtype)
+
         filtered_site_ht = site_health_topic_df[
             site_health_topic_df['health_topic_id'].isin(health_topic_ids)
         ]
@@ -181,15 +196,15 @@ class HealthTopicDataset:
         title_col = sites_df.pop('title')
         sites_df.insert(0, 'title', title_col)
 
-        sites_df['description'] = list_elems_to_string(sites_df['description'])
         sites_df['organization'] = list_elems_to_string(sites_df['organization'])
 
-        return sites_df.rename(
+        return (sites_df.drop(columns=['description'])
+        .rename(
             columns={
                 'title': 'Título', 'url': 'URL', 'organization': 'Organización',
-                'description': 'Descripción', 'language_mapped_url': 'URL Otro Idioma'
+                'language_mapped_url': 'URL Otro Idioma'
             }
-        )
+        ))
 
     def get_top_info_cat(self, top: int = 10):
         # Get the filtered health topic IDs
@@ -226,10 +241,9 @@ class HealthTopicDataset:
         date_counts.columns = ['date', 'count']
 
         date_counts['cumulative_count'] = date_counts['count'].cumsum()
-        date_counts = date_counts.drop(columns=['count'])
 
         return date_counts.rename(
             columns={
-                'date': 'Fecha', 'cumulative_count': 'Cantidad de Temas de Salud'
+                'date': 'Fecha', 'count': 'Temas Agregados','cumulative_count': 'Total de Temas de Salud'
             }
         )
