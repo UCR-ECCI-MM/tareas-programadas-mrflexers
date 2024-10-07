@@ -12,12 +12,13 @@ cabo análisis léxico y sintáctico del mismo, mostrando los datos resultantes 
 ## Dependencias
 
 - Python 3.12+
-- sentence-transformers
-- matplotlib
 - streamlit
 - watchdog
 - pandas
 - ply
+- nltk
+- rank-bm25
+- vl-convert-python
 
 ## Instalación
 
