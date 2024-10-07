@@ -18,7 +18,7 @@ log_file_path = os.path.join(logs_dir, log_filename)
 def setup_logger(name):
     # Create a custom logger
     logger = logging.getLogger(name)
-    logger.setLevel(logging.DEBUG)  # Set the overall level
+    logger.setLevel(logging.INFO)  # Set the overall level
 
     # Avoid adding multiple handlers if they already exist
     if not logger.handlers:
@@ -28,7 +28,7 @@ def setup_logger(name):
 
         # Set level for handlers
         console_handler.setLevel(logging.INFO)
-        file_handler.setLevel(logging.DEBUG)
+        file_handler.setLevel(logging.INFO)
 
         # Create formatter and add it to handlers
         formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')

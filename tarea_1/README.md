@@ -36,5 +36,5 @@ pip install .
 ## Ejecución
 
 ```bash
-./launch.sh
+./launch
 ```
