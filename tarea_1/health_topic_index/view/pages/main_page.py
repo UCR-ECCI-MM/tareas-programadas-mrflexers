@@ -8,7 +8,7 @@ def display_main_page():
     st.markdown("# Índice de Temas de Salud :hospital:")
 
     if st.session_state['dataset'] is None:
-        st.markdown("### _Arrastrar un archivo XML a la entrada de archivos para comenzar_")
+        st.markdown("### _Arrastrar un archivo de temas de salud de MedlinePlus a la entrada de archivos para comenzar_")
 
     MAX_FILE_SIZE = 150 * 1024 * 1024  # 150MB
 
