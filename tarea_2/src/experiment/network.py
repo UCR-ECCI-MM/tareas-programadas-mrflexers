@@ -8,10 +8,6 @@ class CostReliabilityNetwork(CostReliabilityGraph):
         super().__init__()
 
     @property
-    def total_cost(self):
-        return sum(data['cost'] for u, v, data in self.edges)
-
-    @property
     def is_feasible(self):
         return self.is_connected and self.is_reliable
 

@@ -84,6 +84,14 @@ class CostReliabilityGraph:
     def edges(self):
         return list(self._graph.edges(data=True))
 
+    @property
+    def total_cost(self):
+        return sum(data['cost'] for u, v, data in self.edges)
+
+    @property
+    def total_reliability(self):
+        return sum(data['reliability'] for u, v, data in self.edges)
+
     def has_edge(self, u, v):
         return self._graph.has_edge(u, v)
 
@@ -91,9 +99,9 @@ class CostReliabilityGraph:
         return self._graph.nodes[node]['reliability_sum']
 
     def add_nodes(self, nodes):
-        for node in nodes:
-            node['reliability_sum'] = 0
         self._graph.add_nodes_from(nodes)
+        for node in self._graph.nodes():
+            self._graph.nodes[node]['reliability_sum'] = 0
 
     def add_edges(self, edges):
         for edge in edges:
