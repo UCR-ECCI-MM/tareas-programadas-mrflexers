@@ -1,6 +1,6 @@
 import networkx as nx
 
-from src.experiment.graph import CostReliabilityGraph
+from experiment.graph import CostReliabilityGraph
 
 class CostReliabilityNetwork(CostReliabilityGraph):
 
