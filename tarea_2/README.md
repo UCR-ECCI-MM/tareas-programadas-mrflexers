@@ -4,11 +4,19 @@
 
 - [Tarea Programada 2](#tarea-programada-2)
   - [Contenidos](#contenidos)
-  - [Dependencias](#dependencias)
+  - [Pre-requisitos](#pre-requisitos)
+    - [Sistema operativo](#sistema-operativo)
+    - [Dependencias](#dependencias)
   - [Instalación](#instalación)
   - [Ejecución](#ejecución)
 
-## Dependencias
+## Pre-requisitos
+
+### Sistema operativo
+
+- Linux, MacOS.
+
+### Dependencias
 
 - Python 3.12+
 - perfplot
@@ -20,7 +28,6 @@
 - numpy
 - scipy
 - pytest
-
 
 ## Instalación
 
