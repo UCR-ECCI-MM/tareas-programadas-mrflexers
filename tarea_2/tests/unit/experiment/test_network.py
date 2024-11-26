@@ -1,5 +1,5 @@
 import pytest
-from experiment.network import CostReliabilityNetwork
+from src.experiment.network import CostReliabilityNetwork
 
 @pytest.fixture
 def empty_network():

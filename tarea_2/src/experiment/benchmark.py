@@ -28,23 +28,24 @@ def benchmark(kernel: Callable, input: Any, timeout: int) -> dict:
                 "peak_memory": peak
             }
         except concurrent.futures.TimeoutError as e:
+            print(f"Timeout")
+            executor.shutdown(wait=False)
             future.cancel()
         except Exception as e:
             print(f"Unexpected exception: {e}")
-        finally:
             executor.shutdown(wait=False)
             tracemalloc.stop()
 
         return output
 
 
-def run_benchmarks(kernels: list[Callable], inputs: list[Any], timeout: int, num_samples: int = 1) -> list[dict]:
+def run_benchmarks(kernels: list[Callable], inputs: list[list[Any]], timeout: int, num_samples: int = 1) -> list[dict]:
     benchmark_results = []
 
     for i in range(len(inputs)):
         for sample in range(num_samples):
             for kernel in kernels:
-                results = benchmark(kernel, inputs[i], timeout)
+                results = benchmark(kernel, inputs[i][sample], timeout)
                 benchmark_results.append({
                     "kernel": kernel.__name__,
                     "input": i,
